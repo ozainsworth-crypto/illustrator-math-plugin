@@ -1,0 +1,46 @@
+{
+  "buildTime": "2026-02-27T08:18:30.812Z",
+  "buildHash": "bbe4f17dda619d0b6d152e7082395d1b63a9daa9e682d052dc9beeaf28af9663",
+  "sourceFontHash": "4d4fd7519d0e808aabce249c020efa07853008cb3bcdac421866673fa685b04a",
+  "sourceFontName": "a6d90b84-1986-4d4a-bfa0-59c2c3c4f1b1.ttf",
+  "fontPackName": "test3",
+  "toolVersion": "1.0.0",
+  "options": {
+    "enableOptional": true,
+    "enableAdvanced": true,
+    "enableTextSymbols": true,
+    "pathCentering": false
+  },
+  "files": [
+    {
+      "name": "manifest.json",
+      "size": 1284,
+      "mtime": "2026-02-27T08:18:30.803Z",
+      "hash": "9c47c9eebc27d5a2"
+    },
+    {
+      "name": "fontdata.js",
+      "size": 104801,
+      "mtime": "2026-02-27T08:18:30.798Z",
+      "hash": "aaaabf6c68adf3e2"
+    },
+    {
+      "name": "capabilities.json",
+      "size": 1902,
+      "mtime": "2026-02-27T08:18:30.801Z",
+      "hash": "5fa74311e7f05aaf"
+    },
+    {
+      "name": "report.json",
+      "size": 47898,
+      "mtime": "2026-02-27T08:18:30.804Z",
+      "hash": "4def97786409edcc"
+    },
+    {
+      "name": "replacement-report.json",
+      "size": 2812,
+      "mtime": "2026-02-27T08:18:30.802Z",
+      "hash": "e1ff8228a68ee308"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "key": "bc39a19bf1ffc001dc1818de7c328d1e",
+      "fileHash": "4d4fd7519d0e808aabce249c020efa07853008cb3bcdac421866673fa685b04a",
+      "fontName": "test3",
+      "options": {
+        "enableOptional": true,
+        "enableAdvanced": true,
+        "enableTextSymbols": true,
+        "baseOnly": false,
+        "enablePathCentering": false
+      },
+      "createdAt": "2026-02-27T08:18:30.814Z",
+      "lastAccessedAt": "2026-02-27T08:18:30.814Z",
+      "accessCount": 0
+    }
+  ]
+}

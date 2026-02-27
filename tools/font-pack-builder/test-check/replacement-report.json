@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "l1": {
+      "total": 71,
+      "replaced": 71,
+      "skipped": 0,
+      "failed": 0,
+      "coverage": "100.0%"
+    },
+    "l2": {
+      "total": 13,
+      "replaced": 11,
+      "skipped": 2,
+      "failed": 0,
+      "coverage": "84.6%"
+    },
+    "l3": {
+      "total": 30,
+      "replaced": 12,
+      "skipped": 18,
+      "failed": 0,
+      "coverage": "40.0%"
+    }
+  },
+  "skipped": {
+    "l3": []
+  },
+  "risks": [
+    "⚠️ L3 replacement enabled but coverage is low. Some stretchy symbols may not work correctly.",
+    "ℹ️ L3 replacement enabled. Ensure font has proper MATH table support.",
+    "ℹ️ Path centering applied to L3 symbols. Visual regression testing recommended."
+  ],
+  "recommendations": []
+}

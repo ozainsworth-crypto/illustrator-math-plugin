@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>分数识别调试</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .test-case {
+      margin: 20px 0;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .test-case h3 {
+      margin-top: 0;
+    }
+    .input {
+      background: #f0f0f0;
+      padding: 10px;
+      font-family: monospace;
+      margin: 10px 0;
+    }
+    .result {
+      margin: 10px 0;
+    }
+    .log {
+      background: #f9f9f9;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+    }
+    .error {
+      color: red;
+    }
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>分数识别调试工具</h1>
+  
+  <div class="test-case">
+    <h3>测试用例 1: a/b</h3>
+    <div class="input">输入: a/b</div>
+    <div class="result" id="result-1"></div>
+    <div class="log" id="log-1"></div>
+  </div>
+
+  <div class="test-case">
+    <h3>测试用例 2: a/b+c</h3>
+    <div class="input">输入: a/b+c</div>
+    <div class="result" id="result-2"></div>
+    <div class="log" id="log-2"></div>
+  </div>
+
+  <div class="test-case">
+    <h3>测试用例 3: a/b*c</h3>
+    <div class="input">输入: a/b*c</div>
+    <div class="result" id="result-3"></div>
+    <div class="log" id="log-3"></div>
+  </div>
+
+  <script type="module">
+    // 模拟 SimpleFractionRule 的 detect 方法
+    function detectFractions(input) {
+      const matches = [];
+      const logs = [];
+
+      logs.push(`[SimpleFractionRule] detect input: ${input}`);
+
+      // 跳过已经包含 \frac 的输入
+      if (input.includes('\\frac')) {
+        logs.push('[SimpleFractionRule] 跳过：已包含 \\frac');
+        return { matches, logs };
+      }
+
+      const patterns = [
+        // 模式1: (expr)/(expr) - 括号包裹的表达式
+        { regex: /\(([^()]+)\)\/\(([^()]+)\)/g, name: 'Pattern 1' },
+        // 模式2: (expr)/word - 左边括号，右边单词（后面必须是边界或运算符）
+        { regex: /\(([^()]+)\)\/([a-zA-Z0-9]+)(?=[+\-*/^_\s]|$)/g, name: 'Pattern 2' },
+        // 模式3: word/(expr) - 左边单词，右边括号
+        { regex: /([a-zA-Z0-9]+)\/\(([^()]+)\)/g, name: 'Pattern 3' },
+        // 模式4: word/word - 最简单的情况（前后都必须是边界或运算符）
+        { regex: /(?:^|[+\-*/^_\s(])([a-zA-Z0-9]+)\/([a-zA-Z0-9]+)(?=[+\-*/^_\s)]|$)/g, name: 'Pattern 4' },
+      ];
+
+      for (let i = 0; i < patterns.length; i++) {
+        const { regex, name } = patterns[i];
+        let match;
+        
+        while ((match = regex.exec(input)) !== null) {
+          logs.push(`[SimpleFractionRule] ${name} matched: {
+  fullMatch: '${match[0]}',
+  index: ${match.index},
+  numerator: '${match[1]}',
+  denominator: '${match[2]}'
+}`);
+
+          // 对于模式4，需要调整索引（因为包含了前导字符）
+          let startOffset = 0;
+          let fullMatch = match[0];
+          
+          // 如果匹配包含前导字符（非字母数字），跳过它
+          if (match[0].length > 0 && !/[a-zA-Z0-9(]/.test(match[0][0])) {
+            startOffset = 1;
+            fullMatch = match[0].substring(1);
+            logs.push(`[SimpleFractionRule] 调整前导字符，startOffset: ${startOffset}`);
+          }
+          
+          const numerator = match[1];
+          const denominator = match[2];
+
+          const matchInfo = {
+            range: {
+              start: match.index + startOffset,
+              end: match.index + match[0].length,
+              text: fullMatch,
+            },
+            context: {
+              original: fullMatch,
+              numerator,
+              denominator,
+            },
+          };
+
+          logs.push(`[SimpleFractionRule] Adding match: ${JSON.stringify(matchInfo, null, 2)}`);
+          matches.push(matchInfo);
+        }
+      }
+
+      logs.push(`[SimpleFractionRule] Total matches: ${matches.length}`);
+      return { matches, logs };
+    }
+
+    // 模拟替换逻辑
+    function simulateReplacement(input, matches) {
+      const logs = [];
+      let renderLatex = input;
+
+      logs.push(`[Replacement] 原始输入: ${input}`);
+      logs.push(`[Replacement] 检测到 ${matches.length} 个歧义`);
+
+      // 从后往前替换，避免索引偏移问题
+      const sortedMatches = [...matches].sort((a, b) => b.range.start - a.range.start);
+      
+      for (let i = 0; i < sortedMatches.length; i++) {
+        const match = sortedMatches[i];
+        const replacementTex = `\\frac{${match.context.numerator}}{${match.context.denominator}}`;
+        
+        logs.push(`[Replacement] 替换 #${i + 1}:`);
+        logs.push(`  range: [${match.range.start}, ${match.range.end}]`);
+        logs.push(`  text: '${match.range.text}'`);
+        logs.push(`  replacement: '${replacementTex}'`);
+        logs.push(`  before: '${renderLatex}'`);
+        
+        const before = renderLatex.substring(0, match.range.start);
+        const after = renderLatex.substring(match.range.end);
+        renderLatex = before + replacementTex + after;
+        
+        logs.push(`  after: '${renderLatex}'`);
+      }
+
+      return { renderLatex, logs };
+    }
+
+    // 运行测试
+    function runTest(testId, input) {
+      const resultDiv = document.getElementById(`result-${testId}`);
+      const logDiv = document.getElementById(`log-${testId}`);
+      
+      const { matches, logs: detectLogs } = detectFractions(input);
+      const { renderLatex, logs: replaceLogs } = simulateReplacement(input, matches);
+      
+      const allLogs = [...detectLogs, '', '=== 替换逻辑 ===', '', ...replaceLogs];
+      
+      logDiv.textContent = allLogs.join('\n');
+      
+      if (renderLatex === input) {
+        resultDiv.innerHTML = `<span class="error">❌ 未检测到分数</span>`;
+      } else {
+        resultDiv.innerHTML = `<span class="success">✓ 渲染结果: ${renderLatex}</span>`;
+      }
+    }
+
+    // 运行所有测试
+    runTest(1, 'a/b');
+    runTest(2, 'a/b+c');
+    runTest(3, 'a/b*c');
+  </script>
+</body>
+</html>

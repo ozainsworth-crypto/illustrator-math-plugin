@@ -1,0 +1,91 @@
+{
+  "hasMATH": false,
+  "mathTableVersion": null,
+  "detectedTables": [
+    "DSIG",
+    "GDEF",
+    "GPOS",
+    "GSUB",
+    "OS/2",
+    "cmap",
+    "cvt ",
+    "fpgm",
+    "gasp",
+    "glyf",
+    "head",
+    "hhea",
+    "hmtx",
+    "loca",
+    "maxp",
+    "name",
+    "post",
+    "prep",
+    "vhea",
+    "vmtx"
+  ],
+  "hasVariants": false,
+  "variantsMethod": "none",
+  "hasAssembly": false,
+  "assemblyMethod": "none",
+  "coverage": {
+    "l1": 95.77464788732394,
+    "l2": 100,
+    "l3": 100
+  },
+  "l3Coverage": {
+    "byCategory": {
+      "brackets": {
+        "total": 10,
+        "available": 10,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "radicals": {
+        "total": 1,
+        "available": 1,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "integrals": {
+        "total": 6,
+        "available": 4,
+        "coverage": "66.7%",
+        "missing": [
+          "U+222F",
+          "U+2230"
+        ]
+      },
+      "largeOps": {
+        "total": 7,
+        "available": 2,
+        "coverage": "28.6%",
+        "missing": [
+          "U+2210",
+          "U+22C0",
+          "U+22C1",
+          "U+22C2",
+          "U+22C3"
+        ]
+      },
+      "arrows": {
+        "total": 6,
+        "available": 6,
+        "coverage": "100.0%",
+        "missing": []
+      }
+    },
+    "overall": {
+      "total": 30,
+      "available": 23,
+      "coverage": "76.7%"
+    }
+  },
+  "l3ReplacementAllowed": false,
+  "l3ReplacementReason": "Font does not have MATH table",
+  "timestamp": "2026-02-27T08:18:30.781Z",
+  "summary": "Standard font - L1/L2 support available, L3 not supported",
+  "recommendations": [
+    "Font does not have OpenType MATH table. L3 features (stretchy brackets, radicals, integrals) will use MathJax defaults.",
+    "For full math support, consider using professional math fonts: STIX Two Math, Latin Modern Math, or Cambria Math."
+  ]
+}

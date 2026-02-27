@@ -1,0 +1,5 @@
+node_modules/
+spike/
+uploads/
+tests/
+*.config.js

@@ -1,0 +1,82 @@
+Math Formula Plugin - Installation Instructions
+================================================
+
+Version: 1.0.0-beta
+Package: MathFormulaPlugin-v1.0.0-beta.zxp
+Created: 2026年 2月27日 星期五 18时03分02秒 CST
+
+INSTALLATION METHODS
+--------------------
+
+Method 1: Using Anastasiy's Extension Manager (Recommended)
+1. Download Anastasiy's Extension Manager from:
+   https://install.anastasiy.com/
+2. Launch the Extension Manager
+3. Drag and drop the .zxp file into the Extension Manager window
+4. Follow the on-screen instructions
+5. Restart Adobe Illustrator
+
+Method 2: Using ZXPInstaller
+1. Download ZXPInstaller from:
+   https://aescripts.com/learn/zxp-installer/
+2. Launch ZXPInstaller
+3. Drag and drop the .zxp file into ZXPInstaller
+4. Follow the on-screen instructions
+5. Restart Adobe Illustrator
+
+Method 3: Manual Installation (Advanced)
+1. Extract the .zxp file (it's a ZIP archive)
+2. Copy the extracted folder to:
+   - macOS: ~/Library/Application Support/Adobe/CEP/extensions/
+   - Windows: C:\Users\[Username]\AppData\Roaming\Adobe\CEP\extensions\
+3. Enable PlayerDebugMode (see below)
+4. Restart Adobe Illustrator
+
+ENABLING PLAYERDEBUGMODE (Required for unsigned extensions)
+------------------------------------------------------------
+
+macOS:
+defaults write com.adobe.CSXS.11 PlayerDebugMode 1
+
+Windows:
+1. Open Registry Editor (regedit)
+2. Navigate to: HKEY_CURRENT_USER\Software\Adobe\CSXS.11
+3. Create a new String value named "PlayerDebugMode" with value "1"
+
+Note: Replace "11" with your CEP version (6-12 depending on Illustrator version)
+
+USAGE
+-----
+
+1. Open Adobe Illustrator
+2. Go to Window > Extensions > Math Formula Plugin
+3. The plugin panel will open
+4. Enter LaTeX formulas or paste from PowerPoint
+5. Click "Insert to Illustrator" to add formulas to your document
+
+SYSTEM REQUIREMENTS
+-------------------
+
+- Adobe Illustrator 2023 or later (v27.x - v30.x)
+- macOS 12+ or Windows 10/11
+- CEP 9.0 or later
+
+TROUBLESHOOTING
+---------------
+
+If the extension doesn't appear in the menu:
+1. Verify PlayerDebugMode is enabled
+2. Check the installation path
+3. Restart Illustrator completely
+4. Check the CEP logs:
+   - macOS: ~/Library/Logs/CSXS/
+   - Windows: C:\Users\[Username]\AppData\Local\Temp\
+
+For more help, see the documentation in the docs/ folder.
+
+FEEDBACK
+--------
+
+Please report any issues or feedback to:
+[Your contact information or GitHub Issues link]
+

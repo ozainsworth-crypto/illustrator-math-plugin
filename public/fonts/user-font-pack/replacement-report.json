@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "l1": {
+      "total": 71,
+      "replaced": 68,
+      "skipped": 0,
+      "failed": 3,
+      "coverage": "95.8%"
+    },
+    "l2": {
+      "total": 13,
+      "replaced": 9,
+      "skipped": 4,
+      "failed": 0,
+      "coverage": "69.2%"
+    },
+    "l3": {
+      "total": 30,
+      "replaced": 0,
+      "skipped": 30,
+      "failed": 0,
+      "coverage": "0.0%"
+    }
+  },
+  "skipped": {
+    "l3": [
+      {
+        "char": "(",
+        "codepoint": "U+0028",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": ")",
+        "codepoint": "U+0029",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "[",
+        "codepoint": "U+005B",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "]",
+        "codepoint": "U+005D",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "{",
+        "codepoint": "U+007B",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "}",
+        "codepoint": "U+007D",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "→",
+        "codepoint": "U+2192",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "←",
+        "codepoint": "U+2190",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "↔",
+        "codepoint": "U+2194",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⇒",
+        "codepoint": "U+21D2",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⇐",
+        "codepoint": "U+21D0",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⇔",
+        "codepoint": "U+21D4",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⋂",
+        "codepoint": "U+22C2",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⋃",
+        "codepoint": "U+22C3",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⋀",
+        "codepoint": "U+22C0",
+        "reason": "Font does not have MATH table"
+      },
+      {
+        "char": "⋁",
+        "codepoint": "U+22C1",
+        "reason": "Font does not have MATH table"
+      }
+    ]
+  },
+  "risks": [
+    "⚠️ L2 coverage is low. Many extended math symbols will use MathJax defaults."
+  ],
+  "recommendations": [
+    "💡 Font does not have OpenType MATH table. L3 features will use MathJax defaults.",
+    "💡 For full math support, consider using professional math fonts: STIX Two Math, Latin Modern Math, or Cambria Math.",
+    "💡 Improve L2 coverage by adding extended math symbols (summation, integral, set operators, etc.)."
+  ]
+}

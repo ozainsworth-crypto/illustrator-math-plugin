@@ -1,0 +1,14 @@
+{
+  "name": "PuzzleTTF",
+  "version": "1.0.0",
+  "family": "JOJO初中数学公式1011 Medium",
+  "format": "ttf",
+  "coverage": {
+    "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "lowercase": "abcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789"
+  },
+  "failures": [],
+  "createdAt": "2026-02-06T02:55:34.041Z",
+  "fontdataFile": "fontdata.js"
+}

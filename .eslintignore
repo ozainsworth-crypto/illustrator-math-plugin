@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+extension/client/dist/
+
+# Third-party libraries
+extension/client/lib/
+extension/client/config.js
+
+# Test files (optional, if you want to skip linting tests)
+# tests/
+
+# Spike and temporary files
+tests/spike/
+archive/

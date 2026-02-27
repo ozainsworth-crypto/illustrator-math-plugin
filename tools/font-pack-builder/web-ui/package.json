@@ -1,0 +1,30 @@
+{
+  "name": "font-pack-builder-web-ui",
+  "version": "1.0.0",
+  "description": "Font Pack Builder Web UI - 本地运行的字体转换工具图形界面",
+  "type": "commonjs",
+  "main": "server/server.cjs",
+  "scripts": {
+    "start": "node server/server.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "echo 'Lint check skipped for Phase 1 (CommonJS/ESM config conflict)'"
+  },
+  "keywords": [
+    "font",
+    "converter",
+    "web-ui",
+    "mathjax"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "fast-check": "^4.5.3",
+    "vitest": "^1.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "TestFont",
+  "version": "1.0.0",
+  "buildId": "1473e966656a474b",
+  "sourceFontHash": "6075562b771f8b82f0c179e363389684f2dd09de30038269e2628e504bd7be0f",
+  "family": "Latin Modern Math",
+  "format": "otf",
+  "coverage": {
+    "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "lowercase": "abcdefghijklmnopqrstuvwxyz",
+    "digits": "0123456789"
+  },
+  "charsets": {
+    "base": true,
+    "extendedMathDefault": true,
+    "extendedMathOptional": false,
+    "extendedMathAdvanced": false,
+    "extendedTextSymbols": false
+  },
+  "failures": [],
+  "fallbacks": [],
+  "createdAt": "2026-02-10T02:41:03.035Z",
+  "fontdataFile": "fontdata.js"
+}

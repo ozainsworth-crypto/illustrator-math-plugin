@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Formula Plugin</title>
+  
+  <!-- CEP 配置 -->
+  <script src="./config.js"></script>
+  
+  <!-- CEP CSInterface 库 -->
+  <script type="text/javascript" src="./lib/CSInterface.js"></script>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    #app-container {
+      width: 100%;
+      height: 100%;
+    }
+    
+    #app-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #666;
+    }
+    
+    .error {
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <div id="app-container">
+    <div class="loading">加载中...</div>
+  </div>
+  
+  <script>
+    (function() {
+      const config = window.CEP_CONFIG;
+      const container = document.getElementById('app-container');
+      
+      console.log('[CEP] Math Formula Plugin v' + config.version);
+      console.log('[CEP] Mode:', config.mode);
+      console.log('[CEP] Build Date:', config.buildDate);
+      
+      try {
+        if (config.mode === 'dev') {
+          // Dev 模式：加载 localhost（Vite 开发服务器）
+          console.log('[CEP] Dev mode: Loading from', config.dev.appUrl);
+          
+          const iframe = document.createElement('iframe');
+          iframe.src = config.dev.appUrl;
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.border = 'none';
+          
+          // 监听加载错误
+          iframe.onerror = function() {
+            container.innerHTML = '<div class="error">' +
+              '<h3>Dev 模式加载失败</h3>' +
+              '<p>无法连接到开发服务器：' + config.dev.appUrl + '</p>' +
+              '<p>请确保已启动 Vite 开发服务器：</p>' +
+              '<pre>cd math-formula-plugin && npm run dev</pre>' +
+              '</div>';
+          };
+          
+          container.innerHTML = '';
+          container.appendChild(iframe);
+          
+          console.log('[CEP] Dev mode iframe created');
+          
+        } else if (config.mode === 'prod') {
+          // Prod 模式：加载本地构建产物
+          console.log('[CEP] Prod mode: Loading from', config.prod.appUrl);
+          
+          // 直接跳转到构建产物
+          window.location.href = config.prod.appUrl;
+          
+        } else {
+          throw new Error('Invalid mode: ' + config.mode + '. Must be "dev" or "prod".');
+        }
+        
+      } catch (error) {
+        console.error('[CEP] Error:', error);
+        container.innerHTML = '<div class="error">' +
+          '<h3>加载失败</h3>' +
+          '<p>' + error.message + '</p>' +
+          '</div>';
+      }
+    })();
+  </script>
+</body>
+</html>

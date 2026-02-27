@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOJOUP Math Font Build</title>
+  </head>
+  <body>
+    <div id="app" class="app-wrapper">
+      <!-- 紧凑型标签导航 -->
+      <nav class="tab-nav">
+        <div class="tab-item active" data-tab="main">编辑器</div>
+        <div class="tab-item" data-tab="debug">日志</div>
+      </nav>
+
+      <main class="content-area">
+        <!-- 标签页内容 -->
+        <div class="tab-content">
+          <!-- 主界面标签页 -->
+          <div class="tab-panel active" id="main-panel">
+            <!-- A 区域：核心输入 -->
+            <label class="section-label">公式输入</label>
+            <textarea 
+              id="latex-input" 
+              class="code-editor" 
+              placeholder="请在这里输入或粘贴公式..."
+            ></textarea>
+            
+            <!-- 歧义对比界面容器 -->
+            <div id="ambiguity-resolver"></div>
+            
+            <!-- 格式选择器容器 -->
+            <div id="format-selector"></div>
+            
+            <!-- 降级提示容器 -->
+            <div id="fallback-prompt"></div>
+            
+            <!-- 歧义提示容器 -->
+            <div id="ambiguity-prompt"></div>
+            
+            <div class="divider"></div>
+
+            <!-- B 区域：选项设置 (并行网格) -->
+            <div class="settings-area">
+              <div class="options-row">
+                <!-- 左：字号设置 (Icon 物理隔离) -->
+                <div class="col-size" id="font-size-container" style="display: none;">
+                  <label class="section-label">字号</label>
+                  <div class="font-size-wrapper">
+                    <div class="ai-label-icon">
+                      <!-- 精确绘制的 Tt 图标 -->
+                      <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 4.5V2.5H10V4.5M5.5 2.5V13M3 13H8" stroke="#e1e1e1" stroke-width="1.2" stroke-linecap="round"/>
+                        <path d="M9.5 6V5H15V6M12.25 5V13M10.5 13H14" stroke="#e1e1e1" stroke-width="1.2" stroke-linecap="round"/>
+                      </svg>
+                    </div>
+                    <div class="ai-combo-box">
+                      <!-- 步进器 -->
+                      <div class="ai-stepper">
+                        <div class="ai-step" id="step-up"><div class="tri-up"></div></div>
+                        <div class="ai-step" id="step-down"><div class="tri-down"></div></div>
+                      </div>
+                      <!-- 输入区域 -->
+                      <div class="ai-field-area">
+                        <input 
+                          type="number" 
+                          id="font-size-input" 
+                          class="ai-input font-size" 
+                          value="14"
+                          min="6"
+                          max="144"
+                          step="1"
+                          data-ui="font-size"
+                          title="设置字号（单位: pt）"
+                        >
+                        <span class="ai-unit">pt</span>
+                      </div>
+                      <!-- 下拉图标 -->
+                      <div class="ai-drop-btn"><div class="tri-down"></div></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 右：字体系统 -->
+                <div class="col-font">
+                  <label class="section-label">字体选择</label>
+                  <!-- 字体选择器容器（由 FontSelector 组件填充） -->
+                  <div id="font-selector-container"></div>
+                </div>
+              </div>
+
+              <!-- 更多设置按钮 (右下角锁定) -->
+              <div id="font-tool-btn" class="font-tool-button" title="字体选项-更多">
+                <svg width="16" height="16" viewBox="0 0 16 16">
+                  <circle cx="3" cy="8" r="1.6" fill="currentColor"/>
+                  <circle cx="8" cy="8" r="1.6" fill="currentColor"/>
+                  <circle cx="13" cy="8" r="1.6" fill="currentColor"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- D 区域：结果展示 (按需显示) -->
+            <div id="result-group" style="display: none;">
+              <div class="preview-box" id="svg-preview">
+                <!-- 刷新按钮（右上角） -->
+                <button id="refresh-preview-btn" class="refresh-preview-btn" title="刷新预览 (Cmd/Ctrl+Enter)">
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M13.65 2.35C12.2 0.9 10.21 0 8 0 3.58 0 0 3.58 0 8s3.58 8 8 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L9 7h7V0l-2.35 2.35z"/>
+                  </svg>
+                </button>
+                <!-- 保留原 ID 的预览容器 -->
+                <div id="preview-output" class="preview-output"></div>
+                <div id="loading-indicator" class="loading-indicator hidden">
+                  <span class="spinner"></span>
+                  <span>预览生成中...</span>
+                </div>
+                <div id="error-message" class="error-message hidden"></div>
+              </div>
+              <button id="insert-btn" class="btn btn-quick-action" disabled style="display: none;">置入到画布</button>
+            </div>
+
+            <!-- 操作按钮区（下载/复制，Web 环境专用，CEP 下隐藏） -->
+            <div class="actions-section" style="display: none;">
+              <div class="action-buttons">
+                <button id="download-btn" class="btn btn-success" disabled title="下载 SVG 文件">
+                  下载 SVG
+                </button>
+                <button id="copy-btn" class="btn btn-secondary" disabled title="复制 SVG 代码到剪贴板">
+                  复制 SVG 代码
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 调试日志标签页 -->
+          <div class="tab-panel" id="debug-panel">
+            <div class="debug-header">
+              <button id="clear-log-btn" class="btn btn-secondary btn-sm">清空日志</button>
+              <button id="shell-diagnostics-btn" class="btn btn-secondary btn-sm">Shell 诊断</button>
+            </div>
+            <div id="debug-log" class="debug-log"></div>
+          </div>
+        </div>
+      </main>
+
+      <!-- 页脚状态栏 -->
+      <footer class="footer-info">
+        <span id="mathjax-version-footer">基于 MathJax 4.1.0 开发</span>
+        <span id="status-text">v1.0.0_by 07T.Oz</span>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

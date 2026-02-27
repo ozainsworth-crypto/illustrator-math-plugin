@@ -1,0 +1,8 @@
+# 自定义字体文件夹
+
+将测试字体文件（TTF/OTF）放在此文件夹中。
+
+建议字体：
+- Roboto-Regular.ttf
+- OpenSans-Regular.ttf
+- 或其他 TTF/OTF 字体文件

@@ -1,0 +1,1649 @@
+/* ========================================
+   Adobe Spectrum 核心色值校准 (Illustrator 2024/2025 标准)
+   ======================================== */
+:root {
+  /* 基础背景与面板色 */
+  --ai-bg: #535353;             /* 面板主背景 */
+  --ai-header-bg: #464646;      /* 导航/页眉背景 */
+  --ai-input-bg: #454545;       /* 输入框常态背景 */
+  --ai-focus-bg: #ffffff;       /* 输入框聚焦时的纯白背景 */
+  
+  /* 边框与分割线 */
+  --ai-border-dark: #3e3e3e;    /* 区域块分割线颜色 */
+  --ai-border-idle: #606060;    /* 控件常态下的浅灰色描边 (参考截图) */
+  --ai-border-hover: #747474;   /* 控件悬停时的边框色 */
+  
+  /* 交互状态色 */
+  --ai-selected-bg: #303030;    /* 字体选项选中后的深色"压下"感 */
+  --ai-hover-bg: #5a5a5a;       /* 控件/按钮鼠标悬停的高亮色 */
+  
+  /* 文字色 */
+  --text-primary: #e1e1e1;      /* 主文字颜色 */
+  --text-secondary: #a0a0a0;    /* 辅助/标签文字颜色 */
+  --text-dim: #888888;          /* 禁用或极弱的文字 */
+  
+  /* 品牌与焦点色 */
+  --accent-blue: #2090f1;       /* Adobe 标志性的聚焦亮蓝色 */
+  
+  /* 字体系统 */
+  --font-ui: "Inter", -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Monaco", "Menlo", "Cascadia Code", monospace;
+}
+
+/* ========================================
+   基础布局与复位
+   ======================================== */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  -webkit-user-select: none; 
+}
+
+/* 彻底禁用 Chrome/WebKit 默认的数字加减箭头 */
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button { 
+  -webkit-appearance: none !important; 
+  margin: 0; 
+}
+input[type=number] { 
+  -moz-appearance: textfield; 
+}
+
+body {
+  background-color: var(--ai-bg);
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: var(--text-primary);
+  overflow: hidden; /* 防止 CEP 窗口出现不必要的滚动条 */
+}
+
+.app-wrapper { display: flex; flex-direction: column; height: 100vh; }
+
+/* ========================================
+   1. 顶部导航与标签 (精简版)
+   ======================================== */
+.header-bar { 
+  padding: 6px 12px; 
+  background-color: var(--ai-header-bg); 
+  border-bottom: 1px solid var(--ai-border-dark); 
+}
+.brand-label { 
+  font-size: 10px; 
+  font-weight: 700; 
+  letter-spacing: 0.05em; 
+  text-transform: uppercase; 
+  color: var(--text-secondary); 
+}
+
+.tab-nav { display: flex; background-color: var(--ai-header-bg); border-bottom: 1px solid var(--ai-border-dark); }
+.tab-item { padding: 6px 16px; cursor: pointer; color: var(--text-secondary); border-bottom: 2px solid transparent; font-size: 11px; transition: color 0.2s; }
+.tab-item.active { color: var(--text-primary); border-bottom-color: var(--accent-blue); }
+.tab-item:hover:not(.active) { color: var(--text-primary); }
+
+/* ========================================
+   2. 内容容器与分割线
+   ======================================== */
+.content-area { padding: 12px; flex: 1; overflow-y: auto; }
+.section-label { 
+  font-family: var(--font-ui);
+  font-size: 9px; 
+  font-weight: 600; 
+  text-transform: uppercase; 
+  letter-spacing: 0.05em; 
+  color: var(--text-secondary); 
+  margin-bottom: 6px; 
+  display: block; 
+}
+.divider { height: 1px; background-color: var(--ai-border-dark); margin: 14px 0; border: none; }
+
+/* ========================================
+   3. 公式输入框 (Editor)
+   ======================================== */
+.code-editor {
+  width: 100%; 
+  background-color: var(--ai-input-bg); 
+  border: 1px solid var(--ai-border-dark); 
+  border-radius: 2px;
+  color: #9cdcfe; /* 语法高亮色 */
+  font-family: var(--font-mono); 
+  padding: 8px; 
+  min-height: 85px; 
+  resize: vertical; 
+  outline: none; 
+  font-size: 12px;
+  -webkit-user-select: text; /* 允许选中文本 */
+}
+.code-editor:focus { border-color: var(--accent-blue); }
+
+/* ========================================
+   选项设置区 (并行布局)
+   ======================================== */
+.settings-area { 
+  position: relative; 
+  padding-bottom: 18px; /* 为右下角按钮预留空间 */
+}
+
+.options-row { 
+  display: flex; 
+  gap: 14px; 
+  align-items: flex-end; 
+}
+
+.col-size { 
+  flex: 0 0 auto; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+.col-font { 
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+/* 字号设置复合体 */
+.font-size-wrapper { 
+  display: flex; 
+  align-items: center;
+  position: relative; /* 为下拉菜单提供定位上下文 */
+}
+
+/* Tt 图标：完全独立于容器外，背景透明 */
+.ai-label-icon {
+  margin-right: 6px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: transparent; 
+  color: var(--text-primary); 
+  opacity: 0.85;
+}
+
+/* 字号组合框容器：带常态浅色描边 */
+.ai-combo-box {
+  display: flex; 
+  align-items: center; 
+  background-color: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle); 
+  border-radius: 2px; 
+  height: 22px; 
+  width: 84px; 
+  overflow: hidden; 
+  transition: border-color 0.1s, background-color 0.1s;
+}
+
+.ai-combo-box:hover { 
+  border-color: var(--ai-border-hover); 
+}
+
+/* 聚焦状态：蓝色外框 + 内部反转为白底 */
+.ai-combo-box:focus-within {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 1px var(--accent-blue);
+  background-color: var(--ai-focus-bg);
+}
+
+/* 步进器 */
+.ai-stepper {
+  display: flex; 
+  flex-direction: column; 
+  width: 15px; 
+  height: 100%;
+  border-right: 1px solid var(--ai-border-idle); 
+  background-color: var(--ai-input-bg);
+}
+
+.ai-step { 
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer; 
+  color: var(--text-dim); 
+}
+
+.ai-step:hover { 
+  color: white; 
+  background-color: #444; 
+}
+
+.ai-step:first-child { 
+  border-bottom: 1px solid var(--ai-border-idle); 
+}
+
+/* 数值输入区 */
+.ai-field-area { 
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+  padding: 0 3px; 
+  height: 100%; 
+}
+
+.ai-input {
+  flex: 1; 
+  background: transparent; 
+  border: none; 
+  color: var(--text-primary);
+  font-size: 11px; 
+  text-align: right; 
+  outline: none; 
+  width: 24px;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* 聚焦时文字与单位变为黑色 */
+.ai-combo-box:focus-within .ai-input,
+.ai-combo-box:focus-within .ai-unit { 
+  color: #000; 
+}
+
+.ai-unit { 
+  font-size: 11px; 
+  margin-left: 2px; 
+  color: var(--text-primary); 
+  pointer-events: none; 
+}
+
+/* 右侧下拉按钮 */
+.ai-drop-btn {
+  width: 16px; 
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-left: 1px solid var(--ai-border-idle); 
+  cursor: pointer; 
+  background-color: var(--ai-input-bg);
+}
+
+/* 辅助性 SVG 三角形 */
+.tri-down { 
+  width: 0; 
+  height: 0; 
+  border-left: 3px solid transparent; 
+  border-right: 3px solid transparent; 
+  border-top: 4px solid currentColor; 
+  pointer-events: none; /* 确保点击事件传递到父元素 */
+}
+
+.tri-up { 
+  width: 0; 
+  height: 0; 
+  border-left: 3px solid transparent; 
+  border-right: 3px solid transparent; 
+  border-bottom: 4px solid currentColor; 
+  pointer-events: none; /* 确保点击事件传递到父元素 */
+}
+
+/* 字号下拉菜单 */
+.font-size-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 2px;
+  background-color: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  min-width: 84px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-option {
+  padding: 6px 12px;
+  font-size: 11px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.dropdown-option:hover {
+  background-color: var(--ai-hover-bg);
+}
+
+.dropdown-option:active {
+  background-color: var(--ai-selected-bg);
+}
+
+/* 字体分段选择器 */
+.segmented-control { 
+  display: flex; 
+  background-color: var(--ai-input-bg); 
+  border: 1px solid var(--ai-border-idle); 
+  border-radius: 2px; 
+  overflow: hidden; 
+  height: 22px; 
+}
+
+.segment-btn { 
+  flex: 1; 
+  line-height: 20px; 
+  text-align: center; 
+  cursor: pointer; 
+  color: var(--text-secondary); 
+  border-right: 1px solid var(--ai-border-idle); 
+  font-size: 10px; 
+  transition: background-color 0.1s; 
+}
+
+.segment-btn:last-child { 
+  border-right: none; 
+}
+
+.segment-btn:hover { 
+  background-color: var(--ai-hover-bg); 
+  color: white; 
+}
+
+.segment-btn.active { 
+  background-color: var(--ai-selected-bg); 
+  color: white; 
+}
+
+/* 更多设置按钮：三点圆点加大、精准右下角定位 */
+.font-tool-button {
+  position: absolute; 
+  right: 0; 
+  bottom: -6px; 
+  color: #dfdfdf; 
+  cursor: pointer;
+  width: 26px; 
+  height: 18px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 2px;
+  transition: background-color 0.1s;
+}
+
+.font-tool-button:hover { 
+  background-color: var(--ai-hover-bg); 
+  color: #ffffff; 
+}
+
+/* 悬停提示 Tooltip */
+.font-tool-button::after {
+  content: "字体选项-更多"; 
+  position: absolute; 
+  bottom: 22px; 
+  right: 0; 
+  background-color: #1a1a1a;
+  color: #fff; 
+  padding: 4px 10px; 
+  font-size: 10px; 
+  border-radius: 2px; 
+  white-space: nowrap;
+  display: none; 
+  z-index: 9999; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+.font-tool-button:hover::after { 
+  display: block; 
+}
+
+/* ========================================
+   4. 选项设置区 (核心布局修复)
+   ======================================== */
+.settings-area { 
+  position: relative; 
+  padding-bottom: 20px; /* 为右下角"更多设置"预留呼吸空间 */
+}
+
+.options-row { display: flex; gap: 14px; align-items: flex-end; }
+
+.col-size { flex: 0 0 auto; display: flex; flex-direction: column; }
+.col-font { flex: 1; display: flex; flex-direction: column; }
+
+/* 字号图标与容器分离逻辑 */
+.font-size-wrapper { display: flex; align-items: center; }
+
+.ai-label-icon {
+  margin-right: 6px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: transparent !important; /* 图标区域绝对不带背景 */
+  color: var(--text-primary); 
+  opacity: 0.85;
+}
+
+/* 字号组合框容器：常态浅色描边 */
+.ai-combo-box {
+  display: flex; 
+  align-items: center; 
+  background-color: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle); /* 校准：常态描边 */
+  border-radius: 2px; 
+  height: 22px; 
+  width: 82px; /* 紧凑宽度 */
+  overflow: hidden; 
+  transition: border-color 0.1s, background-color 0.1s;
+}
+.ai-combo-box:hover { border-color: var(--ai-border-hover); }
+
+/* 核心：聚焦状态 - 蓝色外框 + 内部背景反转 */
+.ai-combo-box:focus-within {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 1px var(--accent-blue);
+  background-color: var(--ai-focus-bg);
+}
+
+.ai-stepper {
+  display: flex; flex-direction: column; width: 15px; height: 100%;
+  border-right: 1px solid var(--ai-border-idle); background-color: var(--ai-input-bg);
+}
+.ai-step { flex: 1; display: flex; align-items: center; justify-content: center; cursor: pointer; color: var(--text-dim); }
+.ai-step:hover { color: white; background-color: #444; }
+.ai-step:first-child { border-bottom: 1px solid var(--ai-border-idle); }
+
+/* 输入区：反转文字颜色 */
+.ai-field-area { flex: 1; display: flex; align-items: center; padding: 0 3px; height: 100%; }
+.ai-input {
+  flex: 1; background: transparent; border: none; color: var(--text-primary);
+  font-size: 11px; text-align: right; outline: none; width: 24px;
+}
+.ai-combo-box:focus-within .ai-input,
+.ai-combo-box:focus-within .ai-unit { color: #000; } /* 聚焦时文字变黑 */
+
+.ai-unit { font-size: 11px; margin-left: 2px; color: var(--text-primary); pointer-events: none; }
+.ai-drop-btn { width: 16px; height: 100%; display: flex; align-items: center; justify-content: center; border-left: 1px solid var(--ai-border-idle); cursor: pointer; background-color: var(--ai-input-bg); }
+
+/* ========================================
+   5. 字体分段按钮 (Segmented Control)
+   ======================================== */
+.segmented-control { 
+  display: flex; 
+  background-color: var(--ai-input-bg); 
+  border: 1px solid var(--ai-border-idle); 
+  border-radius: 2px; 
+  overflow: hidden; 
+  height: 22px; 
+}
+
+.segment-btn { 
+  flex: 1; 
+  line-height: 20px; 
+  text-align: center; 
+  cursor: pointer; 
+  color: var(--text-secondary); 
+  background-color: var(--ai-bg); /* 未选中时使用面板主背景色 #535353 */
+  border-right: 1px solid var(--ai-border-idle); 
+  font-size: 10px; 
+  transition: background-color 0.1s; 
+  position: relative;
+}
+.segment-btn:last-child { border-right: none; }
+
+/* 悬停高亮：移除黑色干扰条，仅改变背景色 */
+.segment-btn:hover { background-color: var(--ai-hover-bg); color: white; }
+
+/* 选中压下：色值校准为 #303030 */
+.segment-btn.active { background-color: var(--ai-selected-bg); color: white; }
+
+/* ========================================
+   6. 更多设置按钮 (右下角锁定)
+   ======================================== */
+.font-tool-button {
+  position: absolute; 
+  right: 0; 
+  bottom: -6px; /* 紧贴右下角并与分割线保持间距 */
+  color: #dfdfdf; /* 提高圆点亮度使其明显 */
+  cursor: pointer;
+  width: 28px; 
+  height: 18px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 2px;
+}
+.font-tool-button:hover { background-color: var(--ai-hover-bg); color: #ffffff; }
+
+/* 原生样式 Tooltip */
+.font-tool-button::after {
+  content: "字体选项-更多"; 
+  position: absolute; 
+  bottom: 22px; 
+  right: 0; 
+  background-color: #1a1a1a;
+  color: #fff; 
+  padding: 4px 10px; 
+  font-size: 10px; 
+  border-radius: 2px; 
+  white-space: nowrap;
+  display: none; 
+  z-index: 9999; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+.font-tool-button:hover::after { display: block; }
+
+/* ========================================
+   7. 主操作按钮与结果预览
+   ======================================== */
+.btn { width: 100%; padding: 8px; border: none; border-radius: 2px; font-weight: 600; cursor: pointer; font-size: 11px; transition: background 0.2s; }
+.btn-primary { background-color: var(--accent-blue); color: white; }
+.btn-primary:hover { background-color: #43a1f4; }
+
+.btn-secondary { background-color: transparent; color: var(--text-primary); border: 1px solid var(--ai-border-idle); margin-top: 8px; }
+.btn-secondary:hover { background-color: var(--ai-hover-bg); }
+
+/* 置入按钮：Quick Action 风格 */
+.btn-quick-action { 
+  background-color: #5e5e5e; 
+  border: 1px solid #6a6a6a; 
+  color: white; 
+  margin-top: 12px; 
+  width: 100%;
+}
+.btn-quick-action:hover { background-color: #6a6a6a; }
+
+.preview-box {
+  background-color: #333; 
+  border: 1px solid var(--ai-border-dark); 
+  min-height: 140px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background-image: linear-gradient(45deg, #3a3a3a 25%, transparent 25%), linear-gradient(-45deg, #3a3a3a 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #3a3a3a 75%), linear-gradient(-45deg, transparent 75%, #3a3a3a 75%);
+  background-size: 8px 8px; 
+  margin-top: 4px;
+}
+
+/* ========================================
+   8. 状态页脚
+   ======================================== */
+.footer-info { padding: 6px 12px; border-top: 1px solid var(--ai-border-dark); font-size: 9px; color: var(--text-dim); display: flex; justify-content: space-between; }
+
+/* 辅助样式类 */
+.hidden { display: none !important; }
+.tri-down { width: 0; height: 0; border-left: 3px solid transparent; border-right: 3px solid transparent; border-top: 4px solid currentColor; }
+.tri-up { width: 0; height: 0; border-left: 3px solid transparent; border-right: 3px solid transparent; border-bottom: 4px solid currentColor; }
+
+/* ========================================
+   标签页样式
+   ======================================== */
+.tab-content {
+  flex: 1;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* ========================================
+   调试日志标签页样式
+   ======================================== */
+.debug-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.debug-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.debug-log {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-all;
+  background-color: #1e1e1e;
+  color: var(--text-primary);
+  padding: 12px;
+  border-radius: 2px;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--ai-border-dark);
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+
+.debug-log * {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+
+.debug-log .log-success {
+  color: var(--accent-success);
+}
+
+.debug-log .log-error {
+  color: var(--accent-error);
+}
+
+.debug-log .log-warning {
+  color: var(--accent-warning);
+}
+
+.debug-log .log-info {
+  color: var(--accent-primary);
+}
+
+/* ========================================
+   CEP 环境特定样式（body.cep 下隐藏 Web 专用按钮）
+   ======================================== */
+body.cep #download-btn,
+body.cep #copy-btn,
+body.cep .actions-section {
+  display: none !important;
+}
+
+/* ========================================
+   操作按钮区
+   ======================================== */
+.actions-section {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin-top: var(--section-gap);
+  box-shadow: none;
+}
+
+.action-buttons {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+/* ========================================
+   响应式设计 - CEP 面板约束优化
+   ======================================== */
+
+/* 小尺寸面板 (300-400px 宽度) */
+@media (max-width: 400px) {
+  .content-area {
+    padding: 8px;
+  }
+
+  .options-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .col-size,
+  .col-font {
+    width: 100%;
+  }
+
+  /* 字号控件在小屏幕下保持紧凑 */
+  .ai-combo-box {
+    width: 100%;
+    max-width: 120px;
+  }
+
+  /* 字体选择器在小屏幕下全宽 */
+  .segmented-control {
+    width: 100%;
+  }
+
+  /* 预览区域最小高度调整 */
+  .preview-box {
+    min-height: 120px;
+  }
+
+  /* 按钮在小屏幕下全宽 */
+  .btn {
+    width: 100%;
+  }
+
+  /* 标签页导航紧凑化 */
+  .tab-item {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+}
+
+/* 中等尺寸面板 (400-600px 宽度) */
+@media (min-width: 401px) and (max-width: 600px) {
+  .content-area {
+    padding: 10px;
+  }
+
+  .options-row {
+    gap: 12px;
+  }
+
+  /* 预览区域标准高度 */
+  .preview-box {
+    min-height: 140px;
+  }
+}
+
+/* 大尺寸面板 (600px+ 宽度) */
+@media (min-width: 601px) {
+  .content-area {
+    padding: 12px;
+  }
+
+  .options-row {
+    gap: 14px;
+  }
+
+  /* 预览区域更大高度 */
+  .preview-box {
+    min-height: 160px;
+  }
+
+  /* 可以显示更多内容 */
+  .debug-log {
+    max-height: 500px;
+  }
+}
+
+/* 高度约束优化 (针对较矮的面板) */
+@media (max-height: 500px) {
+  .code-editor {
+    min-height: 60px;
+  }
+
+  .preview-box {
+    min-height: 100px;
+  }
+
+  .debug-log {
+    max-height: 250px;
+  }
+
+  .content-area {
+    padding: 8px;
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+}
+
+/* 标准高度 (500-700px) */
+@media (min-height: 501px) and (max-height: 700px) {
+  .code-editor {
+    min-height: 85px;
+  }
+
+  .preview-box {
+    min-height: 140px;
+  }
+
+  .debug-log {
+    max-height: 400px;
+  }
+}
+
+/* 高面板 (700px+) */
+@media (min-height: 701px) {
+  .code-editor {
+    min-height: 100px;
+  }
+
+  .preview-box {
+    min-height: 180px;
+  }
+
+  .debug-log {
+    max-height: 600px;
+  }
+}
+
+
+/* ========================================
+   歧义对比界面组件样式 (Adobe Spectrum CEP 风格)
+   ======================================== */
+#ambiguity-resolver {
+  margin-top: 12px;
+  display: none;
+}
+
+.ambiguity-resolver-container {
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  padding: 12px;
+}
+
+.resolver-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.resolver-icon {
+  font-size: 14px;
+  color: #ffa500;
+}
+
+.resolver-original-section,
+.resolver-candidates-section,
+.resolver-edit-section {
+  margin-bottom: 12px;
+}
+
+.resolver-section-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.original-content {
+  padding: 8px;
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.candidates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.candidate-card {
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  padding: 12px;
+  cursor: pointer;
+  transition: border-color 0.1s, background-color 0.1s;
+}
+
+.candidate-card:hover {
+  border-color: var(--ai-border-hover);
+  background-color: var(--ai-hover-bg);
+}
+
+.candidate-card.selected {
+  border-color: var(--accent-blue);
+  background: var(--ai-selected-bg);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.card-radio {
+  cursor: pointer;
+  accent-color: var(--accent-blue);
+}
+
+.card-label {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 11px;
+}
+
+.card-preview {
+  min-height: 80px;
+  padding: 12px;
+  background: #333;
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-latex {
+  padding: 6px;
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  margin-bottom: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-primary);
+  overflow-x: auto;
+}
+
+.card-description {
+  font-size: 10px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.latex-edit-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  background: var(--ai-input-bg);
+  color: var(--text-primary);
+  resize: vertical;
+  transition: border-color 0.1s;
+  outline: none;
+}
+
+.latex-edit-input:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 1px var(--accent-blue);
+  background-color: var(--ai-focus-bg);
+  color: #000;
+}
+
+.resolver-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.resolver-cancel-btn,
+.resolver-confirm-btn {
+  min-width: 80px;
+  padding: 6px 12px;
+  font-size: 11px;
+}
+
+/* ========================================
+   格式选择器组件样式 (Adobe Spectrum CEP 风格 - 可折叠版本)
+   ======================================== */
+#format-selector {
+  margin-top: 12px;
+  display: none;
+}
+
+.format-selector-container {
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  padding: 0;
+}
+
+/* 可折叠标题栏 */
+.format-selector-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  user-select: none;
+}
+
+.format-selector-header:hover {
+  background-color: var(--ai-hover-bg);
+}
+
+.format-icon {
+  font-size: 12px;
+  color: var(--accent-blue);
+  flex-shrink: 0;
+}
+
+.format-current-label {
+  flex: 1;
+  font-size: 11px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.format-current-label strong {
+  font-weight: 600;
+  color: var(--accent-blue);
+}
+
+.format-toggle-icon {
+  font-size: 10px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+/* 格式选项列表（默认隐藏） */
+.format-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 12px 12px 12px;
+  border-top: 1px solid var(--ai-border-idle);
+}
+
+/* 移除旧的 title 样式 */
+.format-selector-title {
+  display: none;
+}
+
+.format-option-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px;
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.1s, background-color 0.1s;
+}
+
+.format-option-item:hover {
+  border-color: var(--ai-border-hover);
+  background-color: var(--ai-hover-bg);
+}
+
+.format-option-item.selected {
+  border-color: var(--accent-blue);
+  background: var(--ai-selected-bg);
+}
+
+.format-radio {
+  margin-top: 2px;
+  cursor: pointer;
+  accent-color: var(--accent-blue);
+}
+
+.format-label {
+  flex: 1;
+  margin-left: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.format-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 11px;
+}
+
+.format-description {
+  font-size: 10px;
+  color: var(--text-secondary);
+  line-height: 1.3;
+}
+
+/* ========================================
+   歧义提示组件样式 (Adobe Spectrum CEP 风格)
+   ======================================== */
+#ambiguity-prompt {
+  margin-top: 12px;
+  display: none;
+}
+
+.ambiguity-prompt-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--ai-input-bg);
+  border: 1px solid #ffa500;
+  border-radius: 2px;
+  color: var(--text-primary);
+}
+
+.ambiguity-icon {
+  font-size: 14px;
+  color: #ffa500;
+}
+
+.ambiguity-message {
+  flex: 1;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.ambiguity-toggle-btn {
+  padding: 4px 12px;
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 500;
+  transition: background-color 0.1s;
+}
+
+.ambiguity-toggle-btn:hover {
+  background: var(--ai-hover-bg);
+}
+
+.ambiguity-details-panel {
+  margin-top: 8px;
+  padding: 12px;
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+}
+
+.ambiguity-card {
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.ambiguity-card:last-child {
+  margin-bottom: 0;
+}
+
+.ambiguity-card-header {
+  margin-bottom: 12px;
+}
+
+.ambiguity-card-title {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+
+.ambiguity-card-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+
+.ambiguity-text {
+  font-family: var(--font-mono);
+  background: var(--ai-bg);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.ambiguity-candidates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ambiguity-candidate-item {
+  padding: 8px;
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  background: var(--ai-bg);
+  transition: border-color 0.1s, background-color 0.1s;
+  cursor: pointer;
+}
+
+.ambiguity-candidate-item.default {
+  border-color: var(--accent-blue);
+  background: var(--ai-input-bg);
+}
+
+.ambiguity-candidate-item.selected {
+  border-color: var(--accent-blue);
+  background: var(--ai-selected-bg);
+}
+
+.ambiguity-candidate-item:hover {
+  background: var(--ai-hover-bg);
+}
+
+.candidate-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.candidate-radio {
+  cursor: pointer;
+  accent-color: var(--accent-blue);
+}
+
+.candidate-label {
+  flex: 1;
+  font-weight: 500;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.default-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--accent-blue);
+  color: white;
+  border-radius: 2px;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.candidate-tex {
+  margin-bottom: 6px;
+  padding: 6px;
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-primary);
+  overflow-x: auto;
+}
+
+.candidate-preview {
+  margin-bottom: 6px;
+  padding: 12px;
+  background: #333;
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  text-align: center;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-placeholder {
+  color: var(--text-secondary);
+  font-size: 10px;
+}
+
+.preview-error {
+  color: #ff6b6b;
+  font-size: 10px;
+}
+
+.candidate-explanation {
+  font-size: 10px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+/* ========================================
+   降级提示界面样式 (Adobe Spectrum CEP 风格)
+   ======================================== */
+#fallback-prompt {
+  display: none;
+  margin: 12px 0;
+}
+
+.fallback-prompt-card {
+  background-color: var(--ai-input-bg);
+  border: 1px solid #ff6b6b;
+  border-radius: 2px;
+  padding: 12px;
+}
+
+.fallback-prompt-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.fallback-icon {
+  font-size: 14px;
+  color: #ff6b6b;
+}
+
+.fallback-input-type,
+.fallback-reason {
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 10px;
+}
+
+.fallback-input-type strong,
+.fallback-reason strong,
+.fallback-suggestions strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.fallback-suggestions {
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  font-size: 10px;
+}
+
+.fallback-suggestions ul {
+  margin-top: 6px;
+  margin-left: 16px;
+}
+
+.fallback-suggestions li {
+  margin-bottom: 4px;
+}
+
+.fallback-original-content {
+  margin-bottom: 12px;
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  padding: 8px;
+  background-color: var(--ai-bg);
+}
+
+.fallback-original-content summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-primary);
+  user-select: none;
+  font-size: 10px;
+}
+
+.fallback-original-content summary:hover {
+  color: var(--accent-blue);
+}
+
+.fallback-original-content pre {
+  margin-top: 6px;
+  padding: 6px;
+  background-color: var(--ai-input-bg);
+  border-radius: 2px;
+  overflow-x: auto;
+  font-size: 10px;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+}
+
+.fallback-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.fallback-actions .btn {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  font-size: 10px;
+}
+
+/* ========================================
+   Font Selector Styles (Single User Font Pack Model)
+   ======================================== */
+.font-selector {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+.font-selector-label {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+  display: block;
+  font-size: var(--font-size-sm);
+}
+
+/* Radio button group */
+.font-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.font-radio-option {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-secondary);
+  transition: border-color var(--transition-normal);
+  cursor: pointer;
+}
+
+.font-radio-option:hover {
+  border-color: var(--accent-primary);
+}
+
+.font-radio-input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--accent-primary);
+}
+
+.font-radio-input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.font-radio-label {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  color: var(--text-primary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.font-radio-label.disabled {
+  color: var(--text-secondary);
+  cursor: not-allowed;
+}
+
+/* Info icon (tooltip for Font Pack Builder) */
+.font-info-icon {
+  font-size: 16px;
+  cursor: help;
+  color: var(--accent-primary);
+  transition: transform var(--transition-fast);
+}
+
+.font-info-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Status display */
+.font-status-display {
+  padding: var(--spacing-sm);
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  border-left: 2px solid var(--accent-primary);
+}
+
+.font-status-info {
+  margin: var(--spacing-xs) 0;
+  font-size: var(--font-size-xs);
+  color: var(--text-primary);
+}
+
+.font-status-label {
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: var(--font-size-xs);
+}
+
+.font-status-value {
+  color: var(--text-primary);
+  font-size: var(--font-size-xs);
+}
+
+.font-status-hint {
+  margin: var(--spacing-xs) 0 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.font-status-warning {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm);
+  background-color: rgba(244, 67, 54, 0.1);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+}
+
+.font-status-warning .font-status-label {
+  color: var(--accent-error);
+  font-weight: 600;
+}
+
+.font-status-warning .font-status-value {
+  color: var(--accent-error);
+}
+
+/* ========================================
+   刷新预览按钮样式
+   ======================================== */
+.refresh-preview-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: var(--ai-input-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.1s, color 0.1s;
+  z-index: 10;
+}
+
+.refresh-preview-btn:hover {
+  background: var(--ai-hover-bg);
+  color: var(--text-primary);
+  border-color: var(--ai-border-hover);
+}
+
+.refresh-preview-btn:active {
+  background: var(--ai-selected-bg);
+}
+
+.refresh-preview-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* 预览容器需要相对定位以支持绝对定位的刷新按钮 */
+.preview-box {
+  position: relative;
+}
+
+/* ========================================
+   友好错误消息样式
+   ======================================== */
+.error-message-card {
+  background-color: var(--ai-input-bg);
+  border: 1px solid #ff6b6b;
+  border-left: 3px solid #ff6b6b;
+  border-radius: 2px;
+  padding: 12px;
+  margin: 12px 0;
+  font-size: 11px;
+}
+
+.error-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.error-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.error-description {
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.error-suggestions {
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.error-suggestions strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.error-suggestions ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.error-suggestions li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.error-technical {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: var(--ai-bg);
+  border: 1px solid var(--ai-border-idle);
+  border-radius: 2px;
+}
+
+.error-technical summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-secondary);
+  user-select: none;
+  font-size: 10px;
+}
+
+.error-technical summary:hover {
+  color: var(--accent-blue);
+}
+
+.error-technical pre {
+  margin-top: 6px;
+  padding: 6px;
+  background-color: var(--ai-input-bg);
+  border-radius: 2px;
+  overflow-x: auto;
+  font-size: 10px;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  white-space: pre-wrap;
+  word-break: break-word;
+}

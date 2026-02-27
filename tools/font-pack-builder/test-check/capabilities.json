@@ -1,0 +1,76 @@
+{
+  "hasMATH": true,
+  "mathTableVersion": "1.0",
+  "detectedTables": [
+    "CFF ",
+    "FFTM",
+    "GDEF",
+    "GPOS",
+    "GSUB",
+    "MATH",
+    "OS/2",
+    "cmap",
+    "head",
+    "hhea",
+    "hmtx",
+    "maxp",
+    "name",
+    "post"
+  ],
+  "hasVariants": false,
+  "variantsMethod": "none",
+  "hasAssembly": false,
+  "assemblyMethod": "none",
+  "coverage": {
+    "l1": 100,
+    "l2": 100,
+    "l3": 100
+  },
+  "l3Coverage": {
+    "byCategory": {
+      "brackets": {
+        "total": 10,
+        "available": 10,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "radicals": {
+        "total": 1,
+        "available": 1,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "integrals": {
+        "total": 6,
+        "available": 6,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "largeOps": {
+        "total": 7,
+        "available": 7,
+        "coverage": "100.0%",
+        "missing": []
+      },
+      "arrows": {
+        "total": 6,
+        "available": 6,
+        "coverage": "100.0%",
+        "missing": []
+      }
+    },
+    "overall": {
+      "total": 30,
+      "available": 30,
+      "coverage": "100.0%"
+    }
+  },
+  "l3ReplacementAllowed": true,
+  "l3ReplacementReason": "Font has MATH table and sufficient L3 coverage",
+  "timestamp": "2026-02-10T02:41:02.988Z",
+  "summary": "Math font with MATH table - L1/L2 support available, L3 requires implementation",
+  "recommendations": [
+    "Font has OpenType MATH table but variants/assembly extraction is not yet implemented. L3 features (stretchy brackets, radicals, integrals) will use MathJax defaults for now.",
+    "Future implementation: Extract variants/assembly data from MATH table to enable full L3 support."
+  ]
+}

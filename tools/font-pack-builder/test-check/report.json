@@ -1,0 +1,1464 @@
+{
+  "buildId": "1473e966656a474b",
+  "sourceFontHash": "6075562b771f8b82f0c179e363389684f2dd09de30038269e2628e504bd7be0f",
+  "createdAt": "2026-02-10T02:41:03.037Z",
+  "fontName": "TestFont",
+  "statistics": {
+    "total": 158,
+    "successful": 158,
+    "failed": 0,
+    "fallback": 0,
+    "l3Skipped": 0
+  },
+  "byCategory": {
+    "unknown": {
+      "total": 158,
+      "successful": 158
+    }
+  },
+  "glyphs": [
+    {
+      "char": "!",
+      "codepoint": "U+0021",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "\"",
+      "codepoint": "U+0022",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "'",
+      "codepoint": "U+0027",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "(",
+      "codepoint": "U+0028",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ")",
+      "codepoint": "U+0029",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "+",
+      "codepoint": "U+002B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ",",
+      "codepoint": "U+002C",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "-",
+      "codepoint": "U+002D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ".",
+      "codepoint": "U+002E",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "/",
+      "codepoint": "U+002F",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "0",
+      "codepoint": "U+0030",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "1",
+      "codepoint": "U+0031",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "2",
+      "codepoint": "U+0032",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "3",
+      "codepoint": "U+0033",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "4",
+      "codepoint": "U+0034",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "5",
+      "codepoint": "U+0035",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "6",
+      "codepoint": "U+0036",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "7",
+      "codepoint": "U+0037",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "8",
+      "codepoint": "U+0038",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "9",
+      "codepoint": "U+0039",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ":",
+      "codepoint": "U+003A",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ";",
+      "codepoint": "U+003B",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "<",
+      "codepoint": "U+003C",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "=",
+      "codepoint": "U+003D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": ">",
+      "codepoint": "U+003E",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "?",
+      "codepoint": "U+003F",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "A",
+      "codepoint": "U+0041",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "B",
+      "codepoint": "U+0042",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "C",
+      "codepoint": "U+0043",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "D",
+      "codepoint": "U+0044",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "E",
+      "codepoint": "U+0045",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "F",
+      "codepoint": "U+0046",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "G",
+      "codepoint": "U+0047",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "H",
+      "codepoint": "U+0048",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "I",
+      "codepoint": "U+0049",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "J",
+      "codepoint": "U+004A",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "K",
+      "codepoint": "U+004B",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "L",
+      "codepoint": "U+004C",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "M",
+      "codepoint": "U+004D",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "N",
+      "codepoint": "U+004E",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "O",
+      "codepoint": "U+004F",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "P",
+      "codepoint": "U+0050",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "Q",
+      "codepoint": "U+0051",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "R",
+      "codepoint": "U+0052",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "S",
+      "codepoint": "U+0053",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "T",
+      "codepoint": "U+0054",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "U",
+      "codepoint": "U+0055",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "V",
+      "codepoint": "U+0056",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "W",
+      "codepoint": "U+0057",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "X",
+      "codepoint": "U+0058",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "Y",
+      "codepoint": "U+0059",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "Z",
+      "codepoint": "U+005A",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "[",
+      "codepoint": "U+005B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "]",
+      "codepoint": "U+005D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "a",
+      "codepoint": "U+0061",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "b",
+      "codepoint": "U+0062",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "c",
+      "codepoint": "U+0063",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "d",
+      "codepoint": "U+0064",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "e",
+      "codepoint": "U+0065",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "f",
+      "codepoint": "U+0066",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "g",
+      "codepoint": "U+0067",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "h",
+      "codepoint": "U+0068",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "i",
+      "codepoint": "U+0069",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "j",
+      "codepoint": "U+006A",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "k",
+      "codepoint": "U+006B",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "l",
+      "codepoint": "U+006C",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "m",
+      "codepoint": "U+006D",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "n",
+      "codepoint": "U+006E",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "o",
+      "codepoint": "U+006F",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "p",
+      "codepoint": "U+0070",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "q",
+      "codepoint": "U+0071",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "r",
+      "codepoint": "U+0072",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "s",
+      "codepoint": "U+0073",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "t",
+      "codepoint": "U+0074",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "u",
+      "codepoint": "U+0075",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "v",
+      "codepoint": "U+0076",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "w",
+      "codepoint": "U+0077",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "x",
+      "codepoint": "U+0078",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "y",
+      "codepoint": "U+0079",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "z",
+      "codepoint": "U+007A",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "{",
+      "codepoint": "U+007B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "|",
+      "codepoint": "U+007C",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "}",
+      "codepoint": "U+007D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "¬",
+      "codepoint": "U+00AC",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "°",
+      "codepoint": "U+00B0",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "±",
+      "codepoint": "U+00B1",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "·",
+      "codepoint": "U+00B7",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "×",
+      "codepoint": "U+00D7",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "÷",
+      "codepoint": "U+00F7",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "′",
+      "codepoint": "U+2032",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "″",
+      "codepoint": "U+2033",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "ℏ",
+      "codepoint": "U+210F",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "ℓ",
+      "codepoint": "U+2113",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "℘",
+      "codepoint": "U+2118",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "←",
+      "codepoint": "U+2190",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↑",
+      "codepoint": "U+2191",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "→",
+      "codepoint": "U+2192",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↓",
+      "codepoint": "U+2193",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↔",
+      "codepoint": "U+2194",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↖",
+      "codepoint": "U+2196",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↗",
+      "codepoint": "U+2197",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↘",
+      "codepoint": "U+2198",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "↙",
+      "codepoint": "U+2199",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⇐",
+      "codepoint": "U+21D0",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⇑",
+      "codepoint": "U+21D1",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⇒",
+      "codepoint": "U+21D2",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⇓",
+      "codepoint": "U+21D3",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⇔",
+      "codepoint": "U+21D4",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∀",
+      "codepoint": "U+2200",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∂",
+      "codepoint": "U+2202",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∃",
+      "codepoint": "U+2203",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∅",
+      "codepoint": "U+2205",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∇",
+      "codepoint": "U+2207",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∈",
+      "codepoint": "U+2208",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∉",
+      "codepoint": "U+2209",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "−",
+      "codepoint": "U+2212",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∓",
+      "codepoint": "U+2213",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∕",
+      "codepoint": "U+2215",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∗",
+      "codepoint": "U+2217",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∘",
+      "codepoint": "U+2218",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∝",
+      "codepoint": "U+221D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∞",
+      "codepoint": "U+221E",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∠",
+      "codepoint": "U+2220",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∣",
+      "codepoint": "U+2223",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∧",
+      "codepoint": "U+2227",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∨",
+      "codepoint": "U+2228",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∩",
+      "codepoint": "U+2229",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∪",
+      "codepoint": "U+222A",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∴",
+      "codepoint": "U+2234",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "∵",
+      "codepoint": "U+2235",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≃",
+      "codepoint": "U+2243",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≅",
+      "codepoint": "U+2245",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≈",
+      "codepoint": "U+2248",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≠",
+      "codepoint": "U+2260",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≡",
+      "codepoint": "U+2261",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≤",
+      "codepoint": "U+2264",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≥",
+      "codepoint": "U+2265",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≪",
+      "codepoint": "U+226A",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≫",
+      "codepoint": "U+226B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≺",
+      "codepoint": "U+227A",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "≻",
+      "codepoint": "U+227B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊂",
+      "codepoint": "U+2282",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊃",
+      "codepoint": "U+2283",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊄",
+      "codepoint": "U+2284",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊅",
+      "codepoint": "U+2285",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊆",
+      "codepoint": "U+2286",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊇",
+      "codepoint": "U+2287",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊕",
+      "codepoint": "U+2295",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊗",
+      "codepoint": "U+2297",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊙",
+      "codepoint": "U+2299",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": true,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊤",
+      "codepoint": "U+22A4",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "⊥",
+      "codepoint": "U+22A5",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "＋",
+      "codepoint": "U+FF0B",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "－",
+      "codepoint": "U+FF0D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "＜",
+      "codepoint": "U+FF1C",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "＝",
+      "codepoint": "U+FF1D",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "＞",
+      "codepoint": "U+FF1E",
+      "category": "unknown",
+      "keepOriginalAdvance": true,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    },
+    {
+      "char": "￢",
+      "codepoint": "U+FFE2",
+      "category": "unknown",
+      "keepOriginalAdvance": false,
+      "pathCentering": false,
+      "pathCenteringDx": 0,
+      "source": "user-font"
+    }
+  ],
+  "failures": [],
+  "fallbacks": [],
+  "l3Skipped": [],
+  "variants": {
+    "total": 0,
+    "successful": 0,
+    "failed": 0,
+    "details": []
+  },
+  "assemblies": {
+    "total": 0,
+    "successful": 0,
+    "failed": 0,
+    "details": []
+  },
+  "advancedCharsetStatus": {
+    "available": true,
+    "variantsAssemblySupported": true,
+    "regressionTestsPassed": false,
+    "reason": "Font has MATH table and sufficient L3 coverage"
+  }
+}
