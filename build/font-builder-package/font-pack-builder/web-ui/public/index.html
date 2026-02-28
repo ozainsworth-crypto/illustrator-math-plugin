@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Pack Builder Web UI</title>
+  <meta name="description" content="字体转换工具 Web 界面 - 将 TTF/OTF 字体转换为 Font Pack 格式">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <nav class="top-nav">
+    <div class="nav-brand">
+      <div class="brand-icon">J</div>
+      <span class="brand-text">JOJOUP MATH</span>
+    </div>
+    <div class="nav-version">Web Interface v2.1</div>
+  </nav>
+
+  <!-- 巨型标题区 -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <h1 class="hero-title">
+        JOJOUP MATH<br />
+        <span class="hero-title-fade">FONT BUILD.</span>
+      </h1>
+      <div class="hero-footer">
+        <p class="hero-description">
+          根据用户上传的字体生成专属数学公式字体，<br />
+          可搭配公式编辑器插件使用。
+        </p>
+        <div class="hero-coords">
+          [X]. 78PX<br />
+          [Y]. 157PX
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容区 -->
+  <main class="main-content">
+    <div class="content-grid">
+      <!-- 左侧配置栏 -->
+      <div class="config-column">
+        
+        <!-- Step 1: 上传文件 -->
+        <section class="config-section">
+          <div class="section-header">
+            <span class="section-number">01.</span>
+            <h2 class="section-title">上传文件</h2>
+          </div>
+          
+          <div id="dropZone" class="drop-zone" role="button" tabindex="0" 
+               aria-label="拖拽字体文件到此处或点击选择文件">
+            <div class="drop-zone-content">
+              <svg class="drop-zone-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+              </svg>
+              <p class="drop-zone-text">拖拽文件或点击上传</p>
+              <p class="drop-zone-hint">支持 .TTF, .OTF 格式</p>
+              <input type="file" id="fontFile" accept=".ttf,.otf" aria-label="选择字体文件" />
+            </div>
+          </div>
+          
+          <div id="fileInfo" class="file-info hidden" role="status" aria-live="polite"></div>
+        </section>
+
+        <!-- Step 2: 配置属性 -->
+        <section class="config-section">
+          <div class="section-header">
+            <span class="section-number">02.</span>
+            <h2 class="section-title">配置属性</h2>
+          </div>
+
+          <div class="config-content">
+            <!-- 字体包名称 -->
+            <div class="form-group">
+              <label for="fontName" class="form-label">字体包名称</label>
+              <input 
+                type="text" 
+                id="fontName" 
+                class="form-input"
+                placeholder="留空则使用文件名" 
+                aria-describedby="fontNameHint" />
+              <span id="fontNameHint" class="form-hint">若不填写，将自动使用上传文件的名称</span>
+            </div>
+
+            <!-- 字符集选项 -->
+            <div class="form-group">
+              <label class="form-label">字符集选项</label>
+              <div class="charset-grid">
+                <label class="charset-item" data-charset="base">
+                  <input type="checkbox" id="charsetBase" checked disabled aria-label="基础字符集（必选）" />
+                  <div class="charset-checkbox"></div>
+                  <div class="charset-content">
+                    <div class="charset-header">
+                      <span class="charset-name">基础字符集</span>
+                      <span class="charset-badge">必选</span>
+                    </div>
+                    <p class="charset-desc">A-Z a-z 0-9 + - × ÷ = ( )</p>
+                  </div>
+                </label>
+
+                <label class="charset-item" data-charset="optional">
+                  <input type="checkbox" id="charsetOptional" aria-label="可选数学符号" />
+                  <div class="charset-checkbox"></div>
+                  <div class="charset-content">
+                    <div class="charset-header">
+                      <span class="charset-name">常用数学符号</span>
+                    </div>
+                    <p class="charset-desc">α β γ ∑ ∫ √ ∞ ≤ ≥ ≠ ∈</p>
+                  </div>
+                </label>
+
+                <label class="charset-item" data-charset="advanced">
+                  <input type="checkbox" id="charsetAdvanced" aria-label="高级数学符号" />
+                  <div class="charset-checkbox"></div>
+                  <div class="charset-content">
+                    <div class="charset-header">
+                      <span class="charset-name">高级数学符号</span>
+                      <span class="charset-warning">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <line x1="12" y1="16" x2="12" y2="12"></line>
+                          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        </svg>
+                        处理时间较长
+                      </span>
+                    </div>
+                    <p class="charset-desc">ℝ ℂ ℕ ∀ ∃ ∇ ∂ ⊕ ⊗ ∪ ∩ ⊂</p>
+                  </div>
+                </label>
+
+                <label class="charset-item" data-charset="text">
+                  <input type="checkbox" id="charsetTextSymbols" aria-label="文本符号" />
+                  <div class="charset-checkbox"></div>
+                  <div class="charset-content">
+                    <div class="charset-header">
+                      <span class="charset-name">扩展文本符号</span>
+                    </div>
+                    <p class="charset-desc">€ £ ¥ © ® ™ § ¶ † ‡ • …</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- 右侧摘要栏 -->
+      <div class="summary-column">
+        <div class="summary-card">
+          <h3 class="summary-title">转换摘要</h3>
+          
+          <div class="summary-items">
+            <div class="summary-item">
+              <span class="summary-label">输入文件</span>
+              <span class="summary-value" id="summaryInput">NULL</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">输出名称</span>
+              <span class="summary-value" id="summaryOutput">AUTO_NAME</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">字符集</span>
+              <span class="summary-value" id="summarySubsets">1 SELECTED</span>
+            </div>
+          </div>
+
+          <button id="convertBtn" class="btn-convert" disabled aria-label="开始转换字体" aria-disabled="true">
+            <span class="btn-text">开始转换</span>
+            <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+
+          <p class="summary-note">
+            Processing occurs client-side for maximum privacy and performance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 转换进度 -->
+    <section class="progress-section hidden" id="progressSection" aria-labelledby="progress-heading" aria-live="polite">
+      <h2 id="progress-heading" class="section-title-simple">转换进度</h2>
+      <div class="progress-bar-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p class="progress-message" id="progressMessage">准备中...</p>
+    </section>
+
+    <!-- 转换结果 -->
+    <section class="result-section hidden" id="resultSection" aria-live="polite">
+      <div id="resultContent" role="region" aria-label="转换结果详情"></div>
+    </section>
+
+    <!-- 转换历史 - 折叠项 -->
+    <section class="history-section">
+      <button class="history-toggle" id="historyToggle" aria-expanded="false" aria-controls="historyContent">
+        <div class="history-toggle-left">
+          <span class="section-number">03.</span>
+          <h2 class="section-title">转换历史</h2>
+          <div class="history-count">
+            <div class="history-dot"></div>
+            <span class="history-count-text" id="historyCount">0 ITEMS</span>
+          </div>
+        </div>
+        <svg class="history-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+
+      <div class="history-content hidden" id="historyContent" role="region" aria-label="历史记录列表" aria-live="polite">
+        <div class="history-actions">
+          <button id="refreshHistoryBtn" class="history-action-btn" aria-label="刷新历史记录">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+            </svg>
+            刷新
+          </button>
+          <div class="history-divider"></div>
+          <button id="clearHistoryBtn" class="history-action-btn" aria-label="清空所有历史记录">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            </svg>
+            清除
+          </button>
+          <div class="history-divider"></div>
+          <button id="clearCacheBtn" class="history-action-btn" aria-label="清除转换缓存">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M10 11v6M14 11v6"/>
+            </svg>
+            清除缓存
+          </button>
+        </div>
+
+        <div id="historyList" class="history-list">
+          <p class="history-empty">暂无转换历史</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p class="footer-text">JOJOUP MATH FONT TOOLING © 2026</p>
+      <p class="footer-subtext">design by 07T.Oz</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

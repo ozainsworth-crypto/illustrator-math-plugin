@@ -1,0 +1,8697 @@
+{
+  "totalCount": 1615,
+  "ranges": {
+    "Basic Latin Digits": {
+      "count": 10,
+      "range": "U+0030-U+0039",
+      "unicodes": [
+        "U+0030",
+        "U+0031",
+        "U+0032",
+        "U+0033",
+        "U+0034",
+        "U+0035",
+        "U+0036",
+        "U+0037",
+        "U+0038",
+        "U+0039"
+      ]
+    },
+    "Basic Latin Uppercase": {
+      "count": 26,
+      "range": "U+0041-U+005A",
+      "unicodes": [
+        "U+0041",
+        "U+0042",
+        "U+0043",
+        "U+0044",
+        "U+0045",
+        "U+0046",
+        "U+0047",
+        "U+0048",
+        "U+0049",
+        "U+004A",
+        "U+004B",
+        "U+004C",
+        "U+004D",
+        "U+004E",
+        "U+004F",
+        "U+0050",
+        "U+0051",
+        "U+0052",
+        "U+0053",
+        "U+0054",
+        "U+0055",
+        "U+0056",
+        "U+0057",
+        "U+0058",
+        "U+0059",
+        "U+005A"
+      ]
+    },
+    "Basic Latin Lowercase": {
+      "count": 26,
+      "range": "U+0061-U+007A",
+      "unicodes": [
+        "U+0061",
+        "U+0062",
+        "U+0063",
+        "U+0064",
+        "U+0065",
+        "U+0066",
+        "U+0067",
+        "U+0068",
+        "U+0069",
+        "U+006A",
+        "U+006B",
+        "U+006C",
+        "U+006D",
+        "U+006E",
+        "U+006F",
+        "U+0070",
+        "U+0071",
+        "U+0072",
+        "U+0073",
+        "U+0074",
+        "U+0075",
+        "U+0076",
+        "U+0077",
+        "U+0078",
+        "U+0079",
+        "U+007A"
+      ]
+    },
+    "Mathematical Operators": {
+      "count": 236,
+      "range": "U+2200-U+22FF",
+      "unicodes": [
+        "U+2200",
+        "U+2201",
+        "U+2202",
+        "U+2203",
+        "U+2204",
+        "U+2205",
+        "U+2206",
+        "U+2207",
+        "U+2208",
+        "U+2209",
+        "U+220B",
+        "U+220C",
+        "U+220D",
+        "U+220F",
+        "U+2210",
+        "U+2211",
+        "U+2212",
+        "U+2213",
+        "U+2214",
+        "U+2215",
+        "U+2216",
+        "U+2217",
+        "U+2218",
+        "U+2219",
+        "U+221A",
+        "U+221D",
+        "U+221E",
+        "U+221F",
+        "U+2220",
+        "U+2221",
+        "U+2222",
+        "U+2223",
+        "U+2224",
+        "U+2225",
+        "U+2226",
+        "U+2227",
+        "U+2228",
+        "U+2229",
+        "U+222A",
+        "U+222B",
+        "U+222C",
+        "U+222D",
+        "U+222E",
+        "U+222F",
+        "U+2230",
+        "U+2231",
+        "U+2232",
+        "U+2233",
+        "U+2234",
+        "U+2235",
+        "U+2236",
+        "U+2237",
+        "U+2238",
+        "U+2239",
+        "U+223A",
+        "U+223B",
+        "U+223C",
+        "U+223D",
+        "U+223E",
+        "U+223F",
+        "U+2240",
+        "U+2241",
+        "U+2242",
+        "U+2243",
+        "U+2244",
+        "U+2245",
+        "U+2247",
+        "U+2248",
+        "U+2249",
+        "U+224A",
+        "U+224B",
+        "U+224C",
+        "U+224D",
+        "U+224E",
+        "U+224F",
+        "U+2250",
+        "U+2251",
+        "U+2252",
+        "U+2253",
+        "U+2254",
+        "U+2255",
+        "U+2256",
+        "U+2257",
+        "U+2259",
+        "U+225A",
+        "U+225C",
+        "U+225F",
+        "U+2260",
+        "U+2261",
+        "U+2262",
+        "U+2264",
+        "U+2265",
+        "U+2266",
+        "U+2267",
+        "U+2268",
+        "U+2269",
+        "U+226A",
+        "U+226B",
+        "U+226C",
+        "U+226D",
+        "U+226E",
+        "U+226F",
+        "U+2270",
+        "U+2271",
+        "U+2272",
+        "U+2273",
+        "U+2274",
+        "U+2275",
+        "U+2276",
+        "U+2277",
+        "U+2278",
+        "U+2279",
+        "U+227A",
+        "U+227B",
+        "U+227C",
+        "U+227D",
+        "U+227E",
+        "U+227F",
+        "U+2280",
+        "U+2281",
+        "U+2282",
+        "U+2283",
+        "U+2284",
+        "U+2285",
+        "U+2286",
+        "U+2287",
+        "U+2288",
+        "U+2289",
+        "U+228A",
+        "U+228B",
+        "U+228D",
+        "U+228E",
+        "U+228F",
+        "U+2290",
+        "U+2291",
+        "U+2292",
+        "U+2293",
+        "U+2294",
+        "U+2295",
+        "U+2296",
+        "U+2297",
+        "U+2298",
+        "U+2299",
+        "U+229A",
+        "U+229B",
+        "U+229D",
+        "U+229E",
+        "U+229F",
+        "U+22A0",
+        "U+22A1",
+        "U+22A2",
+        "U+22A3",
+        "U+22A4",
+        "U+22A5",
+        "U+22A7",
+        "U+22A8",
+        "U+22A9",
+        "U+22AA",
+        "U+22AB",
+        "U+22AC",
+        "U+22AD",
+        "U+22AE",
+        "U+22AF",
+        "U+22B0",
+        "U+22B2",
+        "U+22B3",
+        "U+22B4",
+        "U+22B5",
+        "U+22B6",
+        "U+22B7",
+        "U+22B8",
+        "U+22B9",
+        "U+22BA",
+        "U+22BB",
+        "U+22BC",
+        "U+22BD",
+        "U+22BE",
+        "U+22BF",
+        "U+22C0",
+        "U+22C1",
+        "U+22C2",
+        "U+22C3",
+        "U+22C4",
+        "U+22C5",
+        "U+22C6",
+        "U+22C7",
+        "U+22C8",
+        "U+22C9",
+        "U+22CA",
+        "U+22CB",
+        "U+22CC",
+        "U+22CD",
+        "U+22CE",
+        "U+22CF",
+        "U+22D0",
+        "U+22D1",
+        "U+22D2",
+        "U+22D3",
+        "U+22D4",
+        "U+22D5",
+        "U+22D6",
+        "U+22D7",
+        "U+22D8",
+        "U+22D9",
+        "U+22DA",
+        "U+22DB",
+        "U+22DE",
+        "U+22DF",
+        "U+22E0",
+        "U+22E1",
+        "U+22E2",
+        "U+22E3",
+        "U+22E6",
+        "U+22E7",
+        "U+22E8",
+        "U+22E9",
+        "U+22EA",
+        "U+22EB",
+        "U+22EC",
+        "U+22ED",
+        "U+22EE",
+        "U+22EF",
+        "U+22F0",
+        "U+22F1",
+        "U+22F2",
+        "U+22F3",
+        "U+22F4",
+        "U+22F5",
+        "U+22F6",
+        "U+22F7",
+        "U+22F9",
+        "U+22FA",
+        "U+22FB",
+        "U+22FC",
+        "U+22FD",
+        "U+22FE"
+      ]
+    },
+    "Mathematical Italic": {
+      "count": 52,
+      "range": "U+1D434-U+1D467",
+      "unicodes": [
+        "U+1D434",
+        "U+1D435",
+        "U+1D436",
+        "U+1D437",
+        "U+1D438",
+        "U+1D439",
+        "U+1D43A",
+        "U+1D43B",
+        "U+1D43C",
+        "U+1D43D",
+        "U+1D43E",
+        "U+1D43F",
+        "U+1D440",
+        "U+1D441",
+        "U+1D442",
+        "U+1D443",
+        "U+1D444",
+        "U+1D445",
+        "U+1D446",
+        "U+1D447",
+        "U+1D448",
+        "U+1D449",
+        "U+1D44A",
+        "U+1D44B",
+        "U+1D44C",
+        "U+1D44D",
+        "U+1D44E",
+        "U+1D44F",
+        "U+1D450",
+        "U+1D451",
+        "U+1D452",
+        "U+1D453",
+        "U+1D454",
+        "U+1D455",
+        "U+1D456",
+        "U+1D457",
+        "U+1D458",
+        "U+1D459",
+        "U+1D45A",
+        "U+1D45B",
+        "U+1D45C",
+        "U+1D45D",
+        "U+1D45E",
+        "U+1D45F",
+        "U+1D460",
+        "U+1D461",
+        "U+1D462",
+        "U+1D463",
+        "U+1D464",
+        "U+1D465",
+        "U+1D466",
+        "U+1D467"
+      ]
+    },
+    "Greek Uppercase": {
+      "count": 25,
+      "range": "U+0391-U+03A9",
+      "unicodes": [
+        "U+0391",
+        "U+0392",
+        "U+0393",
+        "U+0394",
+        "U+0395",
+        "U+0396",
+        "U+0397",
+        "U+0398",
+        "U+0399",
+        "U+039A",
+        "U+039B",
+        "U+039C",
+        "U+039D",
+        "U+039E",
+        "U+039F",
+        "U+03A0",
+        "U+03A1",
+        "U+03A2",
+        "U+03A3",
+        "U+03A4",
+        "U+03A5",
+        "U+03A6",
+        "U+03A7",
+        "U+03A8",
+        "U+03A9"
+      ]
+    },
+    "Greek Lowercase": {
+      "count": 25,
+      "range": "U+03B1-U+03C9",
+      "unicodes": [
+        "U+03B1",
+        "U+03B2",
+        "U+03B3",
+        "U+03B4",
+        "U+03B5",
+        "U+03B6",
+        "U+03B7",
+        "U+03B8",
+        "U+03B9",
+        "U+03BA",
+        "U+03BB",
+        "U+03BC",
+        "U+03BD",
+        "U+03BE",
+        "U+03BF",
+        "U+03C0",
+        "U+03C1",
+        "U+03C2",
+        "U+03C3",
+        "U+03C4",
+        "U+03C5",
+        "U+03C6",
+        "U+03C7",
+        "U+03C8",
+        "U+03C9"
+      ]
+    },
+    "Arrows": {
+      "count": 79,
+      "range": "U+2190-U+21FF",
+      "unicodes": [
+        "U+2190",
+        "U+2191",
+        "U+2192",
+        "U+2193",
+        "U+2194",
+        "U+2195",
+        "U+2196",
+        "U+2197",
+        "U+2198",
+        "U+2199",
+        "U+219A",
+        "U+219B",
+        "U+219D",
+        "U+219E",
+        "U+219F",
+        "U+21A0",
+        "U+21A1",
+        "U+21A2",
+        "U+21A3",
+        "U+21A4",
+        "U+21A5",
+        "U+21A6",
+        "U+21A7",
+        "U+21A9",
+        "U+21AA",
+        "U+21AB",
+        "U+21AC",
+        "U+21AD",
+        "U+21AE",
+        "U+21B0",
+        "U+21B1",
+        "U+21B2",
+        "U+21B3",
+        "U+21B5",
+        "U+21B6",
+        "U+21B7",
+        "U+21BA",
+        "U+21BB",
+        "U+21BC",
+        "U+21BD",
+        "U+21BE",
+        "U+21BF",
+        "U+21C0",
+        "U+21C1",
+        "U+21C2",
+        "U+21C3",
+        "U+21C4",
+        "U+21C5",
+        "U+21C6",
+        "U+21C7",
+        "U+21C8",
+        "U+21C9",
+        "U+21CA",
+        "U+21CB",
+        "U+21CC",
+        "U+21CD",
+        "U+21CE",
+        "U+21CF",
+        "U+21D0",
+        "U+21D1",
+        "U+21D2",
+        "U+21D3",
+        "U+21D4",
+        "U+21D5",
+        "U+21D6",
+        "U+21D7",
+        "U+21D8",
+        "U+21D9",
+        "U+21DA",
+        "U+21DB",
+        "U+21DD",
+        "U+21E0",
+        "U+21E2",
+        "U+21E4",
+        "U+21E5",
+        "U+21F5",
+        "U+21FD",
+        "U+21FE",
+        "U+21FF"
+      ]
+    },
+    "Miscellaneous Technical": {
+      "count": 43,
+      "range": "U+2300-U+23FF",
+      "unicodes": [
+        "U+2305",
+        "U+2306",
+        "U+2308",
+        "U+2309",
+        "U+230A",
+        "U+230B",
+        "U+230C",
+        "U+230D",
+        "U+230E",
+        "U+230F",
+        "U+2310",
+        "U+2312",
+        "U+2313",
+        "U+2315",
+        "U+2316",
+        "U+231C",
+        "U+231D",
+        "U+231E",
+        "U+231F",
+        "U+2322",
+        "U+2323",
+        "U+2329",
+        "U+232A",
+        "U+232D",
+        "U+232E",
+        "U+2336",
+        "U+233D",
+        "U+233F",
+        "U+237C",
+        "U+23AA",
+        "U+23AF",
+        "U+23B0",
+        "U+23B1",
+        "U+23B4",
+        "U+23B5",
+        "U+23B6",
+        "U+23D0",
+        "U+23DC",
+        "U+23DD",
+        "U+23DE",
+        "U+23DF",
+        "U+23E2",
+        "U+23E7"
+      ]
+    }
+  },
+  "keySymbols": {
+    "U+002B": {
+      "name": "PLUS SIGN",
+      "covered": true
+    },
+    "U+002D": {
+      "name": "HYPHEN-MINUS",
+      "covered": true
+    },
+    "U+2212": {
+      "name": "MINUS SIGN",
+      "covered": true
+    },
+    "U+00D7": {
+      "name": "MULTIPLICATION SIGN",
+      "covered": true
+    },
+    "U+00F7": {
+      "name": "DIVISION SIGN",
+      "covered": true
+    },
+    "U+003D": {
+      "name": "EQUALS SIGN",
+      "covered": true
+    },
+    "U+0028": {
+      "name": "LEFT PARENTHESIS",
+      "covered": true
+    },
+    "U+0029": {
+      "name": "RIGHT PARENTHESIS",
+      "covered": true
+    }
+  },
+  "sources": {
+    "svg": 17,
+    "chtml": 0,
+    "tex": 1485
+  },
+  "allUnicodes": [
+    {
+      "decimal": 40,
+      "hex": "U+0028",
+      "char": "("
+    },
+    {
+      "decimal": 41,
+      "hex": "U+0029",
+      "char": ")"
+    },
+    {
+      "decimal": 42,
+      "hex": "U+002A",
+      "char": "*"
+    },
+    {
+      "decimal": 43,
+      "hex": "U+002B",
+      "char": "+"
+    },
+    {
+      "decimal": 45,
+      "hex": "U+002D",
+      "char": "-"
+    },
+    {
+      "decimal": 47,
+      "hex": "U+002F",
+      "char": "/"
+    },
+    {
+      "decimal": 48,
+      "hex": "U+0030",
+      "char": "0"
+    },
+    {
+      "decimal": 49,
+      "hex": "U+0031",
+      "char": "1"
+    },
+    {
+      "decimal": 50,
+      "hex": "U+0032",
+      "char": "2"
+    },
+    {
+      "decimal": 51,
+      "hex": "U+0033",
+      "char": "3"
+    },
+    {
+      "decimal": 52,
+      "hex": "U+0034",
+      "char": "4"
+    },
+    {
+      "decimal": 53,
+      "hex": "U+0035",
+      "char": "5"
+    },
+    {
+      "decimal": 54,
+      "hex": "U+0036",
+      "char": "6"
+    },
+    {
+      "decimal": 55,
+      "hex": "U+0037",
+      "char": "7"
+    },
+    {
+      "decimal": 56,
+      "hex": "U+0038",
+      "char": "8"
+    },
+    {
+      "decimal": 57,
+      "hex": "U+0039",
+      "char": "9"
+    },
+    {
+      "decimal": 60,
+      "hex": "U+003C",
+      "char": "<"
+    },
+    {
+      "decimal": 61,
+      "hex": "U+003D",
+      "char": "="
+    },
+    {
+      "decimal": 62,
+      "hex": "U+003E",
+      "char": ">"
+    },
+    {
+      "decimal": 65,
+      "hex": "U+0041",
+      "char": "A"
+    },
+    {
+      "decimal": 66,
+      "hex": "U+0042",
+      "char": "B"
+    },
+    {
+      "decimal": 67,
+      "hex": "U+0043",
+      "char": "C"
+    },
+    {
+      "decimal": 68,
+      "hex": "U+0044",
+      "char": "D"
+    },
+    {
+      "decimal": 69,
+      "hex": "U+0045",
+      "char": "E"
+    },
+    {
+      "decimal": 70,
+      "hex": "U+0046",
+      "char": "F"
+    },
+    {
+      "decimal": 71,
+      "hex": "U+0047",
+      "char": "G"
+    },
+    {
+      "decimal": 72,
+      "hex": "U+0048",
+      "char": "H"
+    },
+    {
+      "decimal": 73,
+      "hex": "U+0049",
+      "char": "I"
+    },
+    {
+      "decimal": 74,
+      "hex": "U+004A",
+      "char": "J"
+    },
+    {
+      "decimal": 75,
+      "hex": "U+004B",
+      "char": "K"
+    },
+    {
+      "decimal": 76,
+      "hex": "U+004C",
+      "char": "L"
+    },
+    {
+      "decimal": 77,
+      "hex": "U+004D",
+      "char": "M"
+    },
+    {
+      "decimal": 78,
+      "hex": "U+004E",
+      "char": "N"
+    },
+    {
+      "decimal": 79,
+      "hex": "U+004F",
+      "char": "O"
+    },
+    {
+      "decimal": 80,
+      "hex": "U+0050",
+      "char": "P"
+    },
+    {
+      "decimal": 81,
+      "hex": "U+0051",
+      "char": "Q"
+    },
+    {
+      "decimal": 82,
+      "hex": "U+0052",
+      "char": "R"
+    },
+    {
+      "decimal": 83,
+      "hex": "U+0053",
+      "char": "S"
+    },
+    {
+      "decimal": 84,
+      "hex": "U+0054",
+      "char": "T"
+    },
+    {
+      "decimal": 85,
+      "hex": "U+0055",
+      "char": "U"
+    },
+    {
+      "decimal": 86,
+      "hex": "U+0056",
+      "char": "V"
+    },
+    {
+      "decimal": 87,
+      "hex": "U+0057",
+      "char": "W"
+    },
+    {
+      "decimal": 88,
+      "hex": "U+0058",
+      "char": "X"
+    },
+    {
+      "decimal": 89,
+      "hex": "U+0059",
+      "char": "Y"
+    },
+    {
+      "decimal": 90,
+      "hex": "U+005A",
+      "char": "Z"
+    },
+    {
+      "decimal": 91,
+      "hex": "U+005B",
+      "char": "["
+    },
+    {
+      "decimal": 93,
+      "hex": "U+005D",
+      "char": "]"
+    },
+    {
+      "decimal": 97,
+      "hex": "U+0061",
+      "char": "a"
+    },
+    {
+      "decimal": 98,
+      "hex": "U+0062",
+      "char": "b"
+    },
+    {
+      "decimal": 99,
+      "hex": "U+0063",
+      "char": "c"
+    },
+    {
+      "decimal": 100,
+      "hex": "U+0064",
+      "char": "d"
+    },
+    {
+      "decimal": 101,
+      "hex": "U+0065",
+      "char": "e"
+    },
+    {
+      "decimal": 102,
+      "hex": "U+0066",
+      "char": "f"
+    },
+    {
+      "decimal": 103,
+      "hex": "U+0067",
+      "char": "g"
+    },
+    {
+      "decimal": 104,
+      "hex": "U+0068",
+      "char": "h"
+    },
+    {
+      "decimal": 105,
+      "hex": "U+0069",
+      "char": "i"
+    },
+    {
+      "decimal": 106,
+      "hex": "U+006A",
+      "char": "j"
+    },
+    {
+      "decimal": 107,
+      "hex": "U+006B",
+      "char": "k"
+    },
+    {
+      "decimal": 108,
+      "hex": "U+006C",
+      "char": "l"
+    },
+    {
+      "decimal": 109,
+      "hex": "U+006D",
+      "char": "m"
+    },
+    {
+      "decimal": 110,
+      "hex": "U+006E",
+      "char": "n"
+    },
+    {
+      "decimal": 111,
+      "hex": "U+006F",
+      "char": "o"
+    },
+    {
+      "decimal": 112,
+      "hex": "U+0070",
+      "char": "p"
+    },
+    {
+      "decimal": 113,
+      "hex": "U+0071",
+      "char": "q"
+    },
+    {
+      "decimal": 114,
+      "hex": "U+0072",
+      "char": "r"
+    },
+    {
+      "decimal": 115,
+      "hex": "U+0073",
+      "char": "s"
+    },
+    {
+      "decimal": 116,
+      "hex": "U+0074",
+      "char": "t"
+    },
+    {
+      "decimal": 117,
+      "hex": "U+0075",
+      "char": "u"
+    },
+    {
+      "decimal": 118,
+      "hex": "U+0076",
+      "char": "v"
+    },
+    {
+      "decimal": 119,
+      "hex": "U+0077",
+      "char": "w"
+    },
+    {
+      "decimal": 120,
+      "hex": "U+0078",
+      "char": "x"
+    },
+    {
+      "decimal": 121,
+      "hex": "U+0079",
+      "char": "y"
+    },
+    {
+      "decimal": 122,
+      "hex": "U+007A",
+      "char": "z"
+    },
+    {
+      "decimal": 123,
+      "hex": "U+007B",
+      "char": "{"
+    },
+    {
+      "decimal": 125,
+      "hex": "U+007D",
+      "char": "}"
+    },
+    {
+      "decimal": 176,
+      "hex": "U+00B0",
+      "char": "°"
+    },
+    {
+      "decimal": 177,
+      "hex": "U+00B1",
+      "char": "±"
+    },
+    {
+      "decimal": 183,
+      "hex": "U+00B7",
+      "char": "·"
+    },
+    {
+      "decimal": 215,
+      "hex": "U+00D7",
+      "char": "×"
+    },
+    {
+      "decimal": 247,
+      "hex": "U+00F7",
+      "char": "÷"
+    },
+    {
+      "decimal": 256,
+      "hex": "U+0100",
+      "char": "Ā"
+    },
+    {
+      "decimal": 257,
+      "hex": "U+0101",
+      "char": "ā"
+    },
+    {
+      "decimal": 258,
+      "hex": "U+0102",
+      "char": "Ă"
+    },
+    {
+      "decimal": 259,
+      "hex": "U+0103",
+      "char": "ă"
+    },
+    {
+      "decimal": 260,
+      "hex": "U+0104",
+      "char": "Ą"
+    },
+    {
+      "decimal": 261,
+      "hex": "U+0105",
+      "char": "ą"
+    },
+    {
+      "decimal": 262,
+      "hex": "U+0106",
+      "char": "Ć"
+    },
+    {
+      "decimal": 263,
+      "hex": "U+0107",
+      "char": "ć"
+    },
+    {
+      "decimal": 264,
+      "hex": "U+0108",
+      "char": "Ĉ"
+    },
+    {
+      "decimal": 265,
+      "hex": "U+0109",
+      "char": "ĉ"
+    },
+    {
+      "decimal": 266,
+      "hex": "U+010A",
+      "char": "Ċ"
+    },
+    {
+      "decimal": 267,
+      "hex": "U+010B",
+      "char": "ċ"
+    },
+    {
+      "decimal": 268,
+      "hex": "U+010C",
+      "char": "Č"
+    },
+    {
+      "decimal": 269,
+      "hex": "U+010D",
+      "char": "č"
+    },
+    {
+      "decimal": 270,
+      "hex": "U+010E",
+      "char": "Ď"
+    },
+    {
+      "decimal": 271,
+      "hex": "U+010F",
+      "char": "ď"
+    },
+    {
+      "decimal": 272,
+      "hex": "U+0110",
+      "char": "Đ"
+    },
+    {
+      "decimal": 273,
+      "hex": "U+0111",
+      "char": "đ"
+    },
+    {
+      "decimal": 274,
+      "hex": "U+0112",
+      "char": "Ē"
+    },
+    {
+      "decimal": 275,
+      "hex": "U+0113",
+      "char": "ē"
+    },
+    {
+      "decimal": 277,
+      "hex": "U+0115",
+      "char": "ĕ"
+    },
+    {
+      "decimal": 278,
+      "hex": "U+0116",
+      "char": "Ė"
+    },
+    {
+      "decimal": 279,
+      "hex": "U+0117",
+      "char": "ė"
+    },
+    {
+      "decimal": 280,
+      "hex": "U+0118",
+      "char": "Ę"
+    },
+    {
+      "decimal": 281,
+      "hex": "U+0119",
+      "char": "ę"
+    },
+    {
+      "decimal": 282,
+      "hex": "U+011A",
+      "char": "Ě"
+    },
+    {
+      "decimal": 283,
+      "hex": "U+011B",
+      "char": "ě"
+    },
+    {
+      "decimal": 284,
+      "hex": "U+011C",
+      "char": "Ĝ"
+    },
+    {
+      "decimal": 285,
+      "hex": "U+011D",
+      "char": "ĝ"
+    },
+    {
+      "decimal": 286,
+      "hex": "U+011E",
+      "char": "Ğ"
+    },
+    {
+      "decimal": 287,
+      "hex": "U+011F",
+      "char": "ğ"
+    },
+    {
+      "decimal": 288,
+      "hex": "U+0120",
+      "char": "Ġ"
+    },
+    {
+      "decimal": 289,
+      "hex": "U+0121",
+      "char": "ġ"
+    },
+    {
+      "decimal": 290,
+      "hex": "U+0122",
+      "char": "Ģ"
+    },
+    {
+      "decimal": 292,
+      "hex": "U+0124",
+      "char": "Ĥ"
+    },
+    {
+      "decimal": 293,
+      "hex": "U+0125",
+      "char": "ĥ"
+    },
+    {
+      "decimal": 294,
+      "hex": "U+0126",
+      "char": "Ħ"
+    },
+    {
+      "decimal": 295,
+      "hex": "U+0127",
+      "char": "ħ"
+    },
+    {
+      "decimal": 296,
+      "hex": "U+0128",
+      "char": "Ĩ"
+    },
+    {
+      "decimal": 297,
+      "hex": "U+0129",
+      "char": "ĩ"
+    },
+    {
+      "decimal": 298,
+      "hex": "U+012A",
+      "char": "Ī"
+    },
+    {
+      "decimal": 299,
+      "hex": "U+012B",
+      "char": "ī"
+    },
+    {
+      "decimal": 302,
+      "hex": "U+012E",
+      "char": "Į"
+    },
+    {
+      "decimal": 303,
+      "hex": "U+012F",
+      "char": "į"
+    },
+    {
+      "decimal": 304,
+      "hex": "U+0130",
+      "char": "İ"
+    },
+    {
+      "decimal": 305,
+      "hex": "U+0131",
+      "char": "ı"
+    },
+    {
+      "decimal": 306,
+      "hex": "U+0132",
+      "char": "Ĳ"
+    },
+    {
+      "decimal": 307,
+      "hex": "U+0133",
+      "char": "ĳ"
+    },
+    {
+      "decimal": 308,
+      "hex": "U+0134",
+      "char": "Ĵ"
+    },
+    {
+      "decimal": 309,
+      "hex": "U+0135",
+      "char": "ĵ"
+    },
+    {
+      "decimal": 310,
+      "hex": "U+0136",
+      "char": "Ķ"
+    },
+    {
+      "decimal": 311,
+      "hex": "U+0137",
+      "char": "ķ"
+    },
+    {
+      "decimal": 312,
+      "hex": "U+0138",
+      "char": "ĸ"
+    },
+    {
+      "decimal": 313,
+      "hex": "U+0139",
+      "char": "Ĺ"
+    },
+    {
+      "decimal": 314,
+      "hex": "U+013A",
+      "char": "ĺ"
+    },
+    {
+      "decimal": 315,
+      "hex": "U+013B",
+      "char": "Ļ"
+    },
+    {
+      "decimal": 316,
+      "hex": "U+013C",
+      "char": "ļ"
+    },
+    {
+      "decimal": 317,
+      "hex": "U+013D",
+      "char": "Ľ"
+    },
+    {
+      "decimal": 318,
+      "hex": "U+013E",
+      "char": "ľ"
+    },
+    {
+      "decimal": 319,
+      "hex": "U+013F",
+      "char": "Ŀ"
+    },
+    {
+      "decimal": 320,
+      "hex": "U+0140",
+      "char": "ŀ"
+    },
+    {
+      "decimal": 321,
+      "hex": "U+0141",
+      "char": "Ł"
+    },
+    {
+      "decimal": 322,
+      "hex": "U+0142",
+      "char": "ł"
+    },
+    {
+      "decimal": 323,
+      "hex": "U+0143",
+      "char": "Ń"
+    },
+    {
+      "decimal": 324,
+      "hex": "U+0144",
+      "char": "ń"
+    },
+    {
+      "decimal": 325,
+      "hex": "U+0145",
+      "char": "Ņ"
+    },
+    {
+      "decimal": 326,
+      "hex": "U+0146",
+      "char": "ņ"
+    },
+    {
+      "decimal": 327,
+      "hex": "U+0147",
+      "char": "Ň"
+    },
+    {
+      "decimal": 328,
+      "hex": "U+0148",
+      "char": "ň"
+    },
+    {
+      "decimal": 329,
+      "hex": "U+0149",
+      "char": "ŉ"
+    },
+    {
+      "decimal": 330,
+      "hex": "U+014A",
+      "char": "Ŋ"
+    },
+    {
+      "decimal": 331,
+      "hex": "U+014B",
+      "char": "ŋ"
+    },
+    {
+      "decimal": 332,
+      "hex": "U+014C",
+      "char": "Ō"
+    },
+    {
+      "decimal": 333,
+      "hex": "U+014D",
+      "char": "ō"
+    },
+    {
+      "decimal": 336,
+      "hex": "U+0150",
+      "char": "Ő"
+    },
+    {
+      "decimal": 337,
+      "hex": "U+0151",
+      "char": "ő"
+    },
+    {
+      "decimal": 338,
+      "hex": "U+0152",
+      "char": "Œ"
+    },
+    {
+      "decimal": 339,
+      "hex": "U+0153",
+      "char": "œ"
+    },
+    {
+      "decimal": 340,
+      "hex": "U+0154",
+      "char": "Ŕ"
+    },
+    {
+      "decimal": 341,
+      "hex": "U+0155",
+      "char": "ŕ"
+    },
+    {
+      "decimal": 342,
+      "hex": "U+0156",
+      "char": "Ŗ"
+    },
+    {
+      "decimal": 343,
+      "hex": "U+0157",
+      "char": "ŗ"
+    },
+    {
+      "decimal": 344,
+      "hex": "U+0158",
+      "char": "Ř"
+    },
+    {
+      "decimal": 345,
+      "hex": "U+0159",
+      "char": "ř"
+    },
+    {
+      "decimal": 346,
+      "hex": "U+015A",
+      "char": "Ś"
+    },
+    {
+      "decimal": 347,
+      "hex": "U+015B",
+      "char": "ś"
+    },
+    {
+      "decimal": 348,
+      "hex": "U+015C",
+      "char": "Ŝ"
+    },
+    {
+      "decimal": 349,
+      "hex": "U+015D",
+      "char": "ŝ"
+    },
+    {
+      "decimal": 350,
+      "hex": "U+015E",
+      "char": "Ş"
+    },
+    {
+      "decimal": 351,
+      "hex": "U+015F",
+      "char": "ş"
+    },
+    {
+      "decimal": 352,
+      "hex": "U+0160",
+      "char": "Š"
+    },
+    {
+      "decimal": 353,
+      "hex": "U+0161",
+      "char": "š"
+    },
+    {
+      "decimal": 354,
+      "hex": "U+0162",
+      "char": "Ţ"
+    },
+    {
+      "decimal": 355,
+      "hex": "U+0163",
+      "char": "ţ"
+    },
+    {
+      "decimal": 356,
+      "hex": "U+0164",
+      "char": "Ť"
+    },
+    {
+      "decimal": 357,
+      "hex": "U+0165",
+      "char": "ť"
+    },
+    {
+      "decimal": 358,
+      "hex": "U+0166",
+      "char": "Ŧ"
+    },
+    {
+      "decimal": 359,
+      "hex": "U+0167",
+      "char": "ŧ"
+    },
+    {
+      "decimal": 360,
+      "hex": "U+0168",
+      "char": "Ũ"
+    },
+    {
+      "decimal": 361,
+      "hex": "U+0169",
+      "char": "ũ"
+    },
+    {
+      "decimal": 362,
+      "hex": "U+016A",
+      "char": "Ū"
+    },
+    {
+      "decimal": 363,
+      "hex": "U+016B",
+      "char": "ū"
+    },
+    {
+      "decimal": 364,
+      "hex": "U+016C",
+      "char": "Ŭ"
+    },
+    {
+      "decimal": 365,
+      "hex": "U+016D",
+      "char": "ŭ"
+    },
+    {
+      "decimal": 366,
+      "hex": "U+016E",
+      "char": "Ů"
+    },
+    {
+      "decimal": 367,
+      "hex": "U+016F",
+      "char": "ů"
+    },
+    {
+      "decimal": 368,
+      "hex": "U+0170",
+      "char": "Ű"
+    },
+    {
+      "decimal": 369,
+      "hex": "U+0171",
+      "char": "ű"
+    },
+    {
+      "decimal": 370,
+      "hex": "U+0172",
+      "char": "Ų"
+    },
+    {
+      "decimal": 371,
+      "hex": "U+0173",
+      "char": "ų"
+    },
+    {
+      "decimal": 372,
+      "hex": "U+0174",
+      "char": "Ŵ"
+    },
+    {
+      "decimal": 373,
+      "hex": "U+0175",
+      "char": "ŵ"
+    },
+    {
+      "decimal": 374,
+      "hex": "U+0176",
+      "char": "Ŷ"
+    },
+    {
+      "decimal": 375,
+      "hex": "U+0177",
+      "char": "ŷ"
+    },
+    {
+      "decimal": 376,
+      "hex": "U+0178",
+      "char": "Ÿ"
+    },
+    {
+      "decimal": 377,
+      "hex": "U+0179",
+      "char": "Ź"
+    },
+    {
+      "decimal": 378,
+      "hex": "U+017A",
+      "char": "ź"
+    },
+    {
+      "decimal": 379,
+      "hex": "U+017B",
+      "char": "Ż"
+    },
+    {
+      "decimal": 380,
+      "hex": "U+017C",
+      "char": "ż"
+    },
+    {
+      "decimal": 381,
+      "hex": "U+017D",
+      "char": "Ž"
+    },
+    {
+      "decimal": 382,
+      "hex": "U+017E",
+      "char": "ž"
+    },
+    {
+      "decimal": 402,
+      "hex": "U+0192",
+      "char": "ƒ"
+    },
+    {
+      "decimal": 437,
+      "hex": "U+01B5",
+      "char": "Ƶ"
+    },
+    {
+      "decimal": 501,
+      "hex": "U+01F5",
+      "char": "ǵ"
+    },
+    {
+      "decimal": 567,
+      "hex": "U+0237",
+      "char": "ȷ"
+    },
+    {
+      "decimal": 603,
+      "hex": "U+025B",
+      "char": "ɛ"
+    },
+    {
+      "decimal": 697,
+      "hex": "U+02B9",
+      "char": "ʹ"
+    },
+    {
+      "decimal": 710,
+      "hex": "U+02C6",
+      "char": "ˆ"
+    },
+    {
+      "decimal": 711,
+      "hex": "U+02C7",
+      "char": "ˇ"
+    },
+    {
+      "decimal": 713,
+      "hex": "U+02C9",
+      "char": "ˉ"
+    },
+    {
+      "decimal": 714,
+      "hex": "U+02CA",
+      "char": "ˊ"
+    },
+    {
+      "decimal": 715,
+      "hex": "U+02CB",
+      "char": "ˋ"
+    },
+    {
+      "decimal": 728,
+      "hex": "U+02D8",
+      "char": "˘"
+    },
+    {
+      "decimal": 729,
+      "hex": "U+02D9",
+      "char": "˙"
+    },
+    {
+      "decimal": 730,
+      "hex": "U+02DA",
+      "char": "˚"
+    },
+    {
+      "decimal": 731,
+      "hex": "U+02DB",
+      "char": "˛"
+    },
+    {
+      "decimal": 732,
+      "hex": "U+02DC",
+      "char": "˜"
+    },
+    {
+      "decimal": 733,
+      "hex": "U+02DD",
+      "char": "˝"
+    },
+    {
+      "decimal": 757,
+      "hex": "U+02F5",
+      "char": "˵"
+    },
+    {
+      "decimal": 759,
+      "hex": "U+02F7",
+      "char": "˷"
+    },
+    {
+      "decimal": 768,
+      "hex": "U+0300",
+      "char": "̀"
+    },
+    {
+      "decimal": 769,
+      "hex": "U+0301",
+      "char": "́"
+    },
+    {
+      "decimal": 770,
+      "hex": "U+0302",
+      "char": "̂"
+    },
+    {
+      "decimal": 771,
+      "hex": "U+0303",
+      "char": "̃"
+    },
+    {
+      "decimal": 772,
+      "hex": "U+0304",
+      "char": "̄"
+    },
+    {
+      "decimal": 774,
+      "hex": "U+0306",
+      "char": "̆"
+    },
+    {
+      "decimal": 775,
+      "hex": "U+0307",
+      "char": "̇"
+    },
+    {
+      "decimal": 776,
+      "hex": "U+0308",
+      "char": "̈"
+    },
+    {
+      "decimal": 780,
+      "hex": "U+030C",
+      "char": "̌"
+    },
+    {
+      "decimal": 785,
+      "hex": "U+0311",
+      "char": "̑"
+    },
+    {
+      "decimal": 804,
+      "hex": "U+0324",
+      "char": "̤"
+    },
+    {
+      "decimal": 817,
+      "hex": "U+0331",
+      "char": "̱"
+    },
+    {
+      "decimal": 818,
+      "hex": "U+0332",
+      "char": "̲"
+    },
+    {
+      "decimal": 819,
+      "hex": "U+0333",
+      "char": "̳"
+    },
+    {
+      "decimal": 824,
+      "hex": "U+0338",
+      "char": "̸"
+    },
+    {
+      "decimal": 880,
+      "hex": "U+0370",
+      "char": "Ͱ"
+    },
+    {
+      "decimal": 913,
+      "hex": "U+0391",
+      "char": "Α"
+    },
+    {
+      "decimal": 914,
+      "hex": "U+0392",
+      "char": "Β"
+    },
+    {
+      "decimal": 915,
+      "hex": "U+0393",
+      "char": "Γ"
+    },
+    {
+      "decimal": 916,
+      "hex": "U+0394",
+      "char": "Δ"
+    },
+    {
+      "decimal": 917,
+      "hex": "U+0395",
+      "char": "Ε"
+    },
+    {
+      "decimal": 918,
+      "hex": "U+0396",
+      "char": "Ζ"
+    },
+    {
+      "decimal": 919,
+      "hex": "U+0397",
+      "char": "Η"
+    },
+    {
+      "decimal": 920,
+      "hex": "U+0398",
+      "char": "Θ"
+    },
+    {
+      "decimal": 921,
+      "hex": "U+0399",
+      "char": "Ι"
+    },
+    {
+      "decimal": 922,
+      "hex": "U+039A",
+      "char": "Κ"
+    },
+    {
+      "decimal": 923,
+      "hex": "U+039B",
+      "char": "Λ"
+    },
+    {
+      "decimal": 924,
+      "hex": "U+039C",
+      "char": "Μ"
+    },
+    {
+      "decimal": 925,
+      "hex": "U+039D",
+      "char": "Ν"
+    },
+    {
+      "decimal": 926,
+      "hex": "U+039E",
+      "char": "Ξ"
+    },
+    {
+      "decimal": 927,
+      "hex": "U+039F",
+      "char": "Ο"
+    },
+    {
+      "decimal": 928,
+      "hex": "U+03A0",
+      "char": "Π"
+    },
+    {
+      "decimal": 929,
+      "hex": "U+03A1",
+      "char": "Ρ"
+    },
+    {
+      "decimal": 930,
+      "hex": "U+03A2",
+      "char": "΢"
+    },
+    {
+      "decimal": 931,
+      "hex": "U+03A3",
+      "char": "Σ"
+    },
+    {
+      "decimal": 932,
+      "hex": "U+03A4",
+      "char": "Τ"
+    },
+    {
+      "decimal": 933,
+      "hex": "U+03A5",
+      "char": "Υ"
+    },
+    {
+      "decimal": 934,
+      "hex": "U+03A6",
+      "char": "Φ"
+    },
+    {
+      "decimal": 935,
+      "hex": "U+03A7",
+      "char": "Χ"
+    },
+    {
+      "decimal": 936,
+      "hex": "U+03A8",
+      "char": "Ψ"
+    },
+    {
+      "decimal": 937,
+      "hex": "U+03A9",
+      "char": "Ω"
+    },
+    {
+      "decimal": 945,
+      "hex": "U+03B1",
+      "char": "α"
+    },
+    {
+      "decimal": 946,
+      "hex": "U+03B2",
+      "char": "β"
+    },
+    {
+      "decimal": 947,
+      "hex": "U+03B3",
+      "char": "γ"
+    },
+    {
+      "decimal": 948,
+      "hex": "U+03B4",
+      "char": "δ"
+    },
+    {
+      "decimal": 949,
+      "hex": "U+03B5",
+      "char": "ε"
+    },
+    {
+      "decimal": 950,
+      "hex": "U+03B6",
+      "char": "ζ"
+    },
+    {
+      "decimal": 951,
+      "hex": "U+03B7",
+      "char": "η"
+    },
+    {
+      "decimal": 952,
+      "hex": "U+03B8",
+      "char": "θ"
+    },
+    {
+      "decimal": 953,
+      "hex": "U+03B9",
+      "char": "ι"
+    },
+    {
+      "decimal": 954,
+      "hex": "U+03BA",
+      "char": "κ"
+    },
+    {
+      "decimal": 955,
+      "hex": "U+03BB",
+      "char": "λ"
+    },
+    {
+      "decimal": 956,
+      "hex": "U+03BC",
+      "char": "μ"
+    },
+    {
+      "decimal": 957,
+      "hex": "U+03BD",
+      "char": "ν"
+    },
+    {
+      "decimal": 958,
+      "hex": "U+03BE",
+      "char": "ξ"
+    },
+    {
+      "decimal": 959,
+      "hex": "U+03BF",
+      "char": "ο"
+    },
+    {
+      "decimal": 960,
+      "hex": "U+03C0",
+      "char": "π"
+    },
+    {
+      "decimal": 961,
+      "hex": "U+03C1",
+      "char": "ρ"
+    },
+    {
+      "decimal": 962,
+      "hex": "U+03C2",
+      "char": "ς"
+    },
+    {
+      "decimal": 963,
+      "hex": "U+03C3",
+      "char": "σ"
+    },
+    {
+      "decimal": 964,
+      "hex": "U+03C4",
+      "char": "τ"
+    },
+    {
+      "decimal": 965,
+      "hex": "U+03C5",
+      "char": "υ"
+    },
+    {
+      "decimal": 966,
+      "hex": "U+03C6",
+      "char": "φ"
+    },
+    {
+      "decimal": 967,
+      "hex": "U+03C7",
+      "char": "χ"
+    },
+    {
+      "decimal": 968,
+      "hex": "U+03C8",
+      "char": "ψ"
+    },
+    {
+      "decimal": 969,
+      "hex": "U+03C9",
+      "char": "ω"
+    },
+    {
+      "decimal": 977,
+      "hex": "U+03D1",
+      "char": "ϑ"
+    },
+    {
+      "decimal": 978,
+      "hex": "U+03D2",
+      "char": "ϒ"
+    },
+    {
+      "decimal": 981,
+      "hex": "U+03D5",
+      "char": "ϕ"
+    },
+    {
+      "decimal": 982,
+      "hex": "U+03D6",
+      "char": "ϖ"
+    },
+    {
+      "decimal": 988,
+      "hex": "U+03DC",
+      "char": "Ϝ"
+    },
+    {
+      "decimal": 989,
+      "hex": "U+03DD",
+      "char": "ϝ"
+    },
+    {
+      "decimal": 1008,
+      "hex": "U+03F0",
+      "char": "ϰ"
+    },
+    {
+      "decimal": 1009,
+      "hex": "U+03F1",
+      "char": "ϱ"
+    },
+    {
+      "decimal": 1012,
+      "hex": "U+03F4",
+      "char": "ϴ"
+    },
+    {
+      "decimal": 1013,
+      "hex": "U+03F5",
+      "char": "ϵ"
+    },
+    {
+      "decimal": 1014,
+      "hex": "U+03F6",
+      "char": "϶"
+    },
+    {
+      "decimal": 1025,
+      "hex": "U+0401",
+      "char": "Ё"
+    },
+    {
+      "decimal": 1026,
+      "hex": "U+0402",
+      "char": "Ђ"
+    },
+    {
+      "decimal": 1027,
+      "hex": "U+0403",
+      "char": "Ѓ"
+    },
+    {
+      "decimal": 1028,
+      "hex": "U+0404",
+      "char": "Є"
+    },
+    {
+      "decimal": 1029,
+      "hex": "U+0405",
+      "char": "Ѕ"
+    },
+    {
+      "decimal": 1030,
+      "hex": "U+0406",
+      "char": "І"
+    },
+    {
+      "decimal": 1031,
+      "hex": "U+0407",
+      "char": "Ї"
+    },
+    {
+      "decimal": 1032,
+      "hex": "U+0408",
+      "char": "Ј"
+    },
+    {
+      "decimal": 1033,
+      "hex": "U+0409",
+      "char": "Љ"
+    },
+    {
+      "decimal": 1034,
+      "hex": "U+040A",
+      "char": "Њ"
+    },
+    {
+      "decimal": 1035,
+      "hex": "U+040B",
+      "char": "Ћ"
+    },
+    {
+      "decimal": 1036,
+      "hex": "U+040C",
+      "char": "Ќ"
+    },
+    {
+      "decimal": 1038,
+      "hex": "U+040E",
+      "char": "Ў"
+    },
+    {
+      "decimal": 1039,
+      "hex": "U+040F",
+      "char": "Џ"
+    },
+    {
+      "decimal": 1040,
+      "hex": "U+0410",
+      "char": "А"
+    },
+    {
+      "decimal": 1041,
+      "hex": "U+0411",
+      "char": "Б"
+    },
+    {
+      "decimal": 1042,
+      "hex": "U+0412",
+      "char": "В"
+    },
+    {
+      "decimal": 1043,
+      "hex": "U+0413",
+      "char": "Г"
+    },
+    {
+      "decimal": 1044,
+      "hex": "U+0414",
+      "char": "Д"
+    },
+    {
+      "decimal": 1045,
+      "hex": "U+0415",
+      "char": "Е"
+    },
+    {
+      "decimal": 1046,
+      "hex": "U+0416",
+      "char": "Ж"
+    },
+    {
+      "decimal": 1047,
+      "hex": "U+0417",
+      "char": "З"
+    },
+    {
+      "decimal": 1048,
+      "hex": "U+0418",
+      "char": "И"
+    },
+    {
+      "decimal": 1049,
+      "hex": "U+0419",
+      "char": "Й"
+    },
+    {
+      "decimal": 1050,
+      "hex": "U+041A",
+      "char": "К"
+    },
+    {
+      "decimal": 1051,
+      "hex": "U+041B",
+      "char": "Л"
+    },
+    {
+      "decimal": 1052,
+      "hex": "U+041C",
+      "char": "М"
+    },
+    {
+      "decimal": 1053,
+      "hex": "U+041D",
+      "char": "Н"
+    },
+    {
+      "decimal": 1054,
+      "hex": "U+041E",
+      "char": "О"
+    },
+    {
+      "decimal": 1055,
+      "hex": "U+041F",
+      "char": "П"
+    },
+    {
+      "decimal": 1056,
+      "hex": "U+0420",
+      "char": "Р"
+    },
+    {
+      "decimal": 1057,
+      "hex": "U+0421",
+      "char": "С"
+    },
+    {
+      "decimal": 1058,
+      "hex": "U+0422",
+      "char": "Т"
+    },
+    {
+      "decimal": 1059,
+      "hex": "U+0423",
+      "char": "У"
+    },
+    {
+      "decimal": 1060,
+      "hex": "U+0424",
+      "char": "Ф"
+    },
+    {
+      "decimal": 1061,
+      "hex": "U+0425",
+      "char": "Х"
+    },
+    {
+      "decimal": 1062,
+      "hex": "U+0426",
+      "char": "Ц"
+    },
+    {
+      "decimal": 1063,
+      "hex": "U+0427",
+      "char": "Ч"
+    },
+    {
+      "decimal": 1064,
+      "hex": "U+0428",
+      "char": "Ш"
+    },
+    {
+      "decimal": 1065,
+      "hex": "U+0429",
+      "char": "Щ"
+    },
+    {
+      "decimal": 1066,
+      "hex": "U+042A",
+      "char": "Ъ"
+    },
+    {
+      "decimal": 1067,
+      "hex": "U+042B",
+      "char": "Ы"
+    },
+    {
+      "decimal": 1068,
+      "hex": "U+042C",
+      "char": "Ь"
+    },
+    {
+      "decimal": 1069,
+      "hex": "U+042D",
+      "char": "Э"
+    },
+    {
+      "decimal": 1070,
+      "hex": "U+042E",
+      "char": "Ю"
+    },
+    {
+      "decimal": 1071,
+      "hex": "U+042F",
+      "char": "Я"
+    },
+    {
+      "decimal": 1072,
+      "hex": "U+0430",
+      "char": "а"
+    },
+    {
+      "decimal": 1073,
+      "hex": "U+0431",
+      "char": "б"
+    },
+    {
+      "decimal": 1074,
+      "hex": "U+0432",
+      "char": "в"
+    },
+    {
+      "decimal": 1075,
+      "hex": "U+0433",
+      "char": "г"
+    },
+    {
+      "decimal": 1076,
+      "hex": "U+0434",
+      "char": "д"
+    },
+    {
+      "decimal": 1077,
+      "hex": "U+0435",
+      "char": "е"
+    },
+    {
+      "decimal": 1078,
+      "hex": "U+0436",
+      "char": "ж"
+    },
+    {
+      "decimal": 1079,
+      "hex": "U+0437",
+      "char": "з"
+    },
+    {
+      "decimal": 1080,
+      "hex": "U+0438",
+      "char": "и"
+    },
+    {
+      "decimal": 1081,
+      "hex": "U+0439",
+      "char": "й"
+    },
+    {
+      "decimal": 1082,
+      "hex": "U+043A",
+      "char": "к"
+    },
+    {
+      "decimal": 1083,
+      "hex": "U+043B",
+      "char": "л"
+    },
+    {
+      "decimal": 1084,
+      "hex": "U+043C",
+      "char": "м"
+    },
+    {
+      "decimal": 1085,
+      "hex": "U+043D",
+      "char": "н"
+    },
+    {
+      "decimal": 1086,
+      "hex": "U+043E",
+      "char": "о"
+    },
+    {
+      "decimal": 1087,
+      "hex": "U+043F",
+      "char": "п"
+    },
+    {
+      "decimal": 1088,
+      "hex": "U+0440",
+      "char": "р"
+    },
+    {
+      "decimal": 1089,
+      "hex": "U+0441",
+      "char": "с"
+    },
+    {
+      "decimal": 1090,
+      "hex": "U+0442",
+      "char": "т"
+    },
+    {
+      "decimal": 1091,
+      "hex": "U+0443",
+      "char": "у"
+    },
+    {
+      "decimal": 1092,
+      "hex": "U+0444",
+      "char": "ф"
+    },
+    {
+      "decimal": 1093,
+      "hex": "U+0445",
+      "char": "х"
+    },
+    {
+      "decimal": 1094,
+      "hex": "U+0446",
+      "char": "ц"
+    },
+    {
+      "decimal": 1095,
+      "hex": "U+0447",
+      "char": "ч"
+    },
+    {
+      "decimal": 1096,
+      "hex": "U+0448",
+      "char": "ш"
+    },
+    {
+      "decimal": 1097,
+      "hex": "U+0449",
+      "char": "щ"
+    },
+    {
+      "decimal": 1098,
+      "hex": "U+044A",
+      "char": "ъ"
+    },
+    {
+      "decimal": 1099,
+      "hex": "U+044B",
+      "char": "ы"
+    },
+    {
+      "decimal": 1100,
+      "hex": "U+044C",
+      "char": "ь"
+    },
+    {
+      "decimal": 1101,
+      "hex": "U+044D",
+      "char": "э"
+    },
+    {
+      "decimal": 1102,
+      "hex": "U+044E",
+      "char": "ю"
+    },
+    {
+      "decimal": 1103,
+      "hex": "U+044F",
+      "char": "я"
+    },
+    {
+      "decimal": 1105,
+      "hex": "U+0451",
+      "char": "ё"
+    },
+    {
+      "decimal": 1106,
+      "hex": "U+0452",
+      "char": "ђ"
+    },
+    {
+      "decimal": 1107,
+      "hex": "U+0453",
+      "char": "ѓ"
+    },
+    {
+      "decimal": 1108,
+      "hex": "U+0454",
+      "char": "є"
+    },
+    {
+      "decimal": 1109,
+      "hex": "U+0455",
+      "char": "ѕ"
+    },
+    {
+      "decimal": 1110,
+      "hex": "U+0456",
+      "char": "і"
+    },
+    {
+      "decimal": 1111,
+      "hex": "U+0457",
+      "char": "ї"
+    },
+    {
+      "decimal": 1112,
+      "hex": "U+0458",
+      "char": "ј"
+    },
+    {
+      "decimal": 1113,
+      "hex": "U+0459",
+      "char": "љ"
+    },
+    {
+      "decimal": 1114,
+      "hex": "U+045A",
+      "char": "њ"
+    },
+    {
+      "decimal": 1115,
+      "hex": "U+045B",
+      "char": "ћ"
+    },
+    {
+      "decimal": 1116,
+      "hex": "U+045C",
+      "char": "ќ"
+    },
+    {
+      "decimal": 1118,
+      "hex": "U+045E",
+      "char": "ў"
+    },
+    {
+      "decimal": 1119,
+      "hex": "U+045F",
+      "char": "џ"
+    },
+    {
+      "decimal": 1489,
+      "hex": "U+05D1",
+      "char": "ב"
+    },
+    {
+      "decimal": 1497,
+      "hex": "U+05D9",
+      "char": "י"
+    },
+    {
+      "decimal": 1506,
+      "hex": "U+05E2",
+      "char": "ע"
+    },
+    {
+      "decimal": 1512,
+      "hex": "U+05E8",
+      "char": "ר"
+    },
+    {
+      "decimal": 1514,
+      "hex": "U+05EA",
+      "char": "ת"
+    },
+    {
+      "decimal": 1575,
+      "hex": "U+0627",
+      "char": "ا"
+    },
+    {
+      "decimal": 1576,
+      "hex": "U+0628",
+      "char": "ب"
+    },
+    {
+      "decimal": 1585,
+      "hex": "U+0631",
+      "char": "ر"
+    },
+    {
+      "decimal": 1587,
+      "hex": "U+0633",
+      "char": "س"
+    },
+    {
+      "decimal": 1601,
+      "hex": "U+0641",
+      "char": "ف"
+    },
+    {
+      "decimal": 1604,
+      "hex": "U+0644",
+      "char": "ل"
+    },
+    {
+      "decimal": 1608,
+      "hex": "U+0648",
+      "char": "و"
+    },
+    {
+      "decimal": 1670,
+      "hex": "U+0686",
+      "char": "چ"
+    },
+    {
+      "decimal": 1740,
+      "hex": "U+06CC",
+      "char": "ی"
+    },
+    {
+      "decimal": 3221,
+      "hex": "U+0C95",
+      "char": "ಕ"
+    },
+    {
+      "decimal": 3233,
+      "hex": "U+0CA1",
+      "char": "ಡ"
+    },
+    {
+      "decimal": 3240,
+      "hex": "U+0CA8",
+      "char": "ನ"
+    },
+    {
+      "decimal": 3277,
+      "hex": "U+0CCD",
+      "char": "್"
+    },
+    {
+      "decimal": 3647,
+      "hex": "U+0E3F",
+      "char": "฿"
+    },
+    {
+      "decimal": 7795,
+      "hex": "U+1E73",
+      "char": "ṳ"
+    },
+    {
+      "decimal": 7871,
+      "hex": "U+1EBF",
+      "char": "ế"
+    },
+    {
+      "decimal": 7879,
+      "hex": "U+1EC7",
+      "char": "ệ"
+    },
+    {
+      "decimal": 8194,
+      "hex": "U+2002",
+      "char": " "
+    },
+    {
+      "decimal": 8195,
+      "hex": "U+2003",
+      "char": " "
+    },
+    {
+      "decimal": 8196,
+      "hex": "U+2004",
+      "char": " "
+    },
+    {
+      "decimal": 8197,
+      "hex": "U+2005",
+      "char": " "
+    },
+    {
+      "decimal": 8198,
+      "hex": "U+2006",
+      "char": " "
+    },
+    {
+      "decimal": 8199,
+      "hex": "U+2007",
+      "char": " "
+    },
+    {
+      "decimal": 8200,
+      "hex": "U+2008",
+      "char": " "
+    },
+    {
+      "decimal": 8201,
+      "hex": "U+2009",
+      "char": " "
+    },
+    {
+      "decimal": 8202,
+      "hex": "U+200A",
+      "char": " "
+    },
+    {
+      "decimal": 8203,
+      "hex": "U+200B",
+      "char": "​"
+    },
+    {
+      "decimal": 8204,
+      "hex": "U+200C",
+      "char": "‌"
+    },
+    {
+      "decimal": 8205,
+      "hex": "U+200D",
+      "char": "‍"
+    },
+    {
+      "decimal": 8206,
+      "hex": "U+200E",
+      "char": "‎"
+    },
+    {
+      "decimal": 8207,
+      "hex": "U+200F",
+      "char": "‏"
+    },
+    {
+      "decimal": 8208,
+      "hex": "U+2010",
+      "char": "‐"
+    },
+    {
+      "decimal": 8211,
+      "hex": "U+2013",
+      "char": "–"
+    },
+    {
+      "decimal": 8212,
+      "hex": "U+2014",
+      "char": "—"
+    },
+    {
+      "decimal": 8213,
+      "hex": "U+2015",
+      "char": "―"
+    },
+    {
+      "decimal": 8214,
+      "hex": "U+2016",
+      "char": "‖"
+    },
+    {
+      "decimal": 8215,
+      "hex": "U+2017",
+      "char": "‗"
+    },
+    {
+      "decimal": 8216,
+      "hex": "U+2018",
+      "char": "‘"
+    },
+    {
+      "decimal": 8217,
+      "hex": "U+2019",
+      "char": "’"
+    },
+    {
+      "decimal": 8218,
+      "hex": "U+201A",
+      "char": "‚"
+    },
+    {
+      "decimal": 8220,
+      "hex": "U+201C",
+      "char": "“"
+    },
+    {
+      "decimal": 8221,
+      "hex": "U+201D",
+      "char": "”"
+    },
+    {
+      "decimal": 8222,
+      "hex": "U+201E",
+      "char": "„"
+    },
+    {
+      "decimal": 8224,
+      "hex": "U+2020",
+      "char": "†"
+    },
+    {
+      "decimal": 8225,
+      "hex": "U+2021",
+      "char": "‡"
+    },
+    {
+      "decimal": 8226,
+      "hex": "U+2022",
+      "char": "•"
+    },
+    {
+      "decimal": 8229,
+      "hex": "U+2025",
+      "char": "‥"
+    },
+    {
+      "decimal": 8230,
+      "hex": "U+2026",
+      "char": "…"
+    },
+    {
+      "decimal": 8240,
+      "hex": "U+2030",
+      "char": "‰"
+    },
+    {
+      "decimal": 8241,
+      "hex": "U+2031",
+      "char": "‱"
+    },
+    {
+      "decimal": 8242,
+      "hex": "U+2032",
+      "char": "′"
+    },
+    {
+      "decimal": 8243,
+      "hex": "U+2033",
+      "char": "″"
+    },
+    {
+      "decimal": 8244,
+      "hex": "U+2034",
+      "char": "‴"
+    },
+    {
+      "decimal": 8245,
+      "hex": "U+2035",
+      "char": "‵"
+    },
+    {
+      "decimal": 8249,
+      "hex": "U+2039",
+      "char": "‹"
+    },
+    {
+      "decimal": 8250,
+      "hex": "U+203A",
+      "char": "›"
+    },
+    {
+      "decimal": 8251,
+      "hex": "U+203B",
+      "char": "※"
+    },
+    {
+      "decimal": 8253,
+      "hex": "U+203D",
+      "char": "‽"
+    },
+    {
+      "decimal": 8254,
+      "hex": "U+203E",
+      "char": "‾"
+    },
+    {
+      "decimal": 8257,
+      "hex": "U+2041",
+      "char": "⁁"
+    },
+    {
+      "decimal": 8259,
+      "hex": "U+2043",
+      "char": "⁃"
+    },
+    {
+      "decimal": 8260,
+      "hex": "U+2044",
+      "char": "⁄"
+    },
+    {
+      "decimal": 8261,
+      "hex": "U+2045",
+      "char": "⁅"
+    },
+    {
+      "decimal": 8262,
+      "hex": "U+2046",
+      "char": "⁆"
+    },
+    {
+      "decimal": 8271,
+      "hex": "U+204F",
+      "char": "⁏"
+    },
+    {
+      "decimal": 8274,
+      "hex": "U+2052",
+      "char": "⁒"
+    },
+    {
+      "decimal": 8279,
+      "hex": "U+2057",
+      "char": "⁗"
+    },
+    {
+      "decimal": 8287,
+      "hex": "U+205F",
+      "char": " "
+    },
+    {
+      "decimal": 8288,
+      "hex": "U+2060",
+      "char": "⁠"
+    },
+    {
+      "decimal": 8289,
+      "hex": "U+2061",
+      "char": "⁡"
+    },
+    {
+      "decimal": 8290,
+      "hex": "U+2062",
+      "char": "⁢"
+    },
+    {
+      "decimal": 8291,
+      "hex": "U+2063",
+      "char": "⁣"
+    },
+    {
+      "decimal": 8292,
+      "hex": "U+2064",
+      "char": "⁤"
+    },
+    {
+      "decimal": 8353,
+      "hex": "U+20A1",
+      "char": "₡"
+    },
+    {
+      "decimal": 8356,
+      "hex": "U+20A4",
+      "char": "₤"
+    },
+    {
+      "decimal": 8358,
+      "hex": "U+20A6",
+      "char": "₦"
+    },
+    {
+      "decimal": 8361,
+      "hex": "U+20A9",
+      "char": "₩"
+    },
+    {
+      "decimal": 8363,
+      "hex": "U+20AB",
+      "char": "₫"
+    },
+    {
+      "decimal": 8364,
+      "hex": "U+20AC",
+      "char": "€"
+    },
+    {
+      "decimal": 8369,
+      "hex": "U+20B1",
+      "char": "₱"
+    },
+    {
+      "decimal": 8370,
+      "hex": "U+20B2",
+      "char": "₲"
+    },
+    {
+      "decimal": 8402,
+      "hex": "U+20D2",
+      "char": "⃒"
+    },
+    {
+      "decimal": 8407,
+      "hex": "U+20D7",
+      "char": "⃗"
+    },
+    {
+      "decimal": 8411,
+      "hex": "U+20DB",
+      "char": "⃛"
+    },
+    {
+      "decimal": 8412,
+      "hex": "U+20DC",
+      "char": "⃜"
+    },
+    {
+      "decimal": 8421,
+      "hex": "U+20E5",
+      "char": "⃥"
+    },
+    {
+      "decimal": 8450,
+      "hex": "U+2102",
+      "char": "ℂ"
+    },
+    {
+      "decimal": 8451,
+      "hex": "U+2103",
+      "char": "℃"
+    },
+    {
+      "decimal": 8453,
+      "hex": "U+2105",
+      "char": "℅"
+    },
+    {
+      "decimal": 8458,
+      "hex": "U+210A",
+      "char": "ℊ"
+    },
+    {
+      "decimal": 8459,
+      "hex": "U+210B",
+      "char": "ℋ"
+    },
+    {
+      "decimal": 8460,
+      "hex": "U+210C",
+      "char": "ℌ"
+    },
+    {
+      "decimal": 8461,
+      "hex": "U+210D",
+      "char": "ℍ"
+    },
+    {
+      "decimal": 8462,
+      "hex": "U+210E",
+      "char": "ℎ"
+    },
+    {
+      "decimal": 8463,
+      "hex": "U+210F",
+      "char": "ℏ"
+    },
+    {
+      "decimal": 8464,
+      "hex": "U+2110",
+      "char": "ℐ"
+    },
+    {
+      "decimal": 8465,
+      "hex": "U+2111",
+      "char": "ℑ"
+    },
+    {
+      "decimal": 8466,
+      "hex": "U+2112",
+      "char": "ℒ"
+    },
+    {
+      "decimal": 8467,
+      "hex": "U+2113",
+      "char": "ℓ"
+    },
+    {
+      "decimal": 8469,
+      "hex": "U+2115",
+      "char": "ℕ"
+    },
+    {
+      "decimal": 8470,
+      "hex": "U+2116",
+      "char": "№"
+    },
+    {
+      "decimal": 8471,
+      "hex": "U+2117",
+      "char": "℗"
+    },
+    {
+      "decimal": 8472,
+      "hex": "U+2118",
+      "char": "℘"
+    },
+    {
+      "decimal": 8473,
+      "hex": "U+2119",
+      "char": "ℙ"
+    },
+    {
+      "decimal": 8474,
+      "hex": "U+211A",
+      "char": "ℚ"
+    },
+    {
+      "decimal": 8475,
+      "hex": "U+211B",
+      "char": "ℛ"
+    },
+    {
+      "decimal": 8476,
+      "hex": "U+211C",
+      "char": "ℜ"
+    },
+    {
+      "decimal": 8477,
+      "hex": "U+211D",
+      "char": "ℝ"
+    },
+    {
+      "decimal": 8478,
+      "hex": "U+211E",
+      "char": "℞"
+    },
+    {
+      "decimal": 8480,
+      "hex": "U+2120",
+      "char": "℠"
+    },
+    {
+      "decimal": 8482,
+      "hex": "U+2122",
+      "char": "™"
+    },
+    {
+      "decimal": 8484,
+      "hex": "U+2124",
+      "char": "ℤ"
+    },
+    {
+      "decimal": 8486,
+      "hex": "U+2126",
+      "char": "Ω"
+    },
+    {
+      "decimal": 8487,
+      "hex": "U+2127",
+      "char": "℧"
+    },
+    {
+      "decimal": 8488,
+      "hex": "U+2128",
+      "char": "ℨ"
+    },
+    {
+      "decimal": 8489,
+      "hex": "U+2129",
+      "char": "℩"
+    },
+    {
+      "decimal": 8491,
+      "hex": "U+212B",
+      "char": "Å"
+    },
+    {
+      "decimal": 8492,
+      "hex": "U+212C",
+      "char": "ℬ"
+    },
+    {
+      "decimal": 8493,
+      "hex": "U+212D",
+      "char": "ℭ"
+    },
+    {
+      "decimal": 8494,
+      "hex": "U+212E",
+      "char": "℮"
+    },
+    {
+      "decimal": 8495,
+      "hex": "U+212F",
+      "char": "ℯ"
+    },
+    {
+      "decimal": 8496,
+      "hex": "U+2130",
+      "char": "ℰ"
+    },
+    {
+      "decimal": 8497,
+      "hex": "U+2131",
+      "char": "ℱ"
+    },
+    {
+      "decimal": 8498,
+      "hex": "U+2132",
+      "char": "Ⅎ"
+    },
+    {
+      "decimal": 8499,
+      "hex": "U+2133",
+      "char": "ℳ"
+    },
+    {
+      "decimal": 8500,
+      "hex": "U+2134",
+      "char": "ℴ"
+    },
+    {
+      "decimal": 8501,
+      "hex": "U+2135",
+      "char": "ℵ"
+    },
+    {
+      "decimal": 8502,
+      "hex": "U+2136",
+      "char": "ℶ"
+    },
+    {
+      "decimal": 8503,
+      "hex": "U+2137",
+      "char": "ℷ"
+    },
+    {
+      "decimal": 8504,
+      "hex": "U+2138",
+      "char": "ℸ"
+    },
+    {
+      "decimal": 8513,
+      "hex": "U+2141",
+      "char": "⅁"
+    },
+    {
+      "decimal": 8517,
+      "hex": "U+2145",
+      "char": "ⅅ"
+    },
+    {
+      "decimal": 8518,
+      "hex": "U+2146",
+      "char": "ⅆ"
+    },
+    {
+      "decimal": 8519,
+      "hex": "U+2147",
+      "char": "ⅇ"
+    },
+    {
+      "decimal": 8520,
+      "hex": "U+2148",
+      "char": "ⅈ"
+    },
+    {
+      "decimal": 8531,
+      "hex": "U+2153",
+      "char": "⅓"
+    },
+    {
+      "decimal": 8532,
+      "hex": "U+2154",
+      "char": "⅔"
+    },
+    {
+      "decimal": 8533,
+      "hex": "U+2155",
+      "char": "⅕"
+    },
+    {
+      "decimal": 8534,
+      "hex": "U+2156",
+      "char": "⅖"
+    },
+    {
+      "decimal": 8535,
+      "hex": "U+2157",
+      "char": "⅗"
+    },
+    {
+      "decimal": 8536,
+      "hex": "U+2158",
+      "char": "⅘"
+    },
+    {
+      "decimal": 8537,
+      "hex": "U+2159",
+      "char": "⅙"
+    },
+    {
+      "decimal": 8538,
+      "hex": "U+215A",
+      "char": "⅚"
+    },
+    {
+      "decimal": 8539,
+      "hex": "U+215B",
+      "char": "⅛"
+    },
+    {
+      "decimal": 8540,
+      "hex": "U+215C",
+      "char": "⅜"
+    },
+    {
+      "decimal": 8541,
+      "hex": "U+215D",
+      "char": "⅝"
+    },
+    {
+      "decimal": 8542,
+      "hex": "U+215E",
+      "char": "⅞"
+    },
+    {
+      "decimal": 8592,
+      "hex": "U+2190",
+      "char": "←"
+    },
+    {
+      "decimal": 8593,
+      "hex": "U+2191",
+      "char": "↑"
+    },
+    {
+      "decimal": 8594,
+      "hex": "U+2192",
+      "char": "→"
+    },
+    {
+      "decimal": 8595,
+      "hex": "U+2193",
+      "char": "↓"
+    },
+    {
+      "decimal": 8596,
+      "hex": "U+2194",
+      "char": "↔"
+    },
+    {
+      "decimal": 8597,
+      "hex": "U+2195",
+      "char": "↕"
+    },
+    {
+      "decimal": 8598,
+      "hex": "U+2196",
+      "char": "↖"
+    },
+    {
+      "decimal": 8599,
+      "hex": "U+2197",
+      "char": "↗"
+    },
+    {
+      "decimal": 8600,
+      "hex": "U+2198",
+      "char": "↘"
+    },
+    {
+      "decimal": 8601,
+      "hex": "U+2199",
+      "char": "↙"
+    },
+    {
+      "decimal": 8602,
+      "hex": "U+219A",
+      "char": "↚"
+    },
+    {
+      "decimal": 8603,
+      "hex": "U+219B",
+      "char": "↛"
+    },
+    {
+      "decimal": 8605,
+      "hex": "U+219D",
+      "char": "↝"
+    },
+    {
+      "decimal": 8606,
+      "hex": "U+219E",
+      "char": "↞"
+    },
+    {
+      "decimal": 8607,
+      "hex": "U+219F",
+      "char": "↟"
+    },
+    {
+      "decimal": 8608,
+      "hex": "U+21A0",
+      "char": "↠"
+    },
+    {
+      "decimal": 8609,
+      "hex": "U+21A1",
+      "char": "↡"
+    },
+    {
+      "decimal": 8610,
+      "hex": "U+21A2",
+      "char": "↢"
+    },
+    {
+      "decimal": 8611,
+      "hex": "U+21A3",
+      "char": "↣"
+    },
+    {
+      "decimal": 8612,
+      "hex": "U+21A4",
+      "char": "↤"
+    },
+    {
+      "decimal": 8613,
+      "hex": "U+21A5",
+      "char": "↥"
+    },
+    {
+      "decimal": 8614,
+      "hex": "U+21A6",
+      "char": "↦"
+    },
+    {
+      "decimal": 8615,
+      "hex": "U+21A7",
+      "char": "↧"
+    },
+    {
+      "decimal": 8617,
+      "hex": "U+21A9",
+      "char": "↩"
+    },
+    {
+      "decimal": 8618,
+      "hex": "U+21AA",
+      "char": "↪"
+    },
+    {
+      "decimal": 8619,
+      "hex": "U+21AB",
+      "char": "↫"
+    },
+    {
+      "decimal": 8620,
+      "hex": "U+21AC",
+      "char": "↬"
+    },
+    {
+      "decimal": 8621,
+      "hex": "U+21AD",
+      "char": "↭"
+    },
+    {
+      "decimal": 8622,
+      "hex": "U+21AE",
+      "char": "↮"
+    },
+    {
+      "decimal": 8624,
+      "hex": "U+21B0",
+      "char": "↰"
+    },
+    {
+      "decimal": 8625,
+      "hex": "U+21B1",
+      "char": "↱"
+    },
+    {
+      "decimal": 8626,
+      "hex": "U+21B2",
+      "char": "↲"
+    },
+    {
+      "decimal": 8627,
+      "hex": "U+21B3",
+      "char": "↳"
+    },
+    {
+      "decimal": 8629,
+      "hex": "U+21B5",
+      "char": "↵"
+    },
+    {
+      "decimal": 8630,
+      "hex": "U+21B6",
+      "char": "↶"
+    },
+    {
+      "decimal": 8631,
+      "hex": "U+21B7",
+      "char": "↷"
+    },
+    {
+      "decimal": 8634,
+      "hex": "U+21BA",
+      "char": "↺"
+    },
+    {
+      "decimal": 8635,
+      "hex": "U+21BB",
+      "char": "↻"
+    },
+    {
+      "decimal": 8636,
+      "hex": "U+21BC",
+      "char": "↼"
+    },
+    {
+      "decimal": 8637,
+      "hex": "U+21BD",
+      "char": "↽"
+    },
+    {
+      "decimal": 8638,
+      "hex": "U+21BE",
+      "char": "↾"
+    },
+    {
+      "decimal": 8639,
+      "hex": "U+21BF",
+      "char": "↿"
+    },
+    {
+      "decimal": 8640,
+      "hex": "U+21C0",
+      "char": "⇀"
+    },
+    {
+      "decimal": 8641,
+      "hex": "U+21C1",
+      "char": "⇁"
+    },
+    {
+      "decimal": 8642,
+      "hex": "U+21C2",
+      "char": "⇂"
+    },
+    {
+      "decimal": 8643,
+      "hex": "U+21C3",
+      "char": "⇃"
+    },
+    {
+      "decimal": 8644,
+      "hex": "U+21C4",
+      "char": "⇄"
+    },
+    {
+      "decimal": 8645,
+      "hex": "U+21C5",
+      "char": "⇅"
+    },
+    {
+      "decimal": 8646,
+      "hex": "U+21C6",
+      "char": "⇆"
+    },
+    {
+      "decimal": 8647,
+      "hex": "U+21C7",
+      "char": "⇇"
+    },
+    {
+      "decimal": 8648,
+      "hex": "U+21C8",
+      "char": "⇈"
+    },
+    {
+      "decimal": 8649,
+      "hex": "U+21C9",
+      "char": "⇉"
+    },
+    {
+      "decimal": 8650,
+      "hex": "U+21CA",
+      "char": "⇊"
+    },
+    {
+      "decimal": 8651,
+      "hex": "U+21CB",
+      "char": "⇋"
+    },
+    {
+      "decimal": 8652,
+      "hex": "U+21CC",
+      "char": "⇌"
+    },
+    {
+      "decimal": 8653,
+      "hex": "U+21CD",
+      "char": "⇍"
+    },
+    {
+      "decimal": 8654,
+      "hex": "U+21CE",
+      "char": "⇎"
+    },
+    {
+      "decimal": 8655,
+      "hex": "U+21CF",
+      "char": "⇏"
+    },
+    {
+      "decimal": 8656,
+      "hex": "U+21D0",
+      "char": "⇐"
+    },
+    {
+      "decimal": 8657,
+      "hex": "U+21D1",
+      "char": "⇑"
+    },
+    {
+      "decimal": 8658,
+      "hex": "U+21D2",
+      "char": "⇒"
+    },
+    {
+      "decimal": 8659,
+      "hex": "U+21D3",
+      "char": "⇓"
+    },
+    {
+      "decimal": 8660,
+      "hex": "U+21D4",
+      "char": "⇔"
+    },
+    {
+      "decimal": 8661,
+      "hex": "U+21D5",
+      "char": "⇕"
+    },
+    {
+      "decimal": 8662,
+      "hex": "U+21D6",
+      "char": "⇖"
+    },
+    {
+      "decimal": 8663,
+      "hex": "U+21D7",
+      "char": "⇗"
+    },
+    {
+      "decimal": 8664,
+      "hex": "U+21D8",
+      "char": "⇘"
+    },
+    {
+      "decimal": 8665,
+      "hex": "U+21D9",
+      "char": "⇙"
+    },
+    {
+      "decimal": 8666,
+      "hex": "U+21DA",
+      "char": "⇚"
+    },
+    {
+      "decimal": 8667,
+      "hex": "U+21DB",
+      "char": "⇛"
+    },
+    {
+      "decimal": 8669,
+      "hex": "U+21DD",
+      "char": "⇝"
+    },
+    {
+      "decimal": 8672,
+      "hex": "U+21E0",
+      "char": "⇠"
+    },
+    {
+      "decimal": 8674,
+      "hex": "U+21E2",
+      "char": "⇢"
+    },
+    {
+      "decimal": 8676,
+      "hex": "U+21E4",
+      "char": "⇤"
+    },
+    {
+      "decimal": 8677,
+      "hex": "U+21E5",
+      "char": "⇥"
+    },
+    {
+      "decimal": 8693,
+      "hex": "U+21F5",
+      "char": "⇵"
+    },
+    {
+      "decimal": 8701,
+      "hex": "U+21FD",
+      "char": "⇽"
+    },
+    {
+      "decimal": 8702,
+      "hex": "U+21FE",
+      "char": "⇾"
+    },
+    {
+      "decimal": 8703,
+      "hex": "U+21FF",
+      "char": "⇿"
+    },
+    {
+      "decimal": 8704,
+      "hex": "U+2200",
+      "char": "∀"
+    },
+    {
+      "decimal": 8705,
+      "hex": "U+2201",
+      "char": "∁"
+    },
+    {
+      "decimal": 8706,
+      "hex": "U+2202",
+      "char": "∂"
+    },
+    {
+      "decimal": 8707,
+      "hex": "U+2203",
+      "char": "∃"
+    },
+    {
+      "decimal": 8708,
+      "hex": "U+2204",
+      "char": "∄"
+    },
+    {
+      "decimal": 8709,
+      "hex": "U+2205",
+      "char": "∅"
+    },
+    {
+      "decimal": 8710,
+      "hex": "U+2206",
+      "char": "∆"
+    },
+    {
+      "decimal": 8711,
+      "hex": "U+2207",
+      "char": "∇"
+    },
+    {
+      "decimal": 8712,
+      "hex": "U+2208",
+      "char": "∈"
+    },
+    {
+      "decimal": 8713,
+      "hex": "U+2209",
+      "char": "∉"
+    },
+    {
+      "decimal": 8715,
+      "hex": "U+220B",
+      "char": "∋"
+    },
+    {
+      "decimal": 8716,
+      "hex": "U+220C",
+      "char": "∌"
+    },
+    {
+      "decimal": 8717,
+      "hex": "U+220D",
+      "char": "∍"
+    },
+    {
+      "decimal": 8719,
+      "hex": "U+220F",
+      "char": "∏"
+    },
+    {
+      "decimal": 8720,
+      "hex": "U+2210",
+      "char": "∐"
+    },
+    {
+      "decimal": 8721,
+      "hex": "U+2211",
+      "char": "∑"
+    },
+    {
+      "decimal": 8722,
+      "hex": "U+2212",
+      "char": "−"
+    },
+    {
+      "decimal": 8723,
+      "hex": "U+2213",
+      "char": "∓"
+    },
+    {
+      "decimal": 8724,
+      "hex": "U+2214",
+      "char": "∔"
+    },
+    {
+      "decimal": 8725,
+      "hex": "U+2215",
+      "char": "∕"
+    },
+    {
+      "decimal": 8726,
+      "hex": "U+2216",
+      "char": "∖"
+    },
+    {
+      "decimal": 8727,
+      "hex": "U+2217",
+      "char": "∗"
+    },
+    {
+      "decimal": 8728,
+      "hex": "U+2218",
+      "char": "∘"
+    },
+    {
+      "decimal": 8729,
+      "hex": "U+2219",
+      "char": "∙"
+    },
+    {
+      "decimal": 8730,
+      "hex": "U+221A",
+      "char": "√"
+    },
+    {
+      "decimal": 8733,
+      "hex": "U+221D",
+      "char": "∝"
+    },
+    {
+      "decimal": 8734,
+      "hex": "U+221E",
+      "char": "∞"
+    },
+    {
+      "decimal": 8735,
+      "hex": "U+221F",
+      "char": "∟"
+    },
+    {
+      "decimal": 8736,
+      "hex": "U+2220",
+      "char": "∠"
+    },
+    {
+      "decimal": 8737,
+      "hex": "U+2221",
+      "char": "∡"
+    },
+    {
+      "decimal": 8738,
+      "hex": "U+2222",
+      "char": "∢"
+    },
+    {
+      "decimal": 8739,
+      "hex": "U+2223",
+      "char": "∣"
+    },
+    {
+      "decimal": 8740,
+      "hex": "U+2224",
+      "char": "∤"
+    },
+    {
+      "decimal": 8741,
+      "hex": "U+2225",
+      "char": "∥"
+    },
+    {
+      "decimal": 8742,
+      "hex": "U+2226",
+      "char": "∦"
+    },
+    {
+      "decimal": 8743,
+      "hex": "U+2227",
+      "char": "∧"
+    },
+    {
+      "decimal": 8744,
+      "hex": "U+2228",
+      "char": "∨"
+    },
+    {
+      "decimal": 8745,
+      "hex": "U+2229",
+      "char": "∩"
+    },
+    {
+      "decimal": 8746,
+      "hex": "U+222A",
+      "char": "∪"
+    },
+    {
+      "decimal": 8747,
+      "hex": "U+222B",
+      "char": "∫"
+    },
+    {
+      "decimal": 8748,
+      "hex": "U+222C",
+      "char": "∬"
+    },
+    {
+      "decimal": 8749,
+      "hex": "U+222D",
+      "char": "∭"
+    },
+    {
+      "decimal": 8750,
+      "hex": "U+222E",
+      "char": "∮"
+    },
+    {
+      "decimal": 8751,
+      "hex": "U+222F",
+      "char": "∯"
+    },
+    {
+      "decimal": 8752,
+      "hex": "U+2230",
+      "char": "∰"
+    },
+    {
+      "decimal": 8753,
+      "hex": "U+2231",
+      "char": "∱"
+    },
+    {
+      "decimal": 8754,
+      "hex": "U+2232",
+      "char": "∲"
+    },
+    {
+      "decimal": 8755,
+      "hex": "U+2233",
+      "char": "∳"
+    },
+    {
+      "decimal": 8756,
+      "hex": "U+2234",
+      "char": "∴"
+    },
+    {
+      "decimal": 8757,
+      "hex": "U+2235",
+      "char": "∵"
+    },
+    {
+      "decimal": 8758,
+      "hex": "U+2236",
+      "char": "∶"
+    },
+    {
+      "decimal": 8759,
+      "hex": "U+2237",
+      "char": "∷"
+    },
+    {
+      "decimal": 8760,
+      "hex": "U+2238",
+      "char": "∸"
+    },
+    {
+      "decimal": 8761,
+      "hex": "U+2239",
+      "char": "∹"
+    },
+    {
+      "decimal": 8762,
+      "hex": "U+223A",
+      "char": "∺"
+    },
+    {
+      "decimal": 8763,
+      "hex": "U+223B",
+      "char": "∻"
+    },
+    {
+      "decimal": 8764,
+      "hex": "U+223C",
+      "char": "∼"
+    },
+    {
+      "decimal": 8765,
+      "hex": "U+223D",
+      "char": "∽"
+    },
+    {
+      "decimal": 8766,
+      "hex": "U+223E",
+      "char": "∾"
+    },
+    {
+      "decimal": 8767,
+      "hex": "U+223F",
+      "char": "∿"
+    },
+    {
+      "decimal": 8768,
+      "hex": "U+2240",
+      "char": "≀"
+    },
+    {
+      "decimal": 8769,
+      "hex": "U+2241",
+      "char": "≁"
+    },
+    {
+      "decimal": 8770,
+      "hex": "U+2242",
+      "char": "≂"
+    },
+    {
+      "decimal": 8771,
+      "hex": "U+2243",
+      "char": "≃"
+    },
+    {
+      "decimal": 8772,
+      "hex": "U+2244",
+      "char": "≄"
+    },
+    {
+      "decimal": 8773,
+      "hex": "U+2245",
+      "char": "≅"
+    },
+    {
+      "decimal": 8775,
+      "hex": "U+2247",
+      "char": "≇"
+    },
+    {
+      "decimal": 8776,
+      "hex": "U+2248",
+      "char": "≈"
+    },
+    {
+      "decimal": 8777,
+      "hex": "U+2249",
+      "char": "≉"
+    },
+    {
+      "decimal": 8778,
+      "hex": "U+224A",
+      "char": "≊"
+    },
+    {
+      "decimal": 8779,
+      "hex": "U+224B",
+      "char": "≋"
+    },
+    {
+      "decimal": 8780,
+      "hex": "U+224C",
+      "char": "≌"
+    },
+    {
+      "decimal": 8781,
+      "hex": "U+224D",
+      "char": "≍"
+    },
+    {
+      "decimal": 8782,
+      "hex": "U+224E",
+      "char": "≎"
+    },
+    {
+      "decimal": 8783,
+      "hex": "U+224F",
+      "char": "≏"
+    },
+    {
+      "decimal": 8784,
+      "hex": "U+2250",
+      "char": "≐"
+    },
+    {
+      "decimal": 8785,
+      "hex": "U+2251",
+      "char": "≑"
+    },
+    {
+      "decimal": 8786,
+      "hex": "U+2252",
+      "char": "≒"
+    },
+    {
+      "decimal": 8787,
+      "hex": "U+2253",
+      "char": "≓"
+    },
+    {
+      "decimal": 8788,
+      "hex": "U+2254",
+      "char": "≔"
+    },
+    {
+      "decimal": 8789,
+      "hex": "U+2255",
+      "char": "≕"
+    },
+    {
+      "decimal": 8790,
+      "hex": "U+2256",
+      "char": "≖"
+    },
+    {
+      "decimal": 8791,
+      "hex": "U+2257",
+      "char": "≗"
+    },
+    {
+      "decimal": 8793,
+      "hex": "U+2259",
+      "char": "≙"
+    },
+    {
+      "decimal": 8794,
+      "hex": "U+225A",
+      "char": "≚"
+    },
+    {
+      "decimal": 8796,
+      "hex": "U+225C",
+      "char": "≜"
+    },
+    {
+      "decimal": 8799,
+      "hex": "U+225F",
+      "char": "≟"
+    },
+    {
+      "decimal": 8800,
+      "hex": "U+2260",
+      "char": "≠"
+    },
+    {
+      "decimal": 8801,
+      "hex": "U+2261",
+      "char": "≡"
+    },
+    {
+      "decimal": 8802,
+      "hex": "U+2262",
+      "char": "≢"
+    },
+    {
+      "decimal": 8804,
+      "hex": "U+2264",
+      "char": "≤"
+    },
+    {
+      "decimal": 8805,
+      "hex": "U+2265",
+      "char": "≥"
+    },
+    {
+      "decimal": 8806,
+      "hex": "U+2266",
+      "char": "≦"
+    },
+    {
+      "decimal": 8807,
+      "hex": "U+2267",
+      "char": "≧"
+    },
+    {
+      "decimal": 8808,
+      "hex": "U+2268",
+      "char": "≨"
+    },
+    {
+      "decimal": 8809,
+      "hex": "U+2269",
+      "char": "≩"
+    },
+    {
+      "decimal": 8810,
+      "hex": "U+226A",
+      "char": "≪"
+    },
+    {
+      "decimal": 8811,
+      "hex": "U+226B",
+      "char": "≫"
+    },
+    {
+      "decimal": 8812,
+      "hex": "U+226C",
+      "char": "≬"
+    },
+    {
+      "decimal": 8813,
+      "hex": "U+226D",
+      "char": "≭"
+    },
+    {
+      "decimal": 8814,
+      "hex": "U+226E",
+      "char": "≮"
+    },
+    {
+      "decimal": 8815,
+      "hex": "U+226F",
+      "char": "≯"
+    },
+    {
+      "decimal": 8816,
+      "hex": "U+2270",
+      "char": "≰"
+    },
+    {
+      "decimal": 8817,
+      "hex": "U+2271",
+      "char": "≱"
+    },
+    {
+      "decimal": 8818,
+      "hex": "U+2272",
+      "char": "≲"
+    },
+    {
+      "decimal": 8819,
+      "hex": "U+2273",
+      "char": "≳"
+    },
+    {
+      "decimal": 8820,
+      "hex": "U+2274",
+      "char": "≴"
+    },
+    {
+      "decimal": 8821,
+      "hex": "U+2275",
+      "char": "≵"
+    },
+    {
+      "decimal": 8822,
+      "hex": "U+2276",
+      "char": "≶"
+    },
+    {
+      "decimal": 8823,
+      "hex": "U+2277",
+      "char": "≷"
+    },
+    {
+      "decimal": 8824,
+      "hex": "U+2278",
+      "char": "≸"
+    },
+    {
+      "decimal": 8825,
+      "hex": "U+2279",
+      "char": "≹"
+    },
+    {
+      "decimal": 8826,
+      "hex": "U+227A",
+      "char": "≺"
+    },
+    {
+      "decimal": 8827,
+      "hex": "U+227B",
+      "char": "≻"
+    },
+    {
+      "decimal": 8828,
+      "hex": "U+227C",
+      "char": "≼"
+    },
+    {
+      "decimal": 8829,
+      "hex": "U+227D",
+      "char": "≽"
+    },
+    {
+      "decimal": 8830,
+      "hex": "U+227E",
+      "char": "≾"
+    },
+    {
+      "decimal": 8831,
+      "hex": "U+227F",
+      "char": "≿"
+    },
+    {
+      "decimal": 8832,
+      "hex": "U+2280",
+      "char": "⊀"
+    },
+    {
+      "decimal": 8833,
+      "hex": "U+2281",
+      "char": "⊁"
+    },
+    {
+      "decimal": 8834,
+      "hex": "U+2282",
+      "char": "⊂"
+    },
+    {
+      "decimal": 8835,
+      "hex": "U+2283",
+      "char": "⊃"
+    },
+    {
+      "decimal": 8836,
+      "hex": "U+2284",
+      "char": "⊄"
+    },
+    {
+      "decimal": 8837,
+      "hex": "U+2285",
+      "char": "⊅"
+    },
+    {
+      "decimal": 8838,
+      "hex": "U+2286",
+      "char": "⊆"
+    },
+    {
+      "decimal": 8839,
+      "hex": "U+2287",
+      "char": "⊇"
+    },
+    {
+      "decimal": 8840,
+      "hex": "U+2288",
+      "char": "⊈"
+    },
+    {
+      "decimal": 8841,
+      "hex": "U+2289",
+      "char": "⊉"
+    },
+    {
+      "decimal": 8842,
+      "hex": "U+228A",
+      "char": "⊊"
+    },
+    {
+      "decimal": 8843,
+      "hex": "U+228B",
+      "char": "⊋"
+    },
+    {
+      "decimal": 8845,
+      "hex": "U+228D",
+      "char": "⊍"
+    },
+    {
+      "decimal": 8846,
+      "hex": "U+228E",
+      "char": "⊎"
+    },
+    {
+      "decimal": 8847,
+      "hex": "U+228F",
+      "char": "⊏"
+    },
+    {
+      "decimal": 8848,
+      "hex": "U+2290",
+      "char": "⊐"
+    },
+    {
+      "decimal": 8849,
+      "hex": "U+2291",
+      "char": "⊑"
+    },
+    {
+      "decimal": 8850,
+      "hex": "U+2292",
+      "char": "⊒"
+    },
+    {
+      "decimal": 8851,
+      "hex": "U+2293",
+      "char": "⊓"
+    },
+    {
+      "decimal": 8852,
+      "hex": "U+2294",
+      "char": "⊔"
+    },
+    {
+      "decimal": 8853,
+      "hex": "U+2295",
+      "char": "⊕"
+    },
+    {
+      "decimal": 8854,
+      "hex": "U+2296",
+      "char": "⊖"
+    },
+    {
+      "decimal": 8855,
+      "hex": "U+2297",
+      "char": "⊗"
+    },
+    {
+      "decimal": 8856,
+      "hex": "U+2298",
+      "char": "⊘"
+    },
+    {
+      "decimal": 8857,
+      "hex": "U+2299",
+      "char": "⊙"
+    },
+    {
+      "decimal": 8858,
+      "hex": "U+229A",
+      "char": "⊚"
+    },
+    {
+      "decimal": 8859,
+      "hex": "U+229B",
+      "char": "⊛"
+    },
+    {
+      "decimal": 8861,
+      "hex": "U+229D",
+      "char": "⊝"
+    },
+    {
+      "decimal": 8862,
+      "hex": "U+229E",
+      "char": "⊞"
+    },
+    {
+      "decimal": 8863,
+      "hex": "U+229F",
+      "char": "⊟"
+    },
+    {
+      "decimal": 8864,
+      "hex": "U+22A0",
+      "char": "⊠"
+    },
+    {
+      "decimal": 8865,
+      "hex": "U+22A1",
+      "char": "⊡"
+    },
+    {
+      "decimal": 8866,
+      "hex": "U+22A2",
+      "char": "⊢"
+    },
+    {
+      "decimal": 8867,
+      "hex": "U+22A3",
+      "char": "⊣"
+    },
+    {
+      "decimal": 8868,
+      "hex": "U+22A4",
+      "char": "⊤"
+    },
+    {
+      "decimal": 8869,
+      "hex": "U+22A5",
+      "char": "⊥"
+    },
+    {
+      "decimal": 8871,
+      "hex": "U+22A7",
+      "char": "⊧"
+    },
+    {
+      "decimal": 8872,
+      "hex": "U+22A8",
+      "char": "⊨"
+    },
+    {
+      "decimal": 8873,
+      "hex": "U+22A9",
+      "char": "⊩"
+    },
+    {
+      "decimal": 8874,
+      "hex": "U+22AA",
+      "char": "⊪"
+    },
+    {
+      "decimal": 8875,
+      "hex": "U+22AB",
+      "char": "⊫"
+    },
+    {
+      "decimal": 8876,
+      "hex": "U+22AC",
+      "char": "⊬"
+    },
+    {
+      "decimal": 8877,
+      "hex": "U+22AD",
+      "char": "⊭"
+    },
+    {
+      "decimal": 8878,
+      "hex": "U+22AE",
+      "char": "⊮"
+    },
+    {
+      "decimal": 8879,
+      "hex": "U+22AF",
+      "char": "⊯"
+    },
+    {
+      "decimal": 8880,
+      "hex": "U+22B0",
+      "char": "⊰"
+    },
+    {
+      "decimal": 8882,
+      "hex": "U+22B2",
+      "char": "⊲"
+    },
+    {
+      "decimal": 8883,
+      "hex": "U+22B3",
+      "char": "⊳"
+    },
+    {
+      "decimal": 8884,
+      "hex": "U+22B4",
+      "char": "⊴"
+    },
+    {
+      "decimal": 8885,
+      "hex": "U+22B5",
+      "char": "⊵"
+    },
+    {
+      "decimal": 8886,
+      "hex": "U+22B6",
+      "char": "⊶"
+    },
+    {
+      "decimal": 8887,
+      "hex": "U+22B7",
+      "char": "⊷"
+    },
+    {
+      "decimal": 8888,
+      "hex": "U+22B8",
+      "char": "⊸"
+    },
+    {
+      "decimal": 8889,
+      "hex": "U+22B9",
+      "char": "⊹"
+    },
+    {
+      "decimal": 8890,
+      "hex": "U+22BA",
+      "char": "⊺"
+    },
+    {
+      "decimal": 8891,
+      "hex": "U+22BB",
+      "char": "⊻"
+    },
+    {
+      "decimal": 8892,
+      "hex": "U+22BC",
+      "char": "⊼"
+    },
+    {
+      "decimal": 8893,
+      "hex": "U+22BD",
+      "char": "⊽"
+    },
+    {
+      "decimal": 8894,
+      "hex": "U+22BE",
+      "char": "⊾"
+    },
+    {
+      "decimal": 8895,
+      "hex": "U+22BF",
+      "char": "⊿"
+    },
+    {
+      "decimal": 8896,
+      "hex": "U+22C0",
+      "char": "⋀"
+    },
+    {
+      "decimal": 8897,
+      "hex": "U+22C1",
+      "char": "⋁"
+    },
+    {
+      "decimal": 8898,
+      "hex": "U+22C2",
+      "char": "⋂"
+    },
+    {
+      "decimal": 8899,
+      "hex": "U+22C3",
+      "char": "⋃"
+    },
+    {
+      "decimal": 8900,
+      "hex": "U+22C4",
+      "char": "⋄"
+    },
+    {
+      "decimal": 8901,
+      "hex": "U+22C5",
+      "char": "⋅"
+    },
+    {
+      "decimal": 8902,
+      "hex": "U+22C6",
+      "char": "⋆"
+    },
+    {
+      "decimal": 8903,
+      "hex": "U+22C7",
+      "char": "⋇"
+    },
+    {
+      "decimal": 8904,
+      "hex": "U+22C8",
+      "char": "⋈"
+    },
+    {
+      "decimal": 8905,
+      "hex": "U+22C9",
+      "char": "⋉"
+    },
+    {
+      "decimal": 8906,
+      "hex": "U+22CA",
+      "char": "⋊"
+    },
+    {
+      "decimal": 8907,
+      "hex": "U+22CB",
+      "char": "⋋"
+    },
+    {
+      "decimal": 8908,
+      "hex": "U+22CC",
+      "char": "⋌"
+    },
+    {
+      "decimal": 8909,
+      "hex": "U+22CD",
+      "char": "⋍"
+    },
+    {
+      "decimal": 8910,
+      "hex": "U+22CE",
+      "char": "⋎"
+    },
+    {
+      "decimal": 8911,
+      "hex": "U+22CF",
+      "char": "⋏"
+    },
+    {
+      "decimal": 8912,
+      "hex": "U+22D0",
+      "char": "⋐"
+    },
+    {
+      "decimal": 8913,
+      "hex": "U+22D1",
+      "char": "⋑"
+    },
+    {
+      "decimal": 8914,
+      "hex": "U+22D2",
+      "char": "⋒"
+    },
+    {
+      "decimal": 8915,
+      "hex": "U+22D3",
+      "char": "⋓"
+    },
+    {
+      "decimal": 8916,
+      "hex": "U+22D4",
+      "char": "⋔"
+    },
+    {
+      "decimal": 8917,
+      "hex": "U+22D5",
+      "char": "⋕"
+    },
+    {
+      "decimal": 8918,
+      "hex": "U+22D6",
+      "char": "⋖"
+    },
+    {
+      "decimal": 8919,
+      "hex": "U+22D7",
+      "char": "⋗"
+    },
+    {
+      "decimal": 8920,
+      "hex": "U+22D8",
+      "char": "⋘"
+    },
+    {
+      "decimal": 8921,
+      "hex": "U+22D9",
+      "char": "⋙"
+    },
+    {
+      "decimal": 8922,
+      "hex": "U+22DA",
+      "char": "⋚"
+    },
+    {
+      "decimal": 8923,
+      "hex": "U+22DB",
+      "char": "⋛"
+    },
+    {
+      "decimal": 8926,
+      "hex": "U+22DE",
+      "char": "⋞"
+    },
+    {
+      "decimal": 8927,
+      "hex": "U+22DF",
+      "char": "⋟"
+    },
+    {
+      "decimal": 8928,
+      "hex": "U+22E0",
+      "char": "⋠"
+    },
+    {
+      "decimal": 8929,
+      "hex": "U+22E1",
+      "char": "⋡"
+    },
+    {
+      "decimal": 8930,
+      "hex": "U+22E2",
+      "char": "⋢"
+    },
+    {
+      "decimal": 8931,
+      "hex": "U+22E3",
+      "char": "⋣"
+    },
+    {
+      "decimal": 8934,
+      "hex": "U+22E6",
+      "char": "⋦"
+    },
+    {
+      "decimal": 8935,
+      "hex": "U+22E7",
+      "char": "⋧"
+    },
+    {
+      "decimal": 8936,
+      "hex": "U+22E8",
+      "char": "⋨"
+    },
+    {
+      "decimal": 8937,
+      "hex": "U+22E9",
+      "char": "⋩"
+    },
+    {
+      "decimal": 8938,
+      "hex": "U+22EA",
+      "char": "⋪"
+    },
+    {
+      "decimal": 8939,
+      "hex": "U+22EB",
+      "char": "⋫"
+    },
+    {
+      "decimal": 8940,
+      "hex": "U+22EC",
+      "char": "⋬"
+    },
+    {
+      "decimal": 8941,
+      "hex": "U+22ED",
+      "char": "⋭"
+    },
+    {
+      "decimal": 8942,
+      "hex": "U+22EE",
+      "char": "⋮"
+    },
+    {
+      "decimal": 8943,
+      "hex": "U+22EF",
+      "char": "⋯"
+    },
+    {
+      "decimal": 8944,
+      "hex": "U+22F0",
+      "char": "⋰"
+    },
+    {
+      "decimal": 8945,
+      "hex": "U+22F1",
+      "char": "⋱"
+    },
+    {
+      "decimal": 8946,
+      "hex": "U+22F2",
+      "char": "⋲"
+    },
+    {
+      "decimal": 8947,
+      "hex": "U+22F3",
+      "char": "⋳"
+    },
+    {
+      "decimal": 8948,
+      "hex": "U+22F4",
+      "char": "⋴"
+    },
+    {
+      "decimal": 8949,
+      "hex": "U+22F5",
+      "char": "⋵"
+    },
+    {
+      "decimal": 8950,
+      "hex": "U+22F6",
+      "char": "⋶"
+    },
+    {
+      "decimal": 8951,
+      "hex": "U+22F7",
+      "char": "⋷"
+    },
+    {
+      "decimal": 8953,
+      "hex": "U+22F9",
+      "char": "⋹"
+    },
+    {
+      "decimal": 8954,
+      "hex": "U+22FA",
+      "char": "⋺"
+    },
+    {
+      "decimal": 8955,
+      "hex": "U+22FB",
+      "char": "⋻"
+    },
+    {
+      "decimal": 8956,
+      "hex": "U+22FC",
+      "char": "⋼"
+    },
+    {
+      "decimal": 8957,
+      "hex": "U+22FD",
+      "char": "⋽"
+    },
+    {
+      "decimal": 8958,
+      "hex": "U+22FE",
+      "char": "⋾"
+    },
+    {
+      "decimal": 8965,
+      "hex": "U+2305",
+      "char": "⌅"
+    },
+    {
+      "decimal": 8966,
+      "hex": "U+2306",
+      "char": "⌆"
+    },
+    {
+      "decimal": 8968,
+      "hex": "U+2308",
+      "char": "⌈"
+    },
+    {
+      "decimal": 8969,
+      "hex": "U+2309",
+      "char": "⌉"
+    },
+    {
+      "decimal": 8970,
+      "hex": "U+230A",
+      "char": "⌊"
+    },
+    {
+      "decimal": 8971,
+      "hex": "U+230B",
+      "char": "⌋"
+    },
+    {
+      "decimal": 8972,
+      "hex": "U+230C",
+      "char": "⌌"
+    },
+    {
+      "decimal": 8973,
+      "hex": "U+230D",
+      "char": "⌍"
+    },
+    {
+      "decimal": 8974,
+      "hex": "U+230E",
+      "char": "⌎"
+    },
+    {
+      "decimal": 8975,
+      "hex": "U+230F",
+      "char": "⌏"
+    },
+    {
+      "decimal": 8976,
+      "hex": "U+2310",
+      "char": "⌐"
+    },
+    {
+      "decimal": 8978,
+      "hex": "U+2312",
+      "char": "⌒"
+    },
+    {
+      "decimal": 8979,
+      "hex": "U+2313",
+      "char": "⌓"
+    },
+    {
+      "decimal": 8981,
+      "hex": "U+2315",
+      "char": "⌕"
+    },
+    {
+      "decimal": 8982,
+      "hex": "U+2316",
+      "char": "⌖"
+    },
+    {
+      "decimal": 8988,
+      "hex": "U+231C",
+      "char": "⌜"
+    },
+    {
+      "decimal": 8989,
+      "hex": "U+231D",
+      "char": "⌝"
+    },
+    {
+      "decimal": 8990,
+      "hex": "U+231E",
+      "char": "⌞"
+    },
+    {
+      "decimal": 8991,
+      "hex": "U+231F",
+      "char": "⌟"
+    },
+    {
+      "decimal": 8994,
+      "hex": "U+2322",
+      "char": "⌢"
+    },
+    {
+      "decimal": 8995,
+      "hex": "U+2323",
+      "char": "⌣"
+    },
+    {
+      "decimal": 9001,
+      "hex": "U+2329",
+      "char": "〈"
+    },
+    {
+      "decimal": 9002,
+      "hex": "U+232A",
+      "char": "〉"
+    },
+    {
+      "decimal": 9005,
+      "hex": "U+232D",
+      "char": "⌭"
+    },
+    {
+      "decimal": 9006,
+      "hex": "U+232E",
+      "char": "⌮"
+    },
+    {
+      "decimal": 9014,
+      "hex": "U+2336",
+      "char": "⌶"
+    },
+    {
+      "decimal": 9021,
+      "hex": "U+233D",
+      "char": "⌽"
+    },
+    {
+      "decimal": 9023,
+      "hex": "U+233F",
+      "char": "⌿"
+    },
+    {
+      "decimal": 9084,
+      "hex": "U+237C",
+      "char": "⍼"
+    },
+    {
+      "decimal": 9130,
+      "hex": "U+23AA",
+      "char": "⎪"
+    },
+    {
+      "decimal": 9135,
+      "hex": "U+23AF",
+      "char": "⎯"
+    },
+    {
+      "decimal": 9136,
+      "hex": "U+23B0",
+      "char": "⎰"
+    },
+    {
+      "decimal": 9137,
+      "hex": "U+23B1",
+      "char": "⎱"
+    },
+    {
+      "decimal": 9140,
+      "hex": "U+23B4",
+      "char": "⎴"
+    },
+    {
+      "decimal": 9141,
+      "hex": "U+23B5",
+      "char": "⎵"
+    },
+    {
+      "decimal": 9142,
+      "hex": "U+23B6",
+      "char": "⎶"
+    },
+    {
+      "decimal": 9168,
+      "hex": "U+23D0",
+      "char": "⏐"
+    },
+    {
+      "decimal": 9180,
+      "hex": "U+23DC",
+      "char": "⏜"
+    },
+    {
+      "decimal": 9181,
+      "hex": "U+23DD",
+      "char": "⏝"
+    },
+    {
+      "decimal": 9182,
+      "hex": "U+23DE",
+      "char": "⏞"
+    },
+    {
+      "decimal": 9183,
+      "hex": "U+23DF",
+      "char": "⏟"
+    },
+    {
+      "decimal": 9186,
+      "hex": "U+23E2",
+      "char": "⏢"
+    },
+    {
+      "decimal": 9191,
+      "hex": "U+23E7",
+      "char": "⏧"
+    },
+    {
+      "decimal": 9250,
+      "hex": "U+2422",
+      "char": "␢"
+    },
+    {
+      "decimal": 9251,
+      "hex": "U+2423",
+      "char": "␣"
+    },
+    {
+      "decimal": 9416,
+      "hex": "U+24C8",
+      "char": "Ⓢ"
+    },
+    {
+      "decimal": 9472,
+      "hex": "U+2500",
+      "char": "─"
+    },
+    {
+      "decimal": 9474,
+      "hex": "U+2502",
+      "char": "│"
+    },
+    {
+      "decimal": 9500,
+      "hex": "U+251C",
+      "char": "├"
+    },
+    {
+      "decimal": 9508,
+      "hex": "U+2524",
+      "char": "┤"
+    },
+    {
+      "decimal": 9516,
+      "hex": "U+252C",
+      "char": "┬"
+    },
+    {
+      "decimal": 9524,
+      "hex": "U+2534",
+      "char": "┴"
+    },
+    {
+      "decimal": 9532,
+      "hex": "U+253C",
+      "char": "┼"
+    },
+    {
+      "decimal": 9552,
+      "hex": "U+2550",
+      "char": "═"
+    },
+    {
+      "decimal": 9553,
+      "hex": "U+2551",
+      "char": "║"
+    },
+    {
+      "decimal": 9554,
+      "hex": "U+2552",
+      "char": "╒"
+    },
+    {
+      "decimal": 9555,
+      "hex": "U+2553",
+      "char": "╓"
+    },
+    {
+      "decimal": 9556,
+      "hex": "U+2554",
+      "char": "╔"
+    },
+    {
+      "decimal": 9557,
+      "hex": "U+2555",
+      "char": "╕"
+    },
+    {
+      "decimal": 9558,
+      "hex": "U+2556",
+      "char": "╖"
+    },
+    {
+      "decimal": 9559,
+      "hex": "U+2557",
+      "char": "╗"
+    },
+    {
+      "decimal": 9560,
+      "hex": "U+2558",
+      "char": "╘"
+    },
+    {
+      "decimal": 9561,
+      "hex": "U+2559",
+      "char": "╙"
+    },
+    {
+      "decimal": 9562,
+      "hex": "U+255A",
+      "char": "╚"
+    },
+    {
+      "decimal": 9563,
+      "hex": "U+255B",
+      "char": "╛"
+    },
+    {
+      "decimal": 9564,
+      "hex": "U+255C",
+      "char": "╜"
+    },
+    {
+      "decimal": 9565,
+      "hex": "U+255D",
+      "char": "╝"
+    },
+    {
+      "decimal": 9566,
+      "hex": "U+255E",
+      "char": "╞"
+    },
+    {
+      "decimal": 9567,
+      "hex": "U+255F",
+      "char": "╟"
+    },
+    {
+      "decimal": 9568,
+      "hex": "U+2560",
+      "char": "╠"
+    },
+    {
+      "decimal": 9569,
+      "hex": "U+2561",
+      "char": "╡"
+    },
+    {
+      "decimal": 9570,
+      "hex": "U+2562",
+      "char": "╢"
+    },
+    {
+      "decimal": 9571,
+      "hex": "U+2563",
+      "char": "╣"
+    },
+    {
+      "decimal": 9572,
+      "hex": "U+2564",
+      "char": "╤"
+    },
+    {
+      "decimal": 9573,
+      "hex": "U+2565",
+      "char": "╥"
+    },
+    {
+      "decimal": 9574,
+      "hex": "U+2566",
+      "char": "╦"
+    },
+    {
+      "decimal": 9575,
+      "hex": "U+2567",
+      "char": "╧"
+    },
+    {
+      "decimal": 9576,
+      "hex": "U+2568",
+      "char": "╨"
+    },
+    {
+      "decimal": 9577,
+      "hex": "U+2569",
+      "char": "╩"
+    },
+    {
+      "decimal": 9578,
+      "hex": "U+256A",
+      "char": "╪"
+    },
+    {
+      "decimal": 9579,
+      "hex": "U+256B",
+      "char": "╫"
+    },
+    {
+      "decimal": 9580,
+      "hex": "U+256C",
+      "char": "╬"
+    },
+    {
+      "decimal": 9585,
+      "hex": "U+2571",
+      "char": "╱"
+    },
+    {
+      "decimal": 9586,
+      "hex": "U+2572",
+      "char": "╲"
+    },
+    {
+      "decimal": 9600,
+      "hex": "U+2580",
+      "char": "▀"
+    },
+    {
+      "decimal": 9604,
+      "hex": "U+2584",
+      "char": "▄"
+    },
+    {
+      "decimal": 9608,
+      "hex": "U+2588",
+      "char": "█"
+    },
+    {
+      "decimal": 9617,
+      "hex": "U+2591",
+      "char": "░"
+    },
+    {
+      "decimal": 9618,
+      "hex": "U+2592",
+      "char": "▒"
+    },
+    {
+      "decimal": 9619,
+      "hex": "U+2593",
+      "char": "▓"
+    },
+    {
+      "decimal": 9633,
+      "hex": "U+25A1",
+      "char": "□"
+    },
+    {
+      "decimal": 9642,
+      "hex": "U+25AA",
+      "char": "▪"
+    },
+    {
+      "decimal": 9643,
+      "hex": "U+25AB",
+      "char": "▫"
+    },
+    {
+      "decimal": 9645,
+      "hex": "U+25AD",
+      "char": "▭"
+    },
+    {
+      "decimal": 9646,
+      "hex": "U+25AE",
+      "char": "▮"
+    },
+    {
+      "decimal": 9649,
+      "hex": "U+25B1",
+      "char": "▱"
+    },
+    {
+      "decimal": 9651,
+      "hex": "U+25B3",
+      "char": "△"
+    },
+    {
+      "decimal": 9652,
+      "hex": "U+25B4",
+      "char": "▴"
+    },
+    {
+      "decimal": 9653,
+      "hex": "U+25B5",
+      "char": "▵"
+    },
+    {
+      "decimal": 9656,
+      "hex": "U+25B8",
+      "char": "▸"
+    },
+    {
+      "decimal": 9657,
+      "hex": "U+25B9",
+      "char": "▹"
+    },
+    {
+      "decimal": 9661,
+      "hex": "U+25BD",
+      "char": "▽"
+    },
+    {
+      "decimal": 9662,
+      "hex": "U+25BE",
+      "char": "▾"
+    },
+    {
+      "decimal": 9663,
+      "hex": "U+25BF",
+      "char": "▿"
+    },
+    {
+      "decimal": 9666,
+      "hex": "U+25C2",
+      "char": "◂"
+    },
+    {
+      "decimal": 9667,
+      "hex": "U+25C3",
+      "char": "◃"
+    },
+    {
+      "decimal": 9674,
+      "hex": "U+25CA",
+      "char": "◊"
+    },
+    {
+      "decimal": 9675,
+      "hex": "U+25CB",
+      "char": "○"
+    },
+    {
+      "decimal": 9702,
+      "hex": "U+25E6",
+      "char": "◦"
+    },
+    {
+      "decimal": 9708,
+      "hex": "U+25EC",
+      "char": "◬"
+    },
+    {
+      "decimal": 9711,
+      "hex": "U+25EF",
+      "char": "◯"
+    },
+    {
+      "decimal": 9720,
+      "hex": "U+25F8",
+      "char": "◸"
+    },
+    {
+      "decimal": 9721,
+      "hex": "U+25F9",
+      "char": "◹"
+    },
+    {
+      "decimal": 9722,
+      "hex": "U+25FA",
+      "char": "◺"
+    },
+    {
+      "decimal": 9723,
+      "hex": "U+25FB",
+      "char": "◻"
+    },
+    {
+      "decimal": 9724,
+      "hex": "U+25FC",
+      "char": "◼"
+    },
+    {
+      "decimal": 9733,
+      "hex": "U+2605",
+      "char": "★"
+    },
+    {
+      "decimal": 9734,
+      "hex": "U+2606",
+      "char": "☆"
+    },
+    {
+      "decimal": 9742,
+      "hex": "U+260E",
+      "char": "☎"
+    },
+    {
+      "decimal": 9792,
+      "hex": "U+2640",
+      "char": "♀"
+    },
+    {
+      "decimal": 9794,
+      "hex": "U+2642",
+      "char": "♂"
+    },
+    {
+      "decimal": 9824,
+      "hex": "U+2660",
+      "char": "♠"
+    },
+    {
+      "decimal": 9825,
+      "hex": "U+2661",
+      "char": "♡"
+    },
+    {
+      "decimal": 9826,
+      "hex": "U+2662",
+      "char": "♢"
+    },
+    {
+      "decimal": 9827,
+      "hex": "U+2663",
+      "char": "♣"
+    },
+    {
+      "decimal": 9829,
+      "hex": "U+2665",
+      "char": "♥"
+    },
+    {
+      "decimal": 9830,
+      "hex": "U+2666",
+      "char": "♦"
+    },
+    {
+      "decimal": 9834,
+      "hex": "U+266A",
+      "char": "♪"
+    },
+    {
+      "decimal": 9837,
+      "hex": "U+266D",
+      "char": "♭"
+    },
+    {
+      "decimal": 9838,
+      "hex": "U+266E",
+      "char": "♮"
+    },
+    {
+      "decimal": 9839,
+      "hex": "U+266F",
+      "char": "♯"
+    },
+    {
+      "decimal": 9901,
+      "hex": "U+26AD",
+      "char": "⚭"
+    },
+    {
+      "decimal": 9902,
+      "hex": "U+26AE",
+      "char": "⚮"
+    },
+    {
+      "decimal": 10003,
+      "hex": "U+2713",
+      "char": "✓"
+    },
+    {
+      "decimal": 10007,
+      "hex": "U+2717",
+      "char": "✗"
+    },
+    {
+      "decimal": 10016,
+      "hex": "U+2720",
+      "char": "✠"
+    },
+    {
+      "decimal": 10038,
+      "hex": "U+2736",
+      "char": "✶"
+    },
+    {
+      "decimal": 10072,
+      "hex": "U+2758",
+      "char": "❘"
+    },
+    {
+      "decimal": 10098,
+      "hex": "U+2772",
+      "char": "❲"
+    },
+    {
+      "decimal": 10099,
+      "hex": "U+2773",
+      "char": "❳"
+    },
+    {
+      "decimal": 10178,
+      "hex": "U+27C2",
+      "char": "⟂"
+    },
+    {
+      "decimal": 10184,
+      "hex": "U+27C8",
+      "char": "⟈"
+    },
+    {
+      "decimal": 10185,
+      "hex": "U+27C9",
+      "char": "⟉"
+    },
+    {
+      "decimal": 10214,
+      "hex": "U+27E6",
+      "char": "⟦"
+    },
+    {
+      "decimal": 10215,
+      "hex": "U+27E7",
+      "char": "⟧"
+    },
+    {
+      "decimal": 10216,
+      "hex": "U+27E8",
+      "char": "⟨"
+    },
+    {
+      "decimal": 10217,
+      "hex": "U+27E9",
+      "char": "⟩"
+    },
+    {
+      "decimal": 10218,
+      "hex": "U+27EA",
+      "char": "⟪"
+    },
+    {
+      "decimal": 10219,
+      "hex": "U+27EB",
+      "char": "⟫"
+    },
+    {
+      "decimal": 10220,
+      "hex": "U+27EC",
+      "char": "⟬"
+    },
+    {
+      "decimal": 10221,
+      "hex": "U+27ED",
+      "char": "⟭"
+    },
+    {
+      "decimal": 10222,
+      "hex": "U+27EE",
+      "char": "⟮"
+    },
+    {
+      "decimal": 10223,
+      "hex": "U+27EF",
+      "char": "⟯"
+    },
+    {
+      "decimal": 10229,
+      "hex": "U+27F5",
+      "char": "⟵"
+    },
+    {
+      "decimal": 10230,
+      "hex": "U+27F6",
+      "char": "⟶"
+    },
+    {
+      "decimal": 10231,
+      "hex": "U+27F7",
+      "char": "⟷"
+    },
+    {
+      "decimal": 10232,
+      "hex": "U+27F8",
+      "char": "⟸"
+    },
+    {
+      "decimal": 10233,
+      "hex": "U+27F9",
+      "char": "⟹"
+    },
+    {
+      "decimal": 10234,
+      "hex": "U+27FA",
+      "char": "⟺"
+    },
+    {
+      "decimal": 10236,
+      "hex": "U+27FC",
+      "char": "⟼"
+    },
+    {
+      "decimal": 10239,
+      "hex": "U+27FF",
+      "char": "⟿"
+    },
+    {
+      "decimal": 10498,
+      "hex": "U+2902",
+      "char": "⤂"
+    },
+    {
+      "decimal": 10499,
+      "hex": "U+2903",
+      "char": "⤃"
+    },
+    {
+      "decimal": 10500,
+      "hex": "U+2904",
+      "char": "⤄"
+    },
+    {
+      "decimal": 10501,
+      "hex": "U+2905",
+      "char": "⤅"
+    },
+    {
+      "decimal": 10508,
+      "hex": "U+290C",
+      "char": "⤌"
+    },
+    {
+      "decimal": 10509,
+      "hex": "U+290D",
+      "char": "⤍"
+    },
+    {
+      "decimal": 10510,
+      "hex": "U+290E",
+      "char": "⤎"
+    },
+    {
+      "decimal": 10511,
+      "hex": "U+290F",
+      "char": "⤏"
+    },
+    {
+      "decimal": 10512,
+      "hex": "U+2910",
+      "char": "⤐"
+    },
+    {
+      "decimal": 10513,
+      "hex": "U+2911",
+      "char": "⤑"
+    },
+    {
+      "decimal": 10514,
+      "hex": "U+2912",
+      "char": "⤒"
+    },
+    {
+      "decimal": 10515,
+      "hex": "U+2913",
+      "char": "⤓"
+    },
+    {
+      "decimal": 10518,
+      "hex": "U+2916",
+      "char": "⤖"
+    },
+    {
+      "decimal": 10521,
+      "hex": "U+2919",
+      "char": "⤙"
+    },
+    {
+      "decimal": 10522,
+      "hex": "U+291A",
+      "char": "⤚"
+    },
+    {
+      "decimal": 10523,
+      "hex": "U+291B",
+      "char": "⤛"
+    },
+    {
+      "decimal": 10524,
+      "hex": "U+291C",
+      "char": "⤜"
+    },
+    {
+      "decimal": 10525,
+      "hex": "U+291D",
+      "char": "⤝"
+    },
+    {
+      "decimal": 10526,
+      "hex": "U+291E",
+      "char": "⤞"
+    },
+    {
+      "decimal": 10527,
+      "hex": "U+291F",
+      "char": "⤟"
+    },
+    {
+      "decimal": 10528,
+      "hex": "U+2920",
+      "char": "⤠"
+    },
+    {
+      "decimal": 10531,
+      "hex": "U+2923",
+      "char": "⤣"
+    },
+    {
+      "decimal": 10532,
+      "hex": "U+2924",
+      "char": "⤤"
+    },
+    {
+      "decimal": 10533,
+      "hex": "U+2925",
+      "char": "⤥"
+    },
+    {
+      "decimal": 10534,
+      "hex": "U+2926",
+      "char": "⤦"
+    },
+    {
+      "decimal": 10535,
+      "hex": "U+2927",
+      "char": "⤧"
+    },
+    {
+      "decimal": 10536,
+      "hex": "U+2928",
+      "char": "⤨"
+    },
+    {
+      "decimal": 10537,
+      "hex": "U+2929",
+      "char": "⤩"
+    },
+    {
+      "decimal": 10538,
+      "hex": "U+292A",
+      "char": "⤪"
+    },
+    {
+      "decimal": 10547,
+      "hex": "U+2933",
+      "char": "⤳"
+    },
+    {
+      "decimal": 10549,
+      "hex": "U+2935",
+      "char": "⤵"
+    },
+    {
+      "decimal": 10550,
+      "hex": "U+2936",
+      "char": "⤶"
+    },
+    {
+      "decimal": 10551,
+      "hex": "U+2937",
+      "char": "⤷"
+    },
+    {
+      "decimal": 10552,
+      "hex": "U+2938",
+      "char": "⤸"
+    },
+    {
+      "decimal": 10553,
+      "hex": "U+2939",
+      "char": "⤹"
+    },
+    {
+      "decimal": 10556,
+      "hex": "U+293C",
+      "char": "⤼"
+    },
+    {
+      "decimal": 10557,
+      "hex": "U+293D",
+      "char": "⤽"
+    },
+    {
+      "decimal": 10565,
+      "hex": "U+2945",
+      "char": "⥅"
+    },
+    {
+      "decimal": 10568,
+      "hex": "U+2948",
+      "char": "⥈"
+    },
+    {
+      "decimal": 10569,
+      "hex": "U+2949",
+      "char": "⥉"
+    },
+    {
+      "decimal": 10570,
+      "hex": "U+294A",
+      "char": "⥊"
+    },
+    {
+      "decimal": 10571,
+      "hex": "U+294B",
+      "char": "⥋"
+    },
+    {
+      "decimal": 10574,
+      "hex": "U+294E",
+      "char": "⥎"
+    },
+    {
+      "decimal": 10575,
+      "hex": "U+294F",
+      "char": "⥏"
+    },
+    {
+      "decimal": 10576,
+      "hex": "U+2950",
+      "char": "⥐"
+    },
+    {
+      "decimal": 10577,
+      "hex": "U+2951",
+      "char": "⥑"
+    },
+    {
+      "decimal": 10578,
+      "hex": "U+2952",
+      "char": "⥒"
+    },
+    {
+      "decimal": 10579,
+      "hex": "U+2953",
+      "char": "⥓"
+    },
+    {
+      "decimal": 10580,
+      "hex": "U+2954",
+      "char": "⥔"
+    },
+    {
+      "decimal": 10581,
+      "hex": "U+2955",
+      "char": "⥕"
+    },
+    {
+      "decimal": 10582,
+      "hex": "U+2956",
+      "char": "⥖"
+    },
+    {
+      "decimal": 10583,
+      "hex": "U+2957",
+      "char": "⥗"
+    },
+    {
+      "decimal": 10584,
+      "hex": "U+2958",
+      "char": "⥘"
+    },
+    {
+      "decimal": 10585,
+      "hex": "U+2959",
+      "char": "⥙"
+    },
+    {
+      "decimal": 10586,
+      "hex": "U+295A",
+      "char": "⥚"
+    },
+    {
+      "decimal": 10587,
+      "hex": "U+295B",
+      "char": "⥛"
+    },
+    {
+      "decimal": 10588,
+      "hex": "U+295C",
+      "char": "⥜"
+    },
+    {
+      "decimal": 10589,
+      "hex": "U+295D",
+      "char": "⥝"
+    },
+    {
+      "decimal": 10590,
+      "hex": "U+295E",
+      "char": "⥞"
+    },
+    {
+      "decimal": 10591,
+      "hex": "U+295F",
+      "char": "⥟"
+    },
+    {
+      "decimal": 10592,
+      "hex": "U+2960",
+      "char": "⥠"
+    },
+    {
+      "decimal": 10593,
+      "hex": "U+2961",
+      "char": "⥡"
+    },
+    {
+      "decimal": 10594,
+      "hex": "U+2962",
+      "char": "⥢"
+    },
+    {
+      "decimal": 10595,
+      "hex": "U+2963",
+      "char": "⥣"
+    },
+    {
+      "decimal": 10596,
+      "hex": "U+2964",
+      "char": "⥤"
+    },
+    {
+      "decimal": 10597,
+      "hex": "U+2965",
+      "char": "⥥"
+    },
+    {
+      "decimal": 10598,
+      "hex": "U+2966",
+      "char": "⥦"
+    },
+    {
+      "decimal": 10599,
+      "hex": "U+2967",
+      "char": "⥧"
+    },
+    {
+      "decimal": 10600,
+      "hex": "U+2968",
+      "char": "⥨"
+    },
+    {
+      "decimal": 10601,
+      "hex": "U+2969",
+      "char": "⥩"
+    },
+    {
+      "decimal": 10602,
+      "hex": "U+296A",
+      "char": "⥪"
+    },
+    {
+      "decimal": 10603,
+      "hex": "U+296B",
+      "char": "⥫"
+    },
+    {
+      "decimal": 10604,
+      "hex": "U+296C",
+      "char": "⥬"
+    },
+    {
+      "decimal": 10605,
+      "hex": "U+296D",
+      "char": "⥭"
+    },
+    {
+      "decimal": 10606,
+      "hex": "U+296E",
+      "char": "⥮"
+    },
+    {
+      "decimal": 10607,
+      "hex": "U+296F",
+      "char": "⥯"
+    },
+    {
+      "decimal": 10608,
+      "hex": "U+2970",
+      "char": "⥰"
+    },
+    {
+      "decimal": 10609,
+      "hex": "U+2971",
+      "char": "⥱"
+    },
+    {
+      "decimal": 10610,
+      "hex": "U+2972",
+      "char": "⥲"
+    },
+    {
+      "decimal": 10611,
+      "hex": "U+2973",
+      "char": "⥳"
+    },
+    {
+      "decimal": 10612,
+      "hex": "U+2974",
+      "char": "⥴"
+    },
+    {
+      "decimal": 10613,
+      "hex": "U+2975",
+      "char": "⥵"
+    },
+    {
+      "decimal": 10614,
+      "hex": "U+2976",
+      "char": "⥶"
+    },
+    {
+      "decimal": 10616,
+      "hex": "U+2978",
+      "char": "⥸"
+    },
+    {
+      "decimal": 10617,
+      "hex": "U+2979",
+      "char": "⥹"
+    },
+    {
+      "decimal": 10619,
+      "hex": "U+297B",
+      "char": "⥻"
+    },
+    {
+      "decimal": 10620,
+      "hex": "U+297C",
+      "char": "⥼"
+    },
+    {
+      "decimal": 10621,
+      "hex": "U+297D",
+      "char": "⥽"
+    },
+    {
+      "decimal": 10622,
+      "hex": "U+297E",
+      "char": "⥾"
+    },
+    {
+      "decimal": 10623,
+      "hex": "U+297F",
+      "char": "⥿"
+    },
+    {
+      "decimal": 10629,
+      "hex": "U+2985",
+      "char": "⦅"
+    },
+    {
+      "decimal": 10630,
+      "hex": "U+2986",
+      "char": "⦆"
+    },
+    {
+      "decimal": 10635,
+      "hex": "U+298B",
+      "char": "⦋"
+    },
+    {
+      "decimal": 10636,
+      "hex": "U+298C",
+      "char": "⦌"
+    },
+    {
+      "decimal": 10637,
+      "hex": "U+298D",
+      "char": "⦍"
+    },
+    {
+      "decimal": 10638,
+      "hex": "U+298E",
+      "char": "⦎"
+    },
+    {
+      "decimal": 10639,
+      "hex": "U+298F",
+      "char": "⦏"
+    },
+    {
+      "decimal": 10640,
+      "hex": "U+2990",
+      "char": "⦐"
+    },
+    {
+      "decimal": 10641,
+      "hex": "U+2991",
+      "char": "⦑"
+    },
+    {
+      "decimal": 10642,
+      "hex": "U+2992",
+      "char": "⦒"
+    },
+    {
+      "decimal": 10643,
+      "hex": "U+2993",
+      "char": "⦓"
+    },
+    {
+      "decimal": 10644,
+      "hex": "U+2994",
+      "char": "⦔"
+    },
+    {
+      "decimal": 10645,
+      "hex": "U+2995",
+      "char": "⦕"
+    },
+    {
+      "decimal": 10646,
+      "hex": "U+2996",
+      "char": "⦖"
+    },
+    {
+      "decimal": 10650,
+      "hex": "U+299A",
+      "char": "⦚"
+    },
+    {
+      "decimal": 10652,
+      "hex": "U+299C",
+      "char": "⦜"
+    },
+    {
+      "decimal": 10653,
+      "hex": "U+299D",
+      "char": "⦝"
+    },
+    {
+      "decimal": 10660,
+      "hex": "U+29A4",
+      "char": "⦤"
+    },
+    {
+      "decimal": 10661,
+      "hex": "U+29A5",
+      "char": "⦥"
+    },
+    {
+      "decimal": 10662,
+      "hex": "U+29A6",
+      "char": "⦦"
+    },
+    {
+      "decimal": 10663,
+      "hex": "U+29A7",
+      "char": "⦧"
+    },
+    {
+      "decimal": 10664,
+      "hex": "U+29A8",
+      "char": "⦨"
+    },
+    {
+      "decimal": 10665,
+      "hex": "U+29A9",
+      "char": "⦩"
+    },
+    {
+      "decimal": 10666,
+      "hex": "U+29AA",
+      "char": "⦪"
+    },
+    {
+      "decimal": 10667,
+      "hex": "U+29AB",
+      "char": "⦫"
+    },
+    {
+      "decimal": 10668,
+      "hex": "U+29AC",
+      "char": "⦬"
+    },
+    {
+      "decimal": 10669,
+      "hex": "U+29AD",
+      "char": "⦭"
+    },
+    {
+      "decimal": 10670,
+      "hex": "U+29AE",
+      "char": "⦮"
+    },
+    {
+      "decimal": 10671,
+      "hex": "U+29AF",
+      "char": "⦯"
+    },
+    {
+      "decimal": 10672,
+      "hex": "U+29B0",
+      "char": "⦰"
+    },
+    {
+      "decimal": 10673,
+      "hex": "U+29B1",
+      "char": "⦱"
+    },
+    {
+      "decimal": 10674,
+      "hex": "U+29B2",
+      "char": "⦲"
+    },
+    {
+      "decimal": 10675,
+      "hex": "U+29B3",
+      "char": "⦳"
+    },
+    {
+      "decimal": 10676,
+      "hex": "U+29B4",
+      "char": "⦴"
+    },
+    {
+      "decimal": 10677,
+      "hex": "U+29B5",
+      "char": "⦵"
+    },
+    {
+      "decimal": 10678,
+      "hex": "U+29B6",
+      "char": "⦶"
+    },
+    {
+      "decimal": 10679,
+      "hex": "U+29B7",
+      "char": "⦷"
+    },
+    {
+      "decimal": 10681,
+      "hex": "U+29B9",
+      "char": "⦹"
+    },
+    {
+      "decimal": 10683,
+      "hex": "U+29BB",
+      "char": "⦻"
+    },
+    {
+      "decimal": 10684,
+      "hex": "U+29BC",
+      "char": "⦼"
+    },
+    {
+      "decimal": 10686,
+      "hex": "U+29BE",
+      "char": "⦾"
+    },
+    {
+      "decimal": 10687,
+      "hex": "U+29BF",
+      "char": "⦿"
+    },
+    {
+      "decimal": 10688,
+      "hex": "U+29C0",
+      "char": "⧀"
+    },
+    {
+      "decimal": 10689,
+      "hex": "U+29C1",
+      "char": "⧁"
+    },
+    {
+      "decimal": 10690,
+      "hex": "U+29C2",
+      "char": "⧂"
+    },
+    {
+      "decimal": 10691,
+      "hex": "U+29C3",
+      "char": "⧃"
+    },
+    {
+      "decimal": 10692,
+      "hex": "U+29C4",
+      "char": "⧄"
+    },
+    {
+      "decimal": 10693,
+      "hex": "U+29C5",
+      "char": "⧅"
+    },
+    {
+      "decimal": 10697,
+      "hex": "U+29C9",
+      "char": "⧉"
+    },
+    {
+      "decimal": 10701,
+      "hex": "U+29CD",
+      "char": "⧍"
+    },
+    {
+      "decimal": 10702,
+      "hex": "U+29CE",
+      "char": "⧎"
+    },
+    {
+      "decimal": 10703,
+      "hex": "U+29CF",
+      "char": "⧏"
+    },
+    {
+      "decimal": 10704,
+      "hex": "U+29D0",
+      "char": "⧐"
+    },
+    {
+      "decimal": 10716,
+      "hex": "U+29DC",
+      "char": "⧜"
+    },
+    {
+      "decimal": 10717,
+      "hex": "U+29DD",
+      "char": "⧝"
+    },
+    {
+      "decimal": 10718,
+      "hex": "U+29DE",
+      "char": "⧞"
+    },
+    {
+      "decimal": 10723,
+      "hex": "U+29E3",
+      "char": "⧣"
+    },
+    {
+      "decimal": 10724,
+      "hex": "U+29E4",
+      "char": "⧤"
+    },
+    {
+      "decimal": 10725,
+      "hex": "U+29E5",
+      "char": "⧥"
+    },
+    {
+      "decimal": 10731,
+      "hex": "U+29EB",
+      "char": "⧫"
+    },
+    {
+      "decimal": 10740,
+      "hex": "U+29F4",
+      "char": "⧴"
+    },
+    {
+      "decimal": 10742,
+      "hex": "U+29F6",
+      "char": "⧶"
+    },
+    {
+      "decimal": 10744,
+      "hex": "U+29F8",
+      "char": "⧸"
+    },
+    {
+      "decimal": 10752,
+      "hex": "U+2A00",
+      "char": "⨀"
+    },
+    {
+      "decimal": 10753,
+      "hex": "U+2A01",
+      "char": "⨁"
+    },
+    {
+      "decimal": 10754,
+      "hex": "U+2A02",
+      "char": "⨂"
+    },
+    {
+      "decimal": 10756,
+      "hex": "U+2A04",
+      "char": "⨄"
+    },
+    {
+      "decimal": 10758,
+      "hex": "U+2A06",
+      "char": "⨆"
+    },
+    {
+      "decimal": 10764,
+      "hex": "U+2A0C",
+      "char": "⨌"
+    },
+    {
+      "decimal": 10765,
+      "hex": "U+2A0D",
+      "char": "⨍"
+    },
+    {
+      "decimal": 10768,
+      "hex": "U+2A10",
+      "char": "⨐"
+    },
+    {
+      "decimal": 10769,
+      "hex": "U+2A11",
+      "char": "⨑"
+    },
+    {
+      "decimal": 10770,
+      "hex": "U+2A12",
+      "char": "⨒"
+    },
+    {
+      "decimal": 10771,
+      "hex": "U+2A13",
+      "char": "⨓"
+    },
+    {
+      "decimal": 10772,
+      "hex": "U+2A14",
+      "char": "⨔"
+    },
+    {
+      "decimal": 10773,
+      "hex": "U+2A15",
+      "char": "⨕"
+    },
+    {
+      "decimal": 10774,
+      "hex": "U+2A16",
+      "char": "⨖"
+    },
+    {
+      "decimal": 10775,
+      "hex": "U+2A17",
+      "char": "⨗"
+    },
+    {
+      "decimal": 10786,
+      "hex": "U+2A22",
+      "char": "⨢"
+    },
+    {
+      "decimal": 10787,
+      "hex": "U+2A23",
+      "char": "⨣"
+    },
+    {
+      "decimal": 10788,
+      "hex": "U+2A24",
+      "char": "⨤"
+    },
+    {
+      "decimal": 10789,
+      "hex": "U+2A25",
+      "char": "⨥"
+    },
+    {
+      "decimal": 10790,
+      "hex": "U+2A26",
+      "char": "⨦"
+    },
+    {
+      "decimal": 10791,
+      "hex": "U+2A27",
+      "char": "⨧"
+    },
+    {
+      "decimal": 10793,
+      "hex": "U+2A29",
+      "char": "⨩"
+    },
+    {
+      "decimal": 10794,
+      "hex": "U+2A2A",
+      "char": "⨪"
+    },
+    {
+      "decimal": 10797,
+      "hex": "U+2A2D",
+      "char": "⨭"
+    },
+    {
+      "decimal": 10798,
+      "hex": "U+2A2E",
+      "char": "⨮"
+    },
+    {
+      "decimal": 10799,
+      "hex": "U+2A2F",
+      "char": "⨯"
+    },
+    {
+      "decimal": 10800,
+      "hex": "U+2A30",
+      "char": "⨰"
+    },
+    {
+      "decimal": 10801,
+      "hex": "U+2A31",
+      "char": "⨱"
+    },
+    {
+      "decimal": 10803,
+      "hex": "U+2A33",
+      "char": "⨳"
+    },
+    {
+      "decimal": 10804,
+      "hex": "U+2A34",
+      "char": "⨴"
+    },
+    {
+      "decimal": 10805,
+      "hex": "U+2A35",
+      "char": "⨵"
+    },
+    {
+      "decimal": 10806,
+      "hex": "U+2A36",
+      "char": "⨶"
+    },
+    {
+      "decimal": 10807,
+      "hex": "U+2A37",
+      "char": "⨷"
+    },
+    {
+      "decimal": 10808,
+      "hex": "U+2A38",
+      "char": "⨸"
+    },
+    {
+      "decimal": 10809,
+      "hex": "U+2A39",
+      "char": "⨹"
+    },
+    {
+      "decimal": 10810,
+      "hex": "U+2A3A",
+      "char": "⨺"
+    },
+    {
+      "decimal": 10811,
+      "hex": "U+2A3B",
+      "char": "⨻"
+    },
+    {
+      "decimal": 10812,
+      "hex": "U+2A3C",
+      "char": "⨼"
+    },
+    {
+      "decimal": 10815,
+      "hex": "U+2A3F",
+      "char": "⨿"
+    },
+    {
+      "decimal": 10816,
+      "hex": "U+2A40",
+      "char": "⩀"
+    },
+    {
+      "decimal": 10818,
+      "hex": "U+2A42",
+      "char": "⩂"
+    },
+    {
+      "decimal": 10819,
+      "hex": "U+2A43",
+      "char": "⩃"
+    },
+    {
+      "decimal": 10820,
+      "hex": "U+2A44",
+      "char": "⩄"
+    },
+    {
+      "decimal": 10821,
+      "hex": "U+2A45",
+      "char": "⩅"
+    },
+    {
+      "decimal": 10822,
+      "hex": "U+2A46",
+      "char": "⩆"
+    },
+    {
+      "decimal": 10823,
+      "hex": "U+2A47",
+      "char": "⩇"
+    },
+    {
+      "decimal": 10824,
+      "hex": "U+2A48",
+      "char": "⩈"
+    },
+    {
+      "decimal": 10825,
+      "hex": "U+2A49",
+      "char": "⩉"
+    },
+    {
+      "decimal": 10826,
+      "hex": "U+2A4A",
+      "char": "⩊"
+    },
+    {
+      "decimal": 10827,
+      "hex": "U+2A4B",
+      "char": "⩋"
+    },
+    {
+      "decimal": 10828,
+      "hex": "U+2A4C",
+      "char": "⩌"
+    },
+    {
+      "decimal": 10829,
+      "hex": "U+2A4D",
+      "char": "⩍"
+    },
+    {
+      "decimal": 10832,
+      "hex": "U+2A50",
+      "char": "⩐"
+    },
+    {
+      "decimal": 10835,
+      "hex": "U+2A53",
+      "char": "⩓"
+    },
+    {
+      "decimal": 10836,
+      "hex": "U+2A54",
+      "char": "⩔"
+    },
+    {
+      "decimal": 10837,
+      "hex": "U+2A55",
+      "char": "⩕"
+    },
+    {
+      "decimal": 10838,
+      "hex": "U+2A56",
+      "char": "⩖"
+    },
+    {
+      "decimal": 10839,
+      "hex": "U+2A57",
+      "char": "⩗"
+    },
+    {
+      "decimal": 10840,
+      "hex": "U+2A58",
+      "char": "⩘"
+    },
+    {
+      "decimal": 10842,
+      "hex": "U+2A5A",
+      "char": "⩚"
+    },
+    {
+      "decimal": 10843,
+      "hex": "U+2A5B",
+      "char": "⩛"
+    },
+    {
+      "decimal": 10844,
+      "hex": "U+2A5C",
+      "char": "⩜"
+    },
+    {
+      "decimal": 10845,
+      "hex": "U+2A5D",
+      "char": "⩝"
+    },
+    {
+      "decimal": 10846,
+      "hex": "U+2A5E",
+      "char": "⩞"
+    },
+    {
+      "decimal": 10847,
+      "hex": "U+2A5F",
+      "char": "⩟"
+    },
+    {
+      "decimal": 10854,
+      "hex": "U+2A66",
+      "char": "⩦"
+    },
+    {
+      "decimal": 10858,
+      "hex": "U+2A6A",
+      "char": "⩪"
+    },
+    {
+      "decimal": 10861,
+      "hex": "U+2A6D",
+      "char": "⩭"
+    },
+    {
+      "decimal": 10862,
+      "hex": "U+2A6E",
+      "char": "⩮"
+    },
+    {
+      "decimal": 10863,
+      "hex": "U+2A6F",
+      "char": "⩯"
+    },
+    {
+      "decimal": 10864,
+      "hex": "U+2A70",
+      "char": "⩰"
+    },
+    {
+      "decimal": 10865,
+      "hex": "U+2A71",
+      "char": "⩱"
+    },
+    {
+      "decimal": 10866,
+      "hex": "U+2A72",
+      "char": "⩲"
+    },
+    {
+      "decimal": 10867,
+      "hex": "U+2A73",
+      "char": "⩳"
+    },
+    {
+      "decimal": 10868,
+      "hex": "U+2A74",
+      "char": "⩴"
+    },
+    {
+      "decimal": 10869,
+      "hex": "U+2A75",
+      "char": "⩵"
+    },
+    {
+      "decimal": 10871,
+      "hex": "U+2A77",
+      "char": "⩷"
+    },
+    {
+      "decimal": 10872,
+      "hex": "U+2A78",
+      "char": "⩸"
+    },
+    {
+      "decimal": 10873,
+      "hex": "U+2A79",
+      "char": "⩹"
+    },
+    {
+      "decimal": 10874,
+      "hex": "U+2A7A",
+      "char": "⩺"
+    },
+    {
+      "decimal": 10875,
+      "hex": "U+2A7B",
+      "char": "⩻"
+    },
+    {
+      "decimal": 10876,
+      "hex": "U+2A7C",
+      "char": "⩼"
+    },
+    {
+      "decimal": 10877,
+      "hex": "U+2A7D",
+      "char": "⩽"
+    },
+    {
+      "decimal": 10878,
+      "hex": "U+2A7E",
+      "char": "⩾"
+    },
+    {
+      "decimal": 10879,
+      "hex": "U+2A7F",
+      "char": "⩿"
+    },
+    {
+      "decimal": 10880,
+      "hex": "U+2A80",
+      "char": "⪀"
+    },
+    {
+      "decimal": 10881,
+      "hex": "U+2A81",
+      "char": "⪁"
+    },
+    {
+      "decimal": 10882,
+      "hex": "U+2A82",
+      "char": "⪂"
+    },
+    {
+      "decimal": 10883,
+      "hex": "U+2A83",
+      "char": "⪃"
+    },
+    {
+      "decimal": 10884,
+      "hex": "U+2A84",
+      "char": "⪄"
+    },
+    {
+      "decimal": 10885,
+      "hex": "U+2A85",
+      "char": "⪅"
+    },
+    {
+      "decimal": 10886,
+      "hex": "U+2A86",
+      "char": "⪆"
+    },
+    {
+      "decimal": 10887,
+      "hex": "U+2A87",
+      "char": "⪇"
+    },
+    {
+      "decimal": 10888,
+      "hex": "U+2A88",
+      "char": "⪈"
+    },
+    {
+      "decimal": 10889,
+      "hex": "U+2A89",
+      "char": "⪉"
+    },
+    {
+      "decimal": 10890,
+      "hex": "U+2A8A",
+      "char": "⪊"
+    },
+    {
+      "decimal": 10891,
+      "hex": "U+2A8B",
+      "char": "⪋"
+    },
+    {
+      "decimal": 10892,
+      "hex": "U+2A8C",
+      "char": "⪌"
+    },
+    {
+      "decimal": 10893,
+      "hex": "U+2A8D",
+      "char": "⪍"
+    },
+    {
+      "decimal": 10894,
+      "hex": "U+2A8E",
+      "char": "⪎"
+    },
+    {
+      "decimal": 10895,
+      "hex": "U+2A8F",
+      "char": "⪏"
+    },
+    {
+      "decimal": 10896,
+      "hex": "U+2A90",
+      "char": "⪐"
+    },
+    {
+      "decimal": 10897,
+      "hex": "U+2A91",
+      "char": "⪑"
+    },
+    {
+      "decimal": 10898,
+      "hex": "U+2A92",
+      "char": "⪒"
+    },
+    {
+      "decimal": 10899,
+      "hex": "U+2A93",
+      "char": "⪓"
+    },
+    {
+      "decimal": 10900,
+      "hex": "U+2A94",
+      "char": "⪔"
+    },
+    {
+      "decimal": 10901,
+      "hex": "U+2A95",
+      "char": "⪕"
+    },
+    {
+      "decimal": 10902,
+      "hex": "U+2A96",
+      "char": "⪖"
+    },
+    {
+      "decimal": 10903,
+      "hex": "U+2A97",
+      "char": "⪗"
+    },
+    {
+      "decimal": 10904,
+      "hex": "U+2A98",
+      "char": "⪘"
+    },
+    {
+      "decimal": 10905,
+      "hex": "U+2A99",
+      "char": "⪙"
+    },
+    {
+      "decimal": 10906,
+      "hex": "U+2A9A",
+      "char": "⪚"
+    },
+    {
+      "decimal": 10909,
+      "hex": "U+2A9D",
+      "char": "⪝"
+    },
+    {
+      "decimal": 10910,
+      "hex": "U+2A9E",
+      "char": "⪞"
+    },
+    {
+      "decimal": 10911,
+      "hex": "U+2A9F",
+      "char": "⪟"
+    },
+    {
+      "decimal": 10912,
+      "hex": "U+2AA0",
+      "char": "⪠"
+    },
+    {
+      "decimal": 10913,
+      "hex": "U+2AA1",
+      "char": "⪡"
+    },
+    {
+      "decimal": 10914,
+      "hex": "U+2AA2",
+      "char": "⪢"
+    },
+    {
+      "decimal": 10916,
+      "hex": "U+2AA4",
+      "char": "⪤"
+    },
+    {
+      "decimal": 10917,
+      "hex": "U+2AA5",
+      "char": "⪥"
+    },
+    {
+      "decimal": 10918,
+      "hex": "U+2AA6",
+      "char": "⪦"
+    },
+    {
+      "decimal": 10919,
+      "hex": "U+2AA7",
+      "char": "⪧"
+    },
+    {
+      "decimal": 10920,
+      "hex": "U+2AA8",
+      "char": "⪨"
+    },
+    {
+      "decimal": 10921,
+      "hex": "U+2AA9",
+      "char": "⪩"
+    },
+    {
+      "decimal": 10922,
+      "hex": "U+2AAA",
+      "char": "⪪"
+    },
+    {
+      "decimal": 10923,
+      "hex": "U+2AAB",
+      "char": "⪫"
+    },
+    {
+      "decimal": 10924,
+      "hex": "U+2AAC",
+      "char": "⪬"
+    },
+    {
+      "decimal": 10925,
+      "hex": "U+2AAD",
+      "char": "⪭"
+    },
+    {
+      "decimal": 10926,
+      "hex": "U+2AAE",
+      "char": "⪮"
+    },
+    {
+      "decimal": 10927,
+      "hex": "U+2AAF",
+      "char": "⪯"
+    },
+    {
+      "decimal": 10928,
+      "hex": "U+2AB0",
+      "char": "⪰"
+    },
+    {
+      "decimal": 10931,
+      "hex": "U+2AB3",
+      "char": "⪳"
+    },
+    {
+      "decimal": 10932,
+      "hex": "U+2AB4",
+      "char": "⪴"
+    },
+    {
+      "decimal": 10933,
+      "hex": "U+2AB5",
+      "char": "⪵"
+    },
+    {
+      "decimal": 10934,
+      "hex": "U+2AB6",
+      "char": "⪶"
+    },
+    {
+      "decimal": 10935,
+      "hex": "U+2AB7",
+      "char": "⪷"
+    },
+    {
+      "decimal": 10936,
+      "hex": "U+2AB8",
+      "char": "⪸"
+    },
+    {
+      "decimal": 10937,
+      "hex": "U+2AB9",
+      "char": "⪹"
+    },
+    {
+      "decimal": 10938,
+      "hex": "U+2ABA",
+      "char": "⪺"
+    },
+    {
+      "decimal": 10939,
+      "hex": "U+2ABB",
+      "char": "⪻"
+    },
+    {
+      "decimal": 10940,
+      "hex": "U+2ABC",
+      "char": "⪼"
+    },
+    {
+      "decimal": 10941,
+      "hex": "U+2ABD",
+      "char": "⪽"
+    },
+    {
+      "decimal": 10942,
+      "hex": "U+2ABE",
+      "char": "⪾"
+    },
+    {
+      "decimal": 10943,
+      "hex": "U+2ABF",
+      "char": "⪿"
+    },
+    {
+      "decimal": 10944,
+      "hex": "U+2AC0",
+      "char": "⫀"
+    },
+    {
+      "decimal": 10945,
+      "hex": "U+2AC1",
+      "char": "⫁"
+    },
+    {
+      "decimal": 10946,
+      "hex": "U+2AC2",
+      "char": "⫂"
+    },
+    {
+      "decimal": 10947,
+      "hex": "U+2AC3",
+      "char": "⫃"
+    },
+    {
+      "decimal": 10948,
+      "hex": "U+2AC4",
+      "char": "⫄"
+    },
+    {
+      "decimal": 10949,
+      "hex": "U+2AC5",
+      "char": "⫅"
+    },
+    {
+      "decimal": 10950,
+      "hex": "U+2AC6",
+      "char": "⫆"
+    },
+    {
+      "decimal": 10951,
+      "hex": "U+2AC7",
+      "char": "⫇"
+    },
+    {
+      "decimal": 10952,
+      "hex": "U+2AC8",
+      "char": "⫈"
+    },
+    {
+      "decimal": 10955,
+      "hex": "U+2ACB",
+      "char": "⫋"
+    },
+    {
+      "decimal": 10956,
+      "hex": "U+2ACC",
+      "char": "⫌"
+    },
+    {
+      "decimal": 10959,
+      "hex": "U+2ACF",
+      "char": "⫏"
+    },
+    {
+      "decimal": 10960,
+      "hex": "U+2AD0",
+      "char": "⫐"
+    },
+    {
+      "decimal": 10961,
+      "hex": "U+2AD1",
+      "char": "⫑"
+    },
+    {
+      "decimal": 10962,
+      "hex": "U+2AD2",
+      "char": "⫒"
+    },
+    {
+      "decimal": 10963,
+      "hex": "U+2AD3",
+      "char": "⫓"
+    },
+    {
+      "decimal": 10964,
+      "hex": "U+2AD4",
+      "char": "⫔"
+    },
+    {
+      "decimal": 10965,
+      "hex": "U+2AD5",
+      "char": "⫕"
+    },
+    {
+      "decimal": 10966,
+      "hex": "U+2AD6",
+      "char": "⫖"
+    },
+    {
+      "decimal": 10967,
+      "hex": "U+2AD7",
+      "char": "⫗"
+    },
+    {
+      "decimal": 10968,
+      "hex": "U+2AD8",
+      "char": "⫘"
+    },
+    {
+      "decimal": 10969,
+      "hex": "U+2AD9",
+      "char": "⫙"
+    },
+    {
+      "decimal": 10970,
+      "hex": "U+2ADA",
+      "char": "⫚"
+    },
+    {
+      "decimal": 10971,
+      "hex": "U+2ADB",
+      "char": "⫛"
+    },
+    {
+      "decimal": 10980,
+      "hex": "U+2AE4",
+      "char": "⫤"
+    },
+    {
+      "decimal": 10982,
+      "hex": "U+2AE6",
+      "char": "⫦"
+    },
+    {
+      "decimal": 10983,
+      "hex": "U+2AE7",
+      "char": "⫧"
+    },
+    {
+      "decimal": 10984,
+      "hex": "U+2AE8",
+      "char": "⫨"
+    },
+    {
+      "decimal": 10985,
+      "hex": "U+2AE9",
+      "char": "⫩"
+    },
+    {
+      "decimal": 10987,
+      "hex": "U+2AEB",
+      "char": "⫫"
+    },
+    {
+      "decimal": 10988,
+      "hex": "U+2AEC",
+      "char": "⫬"
+    },
+    {
+      "decimal": 10989,
+      "hex": "U+2AED",
+      "char": "⫭"
+    },
+    {
+      "decimal": 10990,
+      "hex": "U+2AEE",
+      "char": "⫮"
+    },
+    {
+      "decimal": 10991,
+      "hex": "U+2AEF",
+      "char": "⫯"
+    },
+    {
+      "decimal": 10992,
+      "hex": "U+2AF0",
+      "char": "⫰"
+    },
+    {
+      "decimal": 10993,
+      "hex": "U+2AF1",
+      "char": "⫱"
+    },
+    {
+      "decimal": 10994,
+      "hex": "U+2AF2",
+      "char": "⫲"
+    },
+    {
+      "decimal": 10995,
+      "hex": "U+2AF3",
+      "char": "⫳"
+    },
+    {
+      "decimal": 11005,
+      "hex": "U+2AFD",
+      "char": "⫽"
+    },
+    {
+      "decimal": 11800,
+      "hex": "U+2E18",
+      "char": "⸘"
+    },
+    {
+      "decimal": 12296,
+      "hex": "U+3008",
+      "char": "〈"
+    },
+    {
+      "decimal": 12297,
+      "hex": "U+3009",
+      "char": "〉"
+    },
+    {
+      "decimal": 20013,
+      "hex": "U+4E2D",
+      "char": "中"
+    },
+    {
+      "decimal": 20307,
+      "hex": "U+4F53",
+      "char": "体"
+    },
+    {
+      "decimal": 25991,
+      "hex": "U+6587",
+      "char": "文"
+    },
+    {
+      "decimal": 26085,
+      "hex": "U+65E5",
+      "char": "日"
+    },
+    {
+      "decimal": 26412,
+      "hex": "U+672C",
+      "char": "本"
+    },
+    {
+      "decimal": 31616,
+      "hex": "U+7B80",
+      "char": "简"
+    },
+    {
+      "decimal": 35486,
+      "hex": "U+8A9E",
+      "char": "語"
+    },
+    {
+      "decimal": 44397,
+      "hex": "U+AD6D",
+      "char": "국"
+    },
+    {
+      "decimal": 50612,
+      "hex": "U+C5B4",
+      "char": "어"
+    },
+    {
+      "decimal": 54620,
+      "hex": "U+D55C",
+      "char": "한"
+    },
+    {
+      "decimal": 55296,
+      "hex": "U+D800",
+      "char": "\ud800"
+    },
+    {
+      "decimal": 56319,
+      "hex": "U+DBFF",
+      "char": "\udbff"
+    },
+    {
+      "decimal": 58376,
+      "hex": "U+E408",
+      "char": ""
+    },
+    {
+      "decimal": 58377,
+      "hex": "U+E409",
+      "char": ""
+    },
+    {
+      "decimal": 58378,
+      "hex": "U+E40A",
+      "char": ""
+    },
+    {
+      "decimal": 58384,
+      "hex": "U+E410",
+      "char": ""
+    },
+    {
+      "decimal": 58385,
+      "hex": "U+E411",
+      "char": ""
+    },
+    {
+      "decimal": 58386,
+      "hex": "U+E412",
+      "char": ""
+    },
+    {
+      "decimal": 58387,
+      "hex": "U+E413",
+      "char": ""
+    },
+    {
+      "decimal": 58408,
+      "hex": "U+E428",
+      "char": ""
+    },
+    {
+      "decimal": 58409,
+      "hex": "U+E429",
+      "char": ""
+    },
+    {
+      "decimal": 58410,
+      "hex": "U+E42A",
+      "char": ""
+    },
+    {
+      "decimal": 58411,
+      "hex": "U+E42B",
+      "char": ""
+    },
+    {
+      "decimal": 58412,
+      "hex": "U+E42C",
+      "char": ""
+    },
+    {
+      "decimal": 58413,
+      "hex": "U+E42D",
+      "char": ""
+    },
+    {
+      "decimal": 58414,
+      "hex": "U+E42E",
+      "char": ""
+    },
+    {
+      "decimal": 61423,
+      "hex": "U+EFEF",
+      "char": ""
+    },
+    {
+      "decimal": 64256,
+      "hex": "U+FB00",
+      "char": "ﬀ"
+    },
+    {
+      "decimal": 64257,
+      "hex": "U+FB01",
+      "char": "ﬁ"
+    },
+    {
+      "decimal": 64258,
+      "hex": "U+FB02",
+      "char": "ﬂ"
+    },
+    {
+      "decimal": 64259,
+      "hex": "U+FB03",
+      "char": "ﬃ"
+    },
+    {
+      "decimal": 64260,
+      "hex": "U+FB04",
+      "char": "ﬄ"
+    },
+    {
+      "decimal": 64976,
+      "hex": "U+FDD0",
+      "char": "﷐"
+    },
+    {
+      "decimal": 65007,
+      "hex": "U+FDEF",
+      "char": "﷯"
+    },
+    {
+      "decimal": 65024,
+      "hex": "U+FE00",
+      "char": "︀"
+    },
+    {
+      "decimal": 65079,
+      "hex": "U+FE37",
+      "char": "︷"
+    },
+    {
+      "decimal": 65080,
+      "hex": "U+FE38",
+      "char": "︸"
+    },
+    {
+      "decimal": 65288,
+      "hex": "U+FF08",
+      "char": "（"
+    },
+    {
+      "decimal": 65289,
+      "hex": "U+FF09",
+      "char": "）"
+    },
+    {
+      "decimal": 65534,
+      "hex": "U+FFFE",
+      "char": "￾"
+    },
+    {
+      "decimal": 65535,
+      "hex": "U+FFFF",
+      "char": "￿"
+    },
+    {
+      "decimal": 119860,
+      "hex": "U+1D434",
+      "char": "𝐴"
+    },
+    {
+      "decimal": 119861,
+      "hex": "U+1D435",
+      "char": "𝐵"
+    },
+    {
+      "decimal": 119862,
+      "hex": "U+1D436",
+      "char": "𝐶"
+    },
+    {
+      "decimal": 119863,
+      "hex": "U+1D437",
+      "char": "𝐷"
+    },
+    {
+      "decimal": 119864,
+      "hex": "U+1D438",
+      "char": "𝐸"
+    },
+    {
+      "decimal": 119865,
+      "hex": "U+1D439",
+      "char": "𝐹"
+    },
+    {
+      "decimal": 119866,
+      "hex": "U+1D43A",
+      "char": "𝐺"
+    },
+    {
+      "decimal": 119867,
+      "hex": "U+1D43B",
+      "char": "𝐻"
+    },
+    {
+      "decimal": 119868,
+      "hex": "U+1D43C",
+      "char": "𝐼"
+    },
+    {
+      "decimal": 119869,
+      "hex": "U+1D43D",
+      "char": "𝐽"
+    },
+    {
+      "decimal": 119870,
+      "hex": "U+1D43E",
+      "char": "𝐾"
+    },
+    {
+      "decimal": 119871,
+      "hex": "U+1D43F",
+      "char": "𝐿"
+    },
+    {
+      "decimal": 119872,
+      "hex": "U+1D440",
+      "char": "𝑀"
+    },
+    {
+      "decimal": 119873,
+      "hex": "U+1D441",
+      "char": "𝑁"
+    },
+    {
+      "decimal": 119874,
+      "hex": "U+1D442",
+      "char": "𝑂"
+    },
+    {
+      "decimal": 119875,
+      "hex": "U+1D443",
+      "char": "𝑃"
+    },
+    {
+      "decimal": 119876,
+      "hex": "U+1D444",
+      "char": "𝑄"
+    },
+    {
+      "decimal": 119877,
+      "hex": "U+1D445",
+      "char": "𝑅"
+    },
+    {
+      "decimal": 119878,
+      "hex": "U+1D446",
+      "char": "𝑆"
+    },
+    {
+      "decimal": 119879,
+      "hex": "U+1D447",
+      "char": "𝑇"
+    },
+    {
+      "decimal": 119880,
+      "hex": "U+1D448",
+      "char": "𝑈"
+    },
+    {
+      "decimal": 119881,
+      "hex": "U+1D449",
+      "char": "𝑉"
+    },
+    {
+      "decimal": 119882,
+      "hex": "U+1D44A",
+      "char": "𝑊"
+    },
+    {
+      "decimal": 119883,
+      "hex": "U+1D44B",
+      "char": "𝑋"
+    },
+    {
+      "decimal": 119884,
+      "hex": "U+1D44C",
+      "char": "𝑌"
+    },
+    {
+      "decimal": 119885,
+      "hex": "U+1D44D",
+      "char": "𝑍"
+    },
+    {
+      "decimal": 119886,
+      "hex": "U+1D44E",
+      "char": "𝑎"
+    },
+    {
+      "decimal": 119887,
+      "hex": "U+1D44F",
+      "char": "𝑏"
+    },
+    {
+      "decimal": 119888,
+      "hex": "U+1D450",
+      "char": "𝑐"
+    },
+    {
+      "decimal": 119889,
+      "hex": "U+1D451",
+      "char": "𝑑"
+    },
+    {
+      "decimal": 119890,
+      "hex": "U+1D452",
+      "char": "𝑒"
+    },
+    {
+      "decimal": 119891,
+      "hex": "U+1D453",
+      "char": "𝑓"
+    },
+    {
+      "decimal": 119892,
+      "hex": "U+1D454",
+      "char": "𝑔"
+    },
+    {
+      "decimal": 119893,
+      "hex": "U+1D455",
+      "char": "𝑕"
+    },
+    {
+      "decimal": 119894,
+      "hex": "U+1D456",
+      "char": "𝑖"
+    },
+    {
+      "decimal": 119895,
+      "hex": "U+1D457",
+      "char": "𝑗"
+    },
+    {
+      "decimal": 119896,
+      "hex": "U+1D458",
+      "char": "𝑘"
+    },
+    {
+      "decimal": 119897,
+      "hex": "U+1D459",
+      "char": "𝑙"
+    },
+    {
+      "decimal": 119898,
+      "hex": "U+1D45A",
+      "char": "𝑚"
+    },
+    {
+      "decimal": 119899,
+      "hex": "U+1D45B",
+      "char": "𝑛"
+    },
+    {
+      "decimal": 119900,
+      "hex": "U+1D45C",
+      "char": "𝑜"
+    },
+    {
+      "decimal": 119901,
+      "hex": "U+1D45D",
+      "char": "𝑝"
+    },
+    {
+      "decimal": 119902,
+      "hex": "U+1D45E",
+      "char": "𝑞"
+    },
+    {
+      "decimal": 119903,
+      "hex": "U+1D45F",
+      "char": "𝑟"
+    },
+    {
+      "decimal": 119904,
+      "hex": "U+1D460",
+      "char": "𝑠"
+    },
+    {
+      "decimal": 119905,
+      "hex": "U+1D461",
+      "char": "𝑡"
+    },
+    {
+      "decimal": 119906,
+      "hex": "U+1D462",
+      "char": "𝑢"
+    },
+    {
+      "decimal": 119907,
+      "hex": "U+1D463",
+      "char": "𝑣"
+    },
+    {
+      "decimal": 119908,
+      "hex": "U+1D464",
+      "char": "𝑤"
+    },
+    {
+      "decimal": 119909,
+      "hex": "U+1D465",
+      "char": "𝑥"
+    },
+    {
+      "decimal": 119910,
+      "hex": "U+1D466",
+      "char": "𝑦"
+    },
+    {
+      "decimal": 119911,
+      "hex": "U+1D467",
+      "char": "𝑧"
+    },
+    {
+      "decimal": 119964,
+      "hex": "U+1D49C",
+      "char": "𝒜"
+    },
+    {
+      "decimal": 119966,
+      "hex": "U+1D49E",
+      "char": "𝒞"
+    },
+    {
+      "decimal": 119967,
+      "hex": "U+1D49F",
+      "char": "𝒟"
+    },
+    {
+      "decimal": 119970,
+      "hex": "U+1D4A2",
+      "char": "𝒢"
+    },
+    {
+      "decimal": 119973,
+      "hex": "U+1D4A5",
+      "char": "𝒥"
+    },
+    {
+      "decimal": 119974,
+      "hex": "U+1D4A6",
+      "char": "𝒦"
+    },
+    {
+      "decimal": 119977,
+      "hex": "U+1D4A9",
+      "char": "𝒩"
+    },
+    {
+      "decimal": 119978,
+      "hex": "U+1D4AA",
+      "char": "𝒪"
+    },
+    {
+      "decimal": 119979,
+      "hex": "U+1D4AB",
+      "char": "𝒫"
+    },
+    {
+      "decimal": 119980,
+      "hex": "U+1D4AC",
+      "char": "𝒬"
+    },
+    {
+      "decimal": 119982,
+      "hex": "U+1D4AE",
+      "char": "𝒮"
+    },
+    {
+      "decimal": 119983,
+      "hex": "U+1D4AF",
+      "char": "𝒯"
+    },
+    {
+      "decimal": 119984,
+      "hex": "U+1D4B0",
+      "char": "𝒰"
+    },
+    {
+      "decimal": 119985,
+      "hex": "U+1D4B1",
+      "char": "𝒱"
+    },
+    {
+      "decimal": 119986,
+      "hex": "U+1D4B2",
+      "char": "𝒲"
+    },
+    {
+      "decimal": 119987,
+      "hex": "U+1D4B3",
+      "char": "𝒳"
+    },
+    {
+      "decimal": 119988,
+      "hex": "U+1D4B4",
+      "char": "𝒴"
+    },
+    {
+      "decimal": 119989,
+      "hex": "U+1D4B5",
+      "char": "𝒵"
+    },
+    {
+      "decimal": 119990,
+      "hex": "U+1D4B6",
+      "char": "𝒶"
+    },
+    {
+      "decimal": 119991,
+      "hex": "U+1D4B7",
+      "char": "𝒷"
+    },
+    {
+      "decimal": 119992,
+      "hex": "U+1D4B8",
+      "char": "𝒸"
+    },
+    {
+      "decimal": 119993,
+      "hex": "U+1D4B9",
+      "char": "𝒹"
+    },
+    {
+      "decimal": 119995,
+      "hex": "U+1D4BB",
+      "char": "𝒻"
+    },
+    {
+      "decimal": 119997,
+      "hex": "U+1D4BD",
+      "char": "𝒽"
+    },
+    {
+      "decimal": 119998,
+      "hex": "U+1D4BE",
+      "char": "𝒾"
+    },
+    {
+      "decimal": 119999,
+      "hex": "U+1D4BF",
+      "char": "𝒿"
+    },
+    {
+      "decimal": 120000,
+      "hex": "U+1D4C0",
+      "char": "𝓀"
+    },
+    {
+      "decimal": 120001,
+      "hex": "U+1D4C1",
+      "char": "𝓁"
+    },
+    {
+      "decimal": 120002,
+      "hex": "U+1D4C2",
+      "char": "𝓂"
+    },
+    {
+      "decimal": 120003,
+      "hex": "U+1D4C3",
+      "char": "𝓃"
+    },
+    {
+      "decimal": 120005,
+      "hex": "U+1D4C5",
+      "char": "𝓅"
+    },
+    {
+      "decimal": 120006,
+      "hex": "U+1D4C6",
+      "char": "𝓆"
+    },
+    {
+      "decimal": 120007,
+      "hex": "U+1D4C7",
+      "char": "𝓇"
+    },
+    {
+      "decimal": 120008,
+      "hex": "U+1D4C8",
+      "char": "𝓈"
+    },
+    {
+      "decimal": 120009,
+      "hex": "U+1D4C9",
+      "char": "𝓉"
+    },
+    {
+      "decimal": 120010,
+      "hex": "U+1D4CA",
+      "char": "𝓊"
+    },
+    {
+      "decimal": 120011,
+      "hex": "U+1D4CB",
+      "char": "𝓋"
+    },
+    {
+      "decimal": 120012,
+      "hex": "U+1D4CC",
+      "char": "𝓌"
+    },
+    {
+      "decimal": 120013,
+      "hex": "U+1D4CD",
+      "char": "𝓍"
+    },
+    {
+      "decimal": 120014,
+      "hex": "U+1D4CE",
+      "char": "𝓎"
+    },
+    {
+      "decimal": 120015,
+      "hex": "U+1D4CF",
+      "char": "𝓏"
+    },
+    {
+      "decimal": 120068,
+      "hex": "U+1D504",
+      "char": "𝔄"
+    },
+    {
+      "decimal": 120069,
+      "hex": "U+1D505",
+      "char": "𝔅"
+    },
+    {
+      "decimal": 120071,
+      "hex": "U+1D507",
+      "char": "𝔇"
+    },
+    {
+      "decimal": 120072,
+      "hex": "U+1D508",
+      "char": "𝔈"
+    },
+    {
+      "decimal": 120073,
+      "hex": "U+1D509",
+      "char": "𝔉"
+    },
+    {
+      "decimal": 120074,
+      "hex": "U+1D50A",
+      "char": "𝔊"
+    },
+    {
+      "decimal": 120077,
+      "hex": "U+1D50D",
+      "char": "𝔍"
+    },
+    {
+      "decimal": 120078,
+      "hex": "U+1D50E",
+      "char": "𝔎"
+    },
+    {
+      "decimal": 120079,
+      "hex": "U+1D50F",
+      "char": "𝔏"
+    },
+    {
+      "decimal": 120080,
+      "hex": "U+1D510",
+      "char": "𝔐"
+    },
+    {
+      "decimal": 120081,
+      "hex": "U+1D511",
+      "char": "𝔑"
+    },
+    {
+      "decimal": 120082,
+      "hex": "U+1D512",
+      "char": "𝔒"
+    },
+    {
+      "decimal": 120083,
+      "hex": "U+1D513",
+      "char": "𝔓"
+    },
+    {
+      "decimal": 120084,
+      "hex": "U+1D514",
+      "char": "𝔔"
+    },
+    {
+      "decimal": 120086,
+      "hex": "U+1D516",
+      "char": "𝔖"
+    },
+    {
+      "decimal": 120087,
+      "hex": "U+1D517",
+      "char": "𝔗"
+    },
+    {
+      "decimal": 120088,
+      "hex": "U+1D518",
+      "char": "𝔘"
+    },
+    {
+      "decimal": 120089,
+      "hex": "U+1D519",
+      "char": "𝔙"
+    },
+    {
+      "decimal": 120090,
+      "hex": "U+1D51A",
+      "char": "𝔚"
+    },
+    {
+      "decimal": 120091,
+      "hex": "U+1D51B",
+      "char": "𝔛"
+    },
+    {
+      "decimal": 120092,
+      "hex": "U+1D51C",
+      "char": "𝔜"
+    },
+    {
+      "decimal": 120094,
+      "hex": "U+1D51E",
+      "char": "𝔞"
+    },
+    {
+      "decimal": 120095,
+      "hex": "U+1D51F",
+      "char": "𝔟"
+    },
+    {
+      "decimal": 120096,
+      "hex": "U+1D520",
+      "char": "𝔠"
+    },
+    {
+      "decimal": 120097,
+      "hex": "U+1D521",
+      "char": "𝔡"
+    },
+    {
+      "decimal": 120098,
+      "hex": "U+1D522",
+      "char": "𝔢"
+    },
+    {
+      "decimal": 120099,
+      "hex": "U+1D523",
+      "char": "𝔣"
+    },
+    {
+      "decimal": 120100,
+      "hex": "U+1D524",
+      "char": "𝔤"
+    },
+    {
+      "decimal": 120101,
+      "hex": "U+1D525",
+      "char": "𝔥"
+    },
+    {
+      "decimal": 120102,
+      "hex": "U+1D526",
+      "char": "𝔦"
+    },
+    {
+      "decimal": 120103,
+      "hex": "U+1D527",
+      "char": "𝔧"
+    },
+    {
+      "decimal": 120104,
+      "hex": "U+1D528",
+      "char": "𝔨"
+    },
+    {
+      "decimal": 120105,
+      "hex": "U+1D529",
+      "char": "𝔩"
+    },
+    {
+      "decimal": 120106,
+      "hex": "U+1D52A",
+      "char": "𝔪"
+    },
+    {
+      "decimal": 120107,
+      "hex": "U+1D52B",
+      "char": "𝔫"
+    },
+    {
+      "decimal": 120108,
+      "hex": "U+1D52C",
+      "char": "𝔬"
+    },
+    {
+      "decimal": 120109,
+      "hex": "U+1D52D",
+      "char": "𝔭"
+    },
+    {
+      "decimal": 120110,
+      "hex": "U+1D52E",
+      "char": "𝔮"
+    },
+    {
+      "decimal": 120111,
+      "hex": "U+1D52F",
+      "char": "𝔯"
+    },
+    {
+      "decimal": 120112,
+      "hex": "U+1D530",
+      "char": "𝔰"
+    },
+    {
+      "decimal": 120113,
+      "hex": "U+1D531",
+      "char": "𝔱"
+    },
+    {
+      "decimal": 120114,
+      "hex": "U+1D532",
+      "char": "𝔲"
+    },
+    {
+      "decimal": 120115,
+      "hex": "U+1D533",
+      "char": "𝔳"
+    },
+    {
+      "decimal": 120116,
+      "hex": "U+1D534",
+      "char": "𝔴"
+    },
+    {
+      "decimal": 120117,
+      "hex": "U+1D535",
+      "char": "𝔵"
+    },
+    {
+      "decimal": 120118,
+      "hex": "U+1D536",
+      "char": "𝔶"
+    },
+    {
+      "decimal": 120119,
+      "hex": "U+1D537",
+      "char": "𝔷"
+    },
+    {
+      "decimal": 120120,
+      "hex": "U+1D538",
+      "char": "𝔸"
+    },
+    {
+      "decimal": 120121,
+      "hex": "U+1D539",
+      "char": "𝔹"
+    },
+    {
+      "decimal": 120123,
+      "hex": "U+1D53B",
+      "char": "𝔻"
+    },
+    {
+      "decimal": 120124,
+      "hex": "U+1D53C",
+      "char": "𝔼"
+    },
+    {
+      "decimal": 120125,
+      "hex": "U+1D53D",
+      "char": "𝔽"
+    },
+    {
+      "decimal": 120126,
+      "hex": "U+1D53E",
+      "char": "𝔾"
+    },
+    {
+      "decimal": 120128,
+      "hex": "U+1D540",
+      "char": "𝕀"
+    },
+    {
+      "decimal": 120129,
+      "hex": "U+1D541",
+      "char": "𝕁"
+    },
+    {
+      "decimal": 120130,
+      "hex": "U+1D542",
+      "char": "𝕂"
+    },
+    {
+      "decimal": 120131,
+      "hex": "U+1D543",
+      "char": "𝕃"
+    },
+    {
+      "decimal": 120132,
+      "hex": "U+1D544",
+      "char": "𝕄"
+    },
+    {
+      "decimal": 120134,
+      "hex": "U+1D546",
+      "char": "𝕆"
+    },
+    {
+      "decimal": 120138,
+      "hex": "U+1D54A",
+      "char": "𝕊"
+    },
+    {
+      "decimal": 120139,
+      "hex": "U+1D54B",
+      "char": "𝕋"
+    },
+    {
+      "decimal": 120140,
+      "hex": "U+1D54C",
+      "char": "𝕌"
+    },
+    {
+      "decimal": 120141,
+      "hex": "U+1D54D",
+      "char": "𝕍"
+    },
+    {
+      "decimal": 120142,
+      "hex": "U+1D54E",
+      "char": "𝕎"
+    },
+    {
+      "decimal": 120143,
+      "hex": "U+1D54F",
+      "char": "𝕏"
+    },
+    {
+      "decimal": 120144,
+      "hex": "U+1D550",
+      "char": "𝕐"
+    },
+    {
+      "decimal": 120146,
+      "hex": "U+1D552",
+      "char": "𝕒"
+    },
+    {
+      "decimal": 120147,
+      "hex": "U+1D553",
+      "char": "𝕓"
+    },
+    {
+      "decimal": 120148,
+      "hex": "U+1D554",
+      "char": "𝕔"
+    },
+    {
+      "decimal": 120149,
+      "hex": "U+1D555",
+      "char": "𝕕"
+    },
+    {
+      "decimal": 120150,
+      "hex": "U+1D556",
+      "char": "𝕖"
+    },
+    {
+      "decimal": 120151,
+      "hex": "U+1D557",
+      "char": "𝕗"
+    },
+    {
+      "decimal": 120152,
+      "hex": "U+1D558",
+      "char": "𝕘"
+    },
+    {
+      "decimal": 120153,
+      "hex": "U+1D559",
+      "char": "𝕙"
+    },
+    {
+      "decimal": 120154,
+      "hex": "U+1D55A",
+      "char": "𝕚"
+    },
+    {
+      "decimal": 120155,
+      "hex": "U+1D55B",
+      "char": "𝕛"
+    },
+    {
+      "decimal": 120156,
+      "hex": "U+1D55C",
+      "char": "𝕜"
+    },
+    {
+      "decimal": 120157,
+      "hex": "U+1D55D",
+      "char": "𝕝"
+    },
+    {
+      "decimal": 120158,
+      "hex": "U+1D55E",
+      "char": "𝕞"
+    },
+    {
+      "decimal": 120159,
+      "hex": "U+1D55F",
+      "char": "𝕟"
+    },
+    {
+      "decimal": 120160,
+      "hex": "U+1D560",
+      "char": "𝕠"
+    },
+    {
+      "decimal": 120161,
+      "hex": "U+1D561",
+      "char": "𝕡"
+    },
+    {
+      "decimal": 120162,
+      "hex": "U+1D562",
+      "char": "𝕢"
+    },
+    {
+      "decimal": 120163,
+      "hex": "U+1D563",
+      "char": "𝕣"
+    },
+    {
+      "decimal": 120164,
+      "hex": "U+1D564",
+      "char": "𝕤"
+    },
+    {
+      "decimal": 120165,
+      "hex": "U+1D565",
+      "char": "𝕥"
+    },
+    {
+      "decimal": 120166,
+      "hex": "U+1D566",
+      "char": "𝕦"
+    },
+    {
+      "decimal": 120167,
+      "hex": "U+1D567",
+      "char": "𝕧"
+    },
+    {
+      "decimal": 120168,
+      "hex": "U+1D568",
+      "char": "𝕨"
+    },
+    {
+      "decimal": 120169,
+      "hex": "U+1D569",
+      "char": "𝕩"
+    },
+    {
+      "decimal": 120170,
+      "hex": "U+1D56A",
+      "char": "𝕪"
+    },
+    {
+      "decimal": 120171,
+      "hex": "U+1D56B",
+      "char": "𝕫"
+    },
+    {
+      "decimal": 127279,
+      "hex": "U+1F12F",
+      "char": "🄯"
+    },
+    {
+      "decimal": 131070,
+      "hex": "U+1FFFE",
+      "char": "🿾"
+    },
+    {
+      "decimal": 131071,
+      "hex": "U+1FFFF",
+      "char": "🿿"
+    },
+    {
+      "decimal": 196606,
+      "hex": "U+2FFFE",
+      "char": "𯿾"
+    },
+    {
+      "decimal": 196607,
+      "hex": "U+2FFFF",
+      "char": "𯿿"
+    },
+    {
+      "decimal": 262142,
+      "hex": "U+3FFFE",
+      "char": "𿿾"
+    },
+    {
+      "decimal": 262143,
+      "hex": "U+3FFFF",
+      "char": "𿿿"
+    },
+    {
+      "decimal": 327678,
+      "hex": "U+4FFFE",
+      "char": "񏿾"
+    },
+    {
+      "decimal": 327679,
+      "hex": "U+4FFFF",
+      "char": "񏿿"
+    },
+    {
+      "decimal": 393214,
+      "hex": "U+5FFFE",
+      "char": "񟿾"
+    },
+    {
+      "decimal": 393215,
+      "hex": "U+5FFFF",
+      "char": "񟿿"
+    },
+    {
+      "decimal": 458750,
+      "hex": "U+6FFFE",
+      "char": "񯿾"
+    },
+    {
+      "decimal": 458751,
+      "hex": "U+6FFFF",
+      "char": "񯿿"
+    },
+    {
+      "decimal": 524286,
+      "hex": "U+7FFFE",
+      "char": "񿿾"
+    },
+    {
+      "decimal": 524287,
+      "hex": "U+7FFFF",
+      "char": "񿿿"
+    },
+    {
+      "decimal": 589822,
+      "hex": "U+8FFFE",
+      "char": "򏿾"
+    },
+    {
+      "decimal": 589823,
+      "hex": "U+8FFFF",
+      "char": "򏿿"
+    },
+    {
+      "decimal": 655358,
+      "hex": "U+9FFFE",
+      "char": "򟿾"
+    },
+    {
+      "decimal": 655359,
+      "hex": "U+9FFFF",
+      "char": "򟿿"
+    },
+    {
+      "decimal": 720894,
+      "hex": "U+AFFFE",
+      "char": "򯿾"
+    },
+    {
+      "decimal": 720895,
+      "hex": "U+AFFFF",
+      "char": "򯿿"
+    },
+    {
+      "decimal": 786430,
+      "hex": "U+BFFFE",
+      "char": "򿿾"
+    },
+    {
+      "decimal": 786431,
+      "hex": "U+BFFFF",
+      "char": "򿿿"
+    },
+    {
+      "decimal": 851966,
+      "hex": "U+CFFFE",
+      "char": "󏿾"
+    },
+    {
+      "decimal": 851967,
+      "hex": "U+CFFFF",
+      "char": "󏿿"
+    },
+    {
+      "decimal": 917502,
+      "hex": "U+DFFFE",
+      "char": "󟿾"
+    },
+    {
+      "decimal": 917503,
+      "hex": "U+DFFFF",
+      "char": "󟿿"
+    },
+    {
+      "decimal": 983038,
+      "hex": "U+EFFFE",
+      "char": "󯿾"
+    },
+    {
+      "decimal": 983039,
+      "hex": "U+EFFFF",
+      "char": "󯿿"
+    },
+    {
+      "decimal": 1048574,
+      "hex": "U+FFFFE",
+      "char": "󿿾"
+    },
+    {
+      "decimal": 1048575,
+      "hex": "U+FFFFF",
+      "char": "󿿿"
+    },
+    {
+      "decimal": 1114110,
+      "hex": "U+10FFFE",
+      "char": "􏿾"
+    },
+    {
+      "decimal": 1114111,
+      "hex": "U+10FFFF",
+      "char": "􏿿"
+    }
+  ]
+}

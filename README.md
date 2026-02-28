@@ -16,7 +16,8 @@ A powerful CEP extension that enables seamless insertion of mathematical formula
 ### Download
 
 Download the latest release from the [Releases](https://github.com/ozainsworth-crypto/illustrator-math-plugin/releases) page:
-- `MathFormulaPlugin-v1.0.0-beta.zxp` (6.2 MB)
+- `MathFormulaPlugin-v1.0.0-beta.zxp` (6.2 MB) - CEP extension
+- `font-pack-builder-v1.0.0-beta.zip` (1.0 MB) - Font pack builder tools (optional)
 
 ### Installation Methods
 
@@ -35,10 +36,28 @@ See [Installation Guide](docs/phase5-installation-guide.md) for detailed instruc
 
 ## 🚀 Quick Start
 
+### Using the Plugin
+
 1. Open Adobe Illustrator
 2. Go to **Window > Extensions > Math Formula Plugin**
 3. Enter a LaTeX formula (e.g., `\frac{a}{b}`)
 4. Click **Insert to Illustrator**
+
+### Building Custom Font Packs (Optional)
+
+If you want to use your own fonts:
+
+1. Download `font-pack-builder-v1.0.0-beta.zip`
+2. Extract and run the Web UI:
+   ```bash
+   cd font-pack-builder/web-ui
+   npm install
+   npm start
+   ```
+3. Open http://localhost:3000 and convert your font
+4. Copy the output to your CEP extension fonts folder
+
+See `font-pack-builder/README.md` for detailed instructions.
 
 ## 📖 Documentation
 
